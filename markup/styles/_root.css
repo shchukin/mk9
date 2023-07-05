@@ -3,5 +3,6 @@
     --transition-hover: 0.1s ease;
     --main-background: #222222;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --gold: #DEB66D;
 }
 /* stylelint-enable declaration-colon-space-after */

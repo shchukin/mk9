@@ -1,0 +1,53 @@
+.group {
+
+}
+    .group__head {
+
+    }
+        .group__heading {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+            .group__handler {
+                display: inline-block;
+                vertical-align: top;
+                width: 100%;
+                border: none;
+                padding: 12px 22px;
+                background-color: #292929;
+                border-radius: 3px;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 18px;
+                letter-spacing: 0.6px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+        .group__combination {
+            position: absolute;
+            right: 0;
+            top: 0;
+            pointer-events: none;
+        }
+
+        .classic .group__combination {
+            color: var(--gold);
+        }
+
+
+    .group__body {
+        display: none;
+    }
+        .group__list {
+            padding: 14px 22px 17px;
+        }
+
+
+.group--expanded {
+
+}
+    .group--expanded .group__body {
+        display: block;
+    }
