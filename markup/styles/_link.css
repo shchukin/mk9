@@ -1,0 +1,30 @@
+.link,
+.wysiwyg a {
+    display: inline;
+    vertical-align: baseline;
+    padding: 4px 0 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #DEB66D;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color var(--transition-hover),
+                border-color var(--transition-hover),
+                opacity var(--transition-hover);
+}
+
+.link:hover,
+.wysiwyg a:hover {
+    border-bottom-color: transparent;
+}
+
+.link:active,
+.wysiwyg a:active {
+
+}
+
+

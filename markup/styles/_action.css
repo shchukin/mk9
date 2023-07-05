@@ -1,0 +1,28 @@
+.action {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+    .action__title {
+        flex-shrink: 0;
+        margin-top: 4px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .action__separator {
+        flex-grow: 1;
+        height: 1px;
+        margin-left: 16px;
+        margin-top: 13px;
+        background-color: #292929;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .action__combination {
+        margin-left: auto;
+        flex-shrink: 0;
+    }
