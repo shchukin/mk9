@@ -1,8 +1,8 @@
 .key {
     display: inline-block;
-    margin: 0 0.15em;
     vertical-align: baseline;
     font-style: normal;
+    font-weight: bold;
     position: relative;
 }
 
@@ -26,7 +26,7 @@
 
 
 .playstation .key,
-.xbox        .key {
+.xbox .key {
     vertical-align: top;
     width: 26px;
     height: 26px;
@@ -40,13 +40,13 @@
 
 /* shared */
 
-.playstation .key--forward  , .xbox .key--forward  { background-image: url(../vectors/key/arrow-forward.svg); }
-.playstation .key--backward , .xbox .key--backward { background-image: url(../vectors/key/arrow-backward.svg); }
-.playstation .key--up       , .xbox .key--up       { background-image: url(../vectors/key/arrow-up.svg); }
-.playstation .key--down     , .xbox .key--down     { background-image: url(../vectors/key/arrow-down.svg); }
+.playstation .key--forward  , .xbox .key--forward  { width: 16px; background-image: url(../vectors/key/arrow-forward.svg); }
+.playstation .key--backward , .xbox .key--backward { width: 16px; background-image: url(../vectors/key/arrow-backward.svg); }
+.playstation .key--up       , .xbox .key--up       { width: 16px; background-image: url(../vectors/key/arrow-up.svg); }
+.playstation .key--down     , .xbox .key--down     { width: 16px; background-image: url(../vectors/key/arrow-down.svg); }
 
-.playstation .key_plus  , .xbox .key_plus     { width: 0.9em; background-image: url(../vectors/key/miscellaneous-plus.svg); }
-.playstation .key_comma , .xbox .key_comma    { width: 0.6em; background-image: url(../vectors/key/miscellaneous-comma.svg); }
+.playstation .key_plus  , .xbox .key_plus     { width: 8px; background-image: url(../vectors/key/miscellaneous-plus.svg); }
+.playstation .key_comma , .xbox .key_comma    { width: 4px; background-image: url(../vectors/key/miscellaneous-comma.svg); }
 
 
 /* playstation & xbox */
