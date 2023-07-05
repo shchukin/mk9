@@ -1,0 +1,9 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #222222;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--font);
+    color: #FFFFFF;
+}
