@@ -1,0 +1,10 @@
+.list {
+
+}
+    .list__section {
+        margin-top: var(--groups-gap);
+    }
+
+    .list__section:first-child {
+        margin-top: 0;
+    }

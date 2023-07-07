@@ -3,7 +3,7 @@
 }
 
 .group + .group {
-    margin-top: 3px;
+    margin-top: var(--groups-gap);
 }
 
     .group__head {
