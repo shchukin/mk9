@@ -8,7 +8,6 @@
         padding: 12px 10px;
         background-color: #1C1C1C;
         border: 1px solid #292929;
-        outline: none;
         background-clip: padding-box; /* reset iOS default shadow */
         border-radius: 2px; /* reset iOS default border-radius */
         font-family: inherit;
@@ -18,21 +17,22 @@
         text-transform: uppercase;
         letter-spacing: 0.5px;
         color: var(--gold);
+        outline: none;
     }
 
-    .input__widget:hover {
+    .input__widget:not(.input--select):hover {
         border-color: #333333;
     }
 
-    .input__widget:focus,
-    .input__widget:active {
+    .input:not(.input--select) .input__widget:focus,
+    .input:not(.input--select) .input__widget:active {
         border-color: #BBBBBB;
     }
 
     /* stylelint-disable block-opening-brace-space-before */
-    .input__widget::-webkit-input-placeholder       { font-style: normal; color: #BFBDC6; }
-    .input__widget::-moz-placeholder                { font-style: normal; color: #BFBDC6; opacity: 1; }
-    .input__widget:-ms-input-placeholder            { font-style: normal; color: #BFBDC6; }
+    .input__widget::-webkit-input-placeholder { font-style: normal; color: #BFBDC6; }
+    .input__widget::-moz-placeholder          { font-style: normal; color: #BFBDC6; opacity: 1; }
+    .input__widget:-ms-input-placeholder      { font-style: normal; color: #BFBDC6; }
     /* stylelint-enable */
 
 
@@ -53,6 +53,10 @@
 }
     .input--select .input__widget {
         cursor: pointer;
+    }
+
+    .input--select .input__widget:hover {
+        background-color: rgba(255, 255, 255, 0.028);
     }
 
     /*.input--select option {*/

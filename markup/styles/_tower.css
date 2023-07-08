@@ -10,6 +10,7 @@
         line-height: 18px;
         color: rgba(255, 255, 255, 0.3);
         text-decoration: none;
+        transition: color var(--transition-hover);
     }
         .tower__link::before {
             content: "";
@@ -20,6 +21,13 @@
             top: 0;
             bottom: 0;
             border-radius: 3px;
+        }
+
+    .tower__link:hover {
+        color: var(--gold);
+    }
+        .tower__link:hover::before {
+
         }
 
     .tower__link--current {
@@ -33,13 +41,13 @@
 
     @media (min-width: 600px) {
 
-        .player--one .tower__link--current::before {
+        .column--player-one .tower__link::before {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             right: 0;
         }
 
-        .player--two .tower__link--current::before {
+        .column--player-two .tower__link::before {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             left: 0;

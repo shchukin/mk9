@@ -1,0 +1,33 @@
+.player {
+    width: var(--player-width);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+    .player__head {
+
+    }
+        .player__actions {
+            height: 44px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+            display: flex;
+            align-items: center;
+        }
+
+        .player__platform {
+            margin-top: 24px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+        }
+
+    .player__body {
+        margin-top: 24px;
+    }
+
+.column--player-one {
+    left: 0;
+}
+
+.column--player-two {
+    right: 0;
+}
