@@ -6,5 +6,6 @@
     --gold: #DEB66D;
     --groups-gap: 3px;
     --container-padding: 25px;
+    --ease-out-circ: cubic-bezier(0, 0.55, 0.45, 1)
 }
 /* stylelint-enable declaration-colon-space-after */

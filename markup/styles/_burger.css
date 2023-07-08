@@ -36,3 +36,30 @@
     .burger::after {
         transform: translateY(3px);
     }
+
+/* stylelint-disable */
+@keyframes burger-top-cutlet {
+       0 { transform: translateY(-3px); }
+     40% { transform: translateY(0); }
+     55% { transform: translateY(0); }
+    100% { transform: rotate(45deg); }
+}
+
+@keyframes burger-bottom-cutlet {
+       0 { transform: translateY(-3px); }
+     40% { transform: translateY(0); }
+     55% { transform: translateY(0); }
+    100% { transform: rotate(-45deg); }
+}
+/* stylelint-enable */
+
+.menu-expanded {
+
+}
+    .menu-expanded .burger::before {
+        animation: burger-top-cutlet 0.9s var(--ease-out-circ) forwards;
+    }
+
+    .menu-expanded .burger::after {
+        animation: burger-bottom-cutlet 0.9s var(--ease-out-circ) forwards;
+    }
