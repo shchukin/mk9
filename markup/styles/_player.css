@@ -1,5 +1,4 @@
 .player {
-    width: var(--player-width);
     padding-top: 32px;
     padding-bottom: 32px;
 }
