@@ -1,13 +1,12 @@
 .move-set {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(var(--group-min-width), 1fr) );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 3px 40px;
 }
     .move-set__column {
-
+        flex-grow: 1;
+        flex-basis: 0;
+        min-width: var(--group-min-width);
+        max-width: var(--group-max-width);
     }
-        .move-set__inner-column {
-            max-width: var(--group-max-width);
-            margin-left: auto;
-            margin-right: auto;
-        }
