@@ -20,7 +20,7 @@
             padding-right: var(--container-padding);
         }
             .sidebar__platform .input__widget {
-                padding-left: 25px;
+                padding-left: calc(var(--container-padding) - 1px);
             }
 
     .sidebar__body {
