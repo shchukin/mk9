@@ -39,9 +39,9 @@
                     content: "";
                     position: absolute;
                     right: 26px;
-                    top: 12px;
-                    width: 18px;
-                    height: 18px;
+                    top: 15px;
+                    width: 16px;
+                    height: 10px;
                     background-image: url("../vectors/group-angle.svg");
                     background-size: contain;
                     background-repeat: no-repeat;
