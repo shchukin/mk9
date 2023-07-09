@@ -13,14 +13,3 @@
         overflow-y: scroll;
         padding-right: 40px;
     }
-
-    .viewport__column::-webkit-scrollbar {
-        width: 2px;
-        background-color: #292929;
-        border-radius: 1px;
-    }
-
-    .viewport__column::-webkit-scrollbar-thumb {
-        background-color: #8A9598;
-        border-radius: 1px;
-    }

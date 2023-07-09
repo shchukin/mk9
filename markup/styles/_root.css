@@ -8,5 +8,6 @@
     --container-padding: 25px;
     --ease-out-circ: cubic-bezier(0, 0.55, 0.45, 1);
     --column-width: 240px;
+    --group-min-width: 376px;
 }
 /* stylelint-enable declaration-colon-space-after */

@@ -1,0 +1,22 @@
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #3E3E3E #292929;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: #292929;
+    border-radius: 1px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #3E3E3E;
+    border-radius: 1px;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+    display: none; /* to bright */
+}

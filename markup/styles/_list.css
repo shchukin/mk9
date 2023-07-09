@@ -1,10 +1,8 @@
 .list {
-
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(var(--group-min-width), 1fr) );
+    gap: 3px 40px;
 }
     .list__section {
-        margin-top: var(--groups-gap);
-    }
 
-    .list__section:first-child {
-        margin-top: 0;
     }
