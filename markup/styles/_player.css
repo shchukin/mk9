@@ -18,6 +18,9 @@
             padding-left: var(--container-padding);
             padding-right: var(--container-padding);
         }
+            .player__platform .input__widget {
+                padding-left: 25px;
+            }
 
     .player__body {
         margin-top: 24px;
