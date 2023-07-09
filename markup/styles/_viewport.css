@@ -1,0 +1,25 @@
+.viewport {
+    height: 100%;
+    margin-left: var(--column-width);
+    margin-right: var(--column-width);
+    padding: 35px 40px;
+    gap: 40px;
+    display: flex;
+}
+    .viewport__column {
+        height: 100%;
+        flex-grow: 1;
+        overflow-y: scroll;
+        padding-right: 40px;
+    }
+
+    .viewport__column::-webkit-scrollbar {
+        width: 2px;
+        background-color: #292929;
+        border-radius: 1px;
+    }
+
+    .viewport__column::-webkit-scrollbar-thumb {
+        background-color: #8A9598;
+        border-radius: 1px;
+    }
