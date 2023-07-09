@@ -1,6 +1,6 @@
 .sidebar {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: var(--vertical-spacing);
+    padding-bottom: var(--vertical-spacing);
 }
 
     .sidebar__head {

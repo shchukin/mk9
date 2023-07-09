@@ -10,5 +10,7 @@
     --sidebar-width: 240px;
     --group-min-width: 376px;
     --group-max-width: 500px;
+    --vertical-spacing: 35px;
+    --horizontal-spacing: 40px;
 }
 /* stylelint-enable declaration-colon-space-after */

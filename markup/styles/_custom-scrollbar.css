@@ -34,13 +34,13 @@
 }
 
 .custom-scrollbar--smaller::-webkit-scrollbar-button:start:increment {
-    height: 35px;
+    height: var(--vertical-spacing);
     display: block;
     background: transparent;
 }
 
 .custom-scrollbar--smaller::-webkit-scrollbar-button:end:increment {
-    height: 35px;
+    height: var(--vertical-spacing);
     display: block;
     background: transparent;
 }
