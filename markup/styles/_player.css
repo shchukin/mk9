@@ -3,20 +3,37 @@
     align-items: stretch;
     height: 100%;
 }
+
     .player__sidebar {
         flex-shrink: 0;
         overflow-y: auto;
-        padding-top: 32px;
-        padding-bottom: 32px;
         width: var(--column-width);
         background-color: #1C1C1C;
     }
+        .player__sidebar .show-player {
+            display: none;
+        }
 
     .player__list {
         overflow-y: scroll;
         flex-grow: 1;
         flex-basis: 0;
         padding: 35px 40px;
+    }
+
+
+.player--hidden {
+
+}
+    .player--hidden .sidebar {
+        display: none;
+    }
+    .player--hidden .show-player {
+        display: block;
+    }
+
+    .player--hidden .player__list {
+        display: none;
     }
 
 
