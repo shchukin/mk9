@@ -1,27 +1,30 @@
 .player {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
 }
-    .player__head {
-
+    .player__sidebar {
+        flex-shrink: 0;
+        overflow-y: auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: var(--column-width);
+        background-color: #1C1C1C;
     }
-        .player__actions {
-            height: 44px;
-            padding-left: var(--container-padding);
-            padding-right: var(--container-padding);
-            display: flex;
-            align-items: center;
-        }
 
-        .player__platform {
-            margin-top: 24px;
-            padding-left: var(--container-padding);
-            padding-right: var(--container-padding);
-        }
-            .player__platform .input__widget {
-                padding-left: 25px;
-            }
-
-    .player__body {
-        margin-top: 24px;
+    .player__list {
+        overflow-y: scroll;
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 35px 40px;
     }
+
+
+
+.player--one {
+    flex-direction: row;
+}
+
+.player--two {
+    flex-direction: row-reverse;
+}

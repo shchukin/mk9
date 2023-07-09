@@ -1,0 +1,27 @@
+.sidebar {
+
+}
+
+    .sidebar__head {
+
+    }
+        .sidebar__actions {
+            height: 44px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar__platform {
+            margin-top: 24px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+        }
+            .sidebar__platform .input__widget {
+                padding-left: 25px;
+            }
+
+    .sidebar__body {
+        margin-top: 24px;
+    }

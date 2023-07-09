@@ -7,6 +7,9 @@
 .custom-scrollbar::-webkit-scrollbar {
     width: 2px;
     height: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track-piece {
     background-color: #292929;
     border-radius: 1px;
 }
@@ -19,4 +22,25 @@
 
 .custom-scrollbar::-webkit-scrollbar-corner {
     display: none; /* to bright */
+}
+
+
+
+
+
+
+.custom-scrollbar--smaller::-webkit-scrollbar-track-piece {
+
+}
+
+.custom-scrollbar--smaller::-webkit-scrollbar-button:start:increment {
+    height: 35px;
+    display: block;
+    background: transparent;
+}
+
+.custom-scrollbar--smaller::-webkit-scrollbar-button:end:increment {
+    height: 35px;
+    display: block;
+    background: transparent;
 }
