@@ -1,0 +1,27 @@
+.page {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+    .page__sidebar {
+        height: 100%;
+        flex-shrink: 0;
+        width: var(--column-width);
+        background-color: #1C1C1C;
+        overflow-y: auto;
+    }
+
+    .page__viewport {
+        flex-grow: 1;
+        height: 100%;
+        padding: 35px 40px;
+        gap: 40px;
+        display: flex;
+    }
+        .page__list {
+            height: 100%;
+            flex-grow: 1;
+            flex-basis: 0;
+            overflow-y: scroll;
+            padding-right: 40px;
+        }

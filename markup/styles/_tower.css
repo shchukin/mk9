@@ -12,16 +12,7 @@
         text-decoration: none;
         transition: color var(--transition-hover);
     }
-        .tower__link::before {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            left: var(--container-padding);
-            right: var(--container-padding);
-            top: 0;
-            bottom: 0;
-            border-radius: 3px;
-        }
+
 
     .tower__link:hover {
         color: var(--gold);
@@ -35,19 +26,26 @@
         color: var(--gold);
     }
         .tower__link--current::before {
+            content: "";
+            position: absolute;
+            left: var(--container-padding);
+            right: var(--container-padding);
+            top: 0;
+            bottom: 0;
+            border-radius: 3px;
             background-color: rgba(255, 255, 255, 0.028);
         }
 
 
     @media (min-width: 600px) {
 
-        .column--player-one .tower__link::before {
+        .player--one .tower__link--current::before {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             right: 0;
         }
 
-        .column--player-two .tower__link::before {
+        .player--two .tower__link--current::before {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             left: 0;

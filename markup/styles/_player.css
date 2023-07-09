@@ -25,11 +25,3 @@
     .player__body {
         margin-top: 24px;
     }
-
-.column--player-one {
-    left: 0;
-}
-
-.column--player-two {
-    right: 0;
-}
