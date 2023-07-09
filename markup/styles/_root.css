@@ -12,5 +12,7 @@
     --group-max-width: 500px;
     --vertical-spacing: 35px;
     --horizontal-spacing: 40px;
+    --scrollbar-track: #292929;
+    --scrollbar-thumb: #3E3E3E;
 }
 /* stylelint-enable declaration-colon-space-after */

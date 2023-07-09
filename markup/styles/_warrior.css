@@ -2,14 +2,24 @@
 
 }
     .warrior__name {
+        position: relative;
         margin-top: 0;
-        margin-bottom: 34px;
+        margin-bottom: 20px;
         padding-top: 9px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         font-size: 16px;
         line-height: 24px;
-        border-bottom: 1px solid #292929;
     }
+        .warrior__name::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 2px;
+            background-color: #292929;
+            border-radius: 1px;
+        }
 
     .warrior__moves {
 
