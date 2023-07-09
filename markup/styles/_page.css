@@ -9,6 +9,7 @@
     }
 
     .page__handler-for-player-two {
+        flex-shrink: 0;
         width: var(--sidebar-width);
         height: 100%;
     }

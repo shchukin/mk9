@@ -68,7 +68,7 @@
 
 
     .player__list::-webkit-scrollbar-button:start:increment {
-        height: calc(var(--vertical-spacing) + 46px); /* 46px is a size of warrior__heading */
+        height: calc(var(--vertical-spacing) + 68px); /* 68px is a size of warrior__heading */
         display: block;
         background: transparent;
     }
