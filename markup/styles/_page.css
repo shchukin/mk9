@@ -14,8 +14,9 @@
     .page__viewport {
         flex-grow: 1;
         height: 100%;
-        padding: 35px 40px;
-        gap: 40px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-right: 40px;
         display: flex;
     }
         .page__list {
@@ -23,5 +24,6 @@
             flex-grow: 1;
             flex-basis: 0;
             overflow-y: scroll;
+            padding-left: 40px;
             padding-right: 40px;
         }
