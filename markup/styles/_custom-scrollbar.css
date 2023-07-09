@@ -34,7 +34,7 @@
 }
 
 .custom-scrollbar--smaller::-webkit-scrollbar-button:start:increment {
-    height: var(--vertical-spacing);
+    height: calc(var(--vertical-spacing) + 43px); /* 43px is a size of warrior__heading */
     display: block;
     background: transparent;
 }
