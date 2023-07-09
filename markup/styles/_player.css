@@ -36,10 +36,11 @@
         }
 
     .player__list {
-        overflow-y: scroll;
         flex-grow: 1;
         flex-basis: 0;
         padding: var(--vertical-spacing) var(--horizontal-spacing);
+        overflow-y: scroll;
+        margin-right: var(--horizontal-spacing);
         scrollbar-width: thin;
         scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
     }
@@ -102,3 +103,17 @@
 .player--two {
     flex-direction: row-reverse;
 }
+
+
+
+.page--player-2-active {
+
+}
+
+    .page--player-2-active .player--one .player__list {
+        margin-right: 0;
+    }
+
+    .page--player-2-active .player--two .player__list {
+        margin-right: var(--horizontal-spacing);
+    }
