@@ -1,6 +1,7 @@
 .player {
     display: flex;
     align-items: stretch;
+    width: 100%;
     height: 100%;
 }
     .player__sidebar {
@@ -109,11 +110,16 @@
 .page--player-2-active {
 
 }
-
-    .page--player-2-active .player--one .player__list {
-        margin-right: 0;
+    .page--player-2-active .player--one {
+        width: calc(50% - 20px);
     }
+        .page--player-2-active .player--one .player__list {
+            margin-right: 0;
+        }
 
-    .page--player-2-active .player--two .player__list {
-        margin-right: var(--horizontal-spacing);
+    .page--player-2-active .player--two {
+        width: calc(50% + 20px);
     }
+        .page--player-2-active .player--two .player__list {
+            margin-right: var(--horizontal-spacing);
+        }
