@@ -1,19 +1,78 @@
 .key {
-  background-color: red;
+    display: inline-block;
+    vertical-align: baseline;
+    font-style: normal;
+    position: relative;
 }
 
-.key--backward {
-  color: green;
+.key--forward { }
+.key--backward { }
+.key--up { }
+.key--down { }
+
+.key--plus { }
+.key--comma { }
+
+.key--fp { }
+.key--bp { }
+.key--fk { }
+.key--bk { }
+
+.key--tag { }
+.key--stance { }
+.key--throw { }
+.key--block { }
+
+
+
+.classic .key {
+    font-weight: bold;
 }
 
-.key--down {
-  color: blue;
+
+.key--playstation.key,
+.key--xbox.key {
+    vertical-align: top;
+    width: 26px;
+    height: 26px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
-.key--up {
-  color: yellow;
-}
+/* shared */
 
-.key--forward {
-  color: gray;
-}
+.key--playstation.key--forward  , .key--xbox.key--forward  { width: 16px; background-image: url("/public/vectors/key/arrow-forward.svg"); }
+.key--playstation.key--backward , .key--xbox.key--backward { width: 16px; background-image: url("/public/vectors/key/arrow-backward.svg"); }
+.key--playstation.key--up       , .key--xbox.key--up       { width: 16px; background-image: url("/public/vectors/key/arrow-up.svg"); }
+.key--playstation.key--down     , .key--xbox.key--down     { width: 16px; background-image: url("/public/vectors/key/arrow-down.svg"); }
+
+.key--playstation.key--plus  , .key--xbox.key--plus     { width: 8px; margin: 0 -10px; background-image: url("/public/vectors/key/miscellaneous-plus.svg"); }
+.key--playstation.key--comma , .key--xbox.key--comma    { width: 4px; margin: 0 -8px; background-image: url("/public/vectors/key/miscellaneous-comma.svg"); }
+
+
+/* playstation & xbox */
+
+.key--playstation.key--fp   { background-image: url("/public/vectors/key/playstation-square.svg"); }
+.key--playstation.key--bp   { background-image: url("/public/vectors/key/playstation-triangle.svg"); }
+.key--playstation.key--fk   { background-image: url("/public/vectors/key/playstation-cross.svg"); }
+.key--playstation.key--bk   { background-image: url("/public/vectors/key/playstation-circle.svg"); }
+
+.key--xbox.key--fp   { background-image: url("/public/vectors/key/xbox-x.svg"); }
+.key--xbox.key--bp   { background-image: url("/public/vectors/key/xbox-y.svg"); }
+.key--xbox.key--fk   { background-image: url("/public/vectors/key/xbox-a.svg"); }
+.key--xbox.key--bk   { background-image: url("/public/vectors/key/xbox-b.svg"); }
+
+.key--playstation.key--throw    { width: 34px; background-image: url("/public/vectors/key/playstation-r1.svg"); }
+.key--playstation.key--tag      { width: 34px; background-image: url("/public/vectors/key/playstation-l1.svg"); }
+.key--playstation.key--stance   { width: 34px; background-image: url("/public/vectors/key/playstation-l2.svg"); }
+.key--playstation.key--block    { width: 34px; background-image: url("/public/vectors/key/playstation-r2.svg"); }
+
+.key--xbox.key--tag      { width: 34px; background-image: url("/public/vectors/key/xbox-lb.svg"); }
+.key--xbox.key--stance   { width: 34px; background-image: url("/public/vectors/key/xbox-lt.svg"); }
+.key--xbox.key--throw    { width: 34px; background-image: url("/public/vectors/key/xbox-rb.svg"); }
+.key--xbox.key--block    { width: 34px; background-image: url("/public/vectors/key/xbox-rt.svg"); }
+

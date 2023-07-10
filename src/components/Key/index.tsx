@@ -9,11 +9,22 @@ const contentMap: Record<KeyVariant, string> = {
   [KeyVariant.Down]: '↓',
   [KeyVariant.Forward]: '→',
   [KeyVariant.Up]: '↑',
+  [KeyVariant.Plus]: '+',
+  [KeyVariant.Comma]: ',',
+  [KeyVariant.Fp]: 'FP',
+  [KeyVariant.Bp]: 'BP',
+  [KeyVariant.Fk]: 'FK',
+  [KeyVariant.Bk]: 'BK',
+  [KeyVariant.Throw]: 'Throw',
+  [KeyVariant.Tag]: 'Tag',
+  [KeyVariant.Stance]: 'Stance',
+  [KeyVariant.Block]: 'Block',
 }
 
 type KeyProps = {
   variant: KeyVariant;
 }
+
 const Key: React.FC<KeyProps> = ({ variant }) => {
   const context = React.useContext(mkContext);
   const contextP = React.useContext<PlayerContextClass>(playerContext);
