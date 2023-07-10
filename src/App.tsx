@@ -10,13 +10,19 @@ const App: React.FC = () => {
     <mkContext.Provider value = { mkContextValue }>
 
       <playerContext.Provider value = { playerOneContextValue }>
+        <Key variant = { KeyVariant.Backward }></Key>
         <Key variant = { KeyVariant.Up }></Key>
+        <Key variant = { KeyVariant.Forward }></Key>
+        <Key variant = { KeyVariant.Down }></Key>
       </playerContext.Provider>
 
       <playerContext.Provider value = { playerTwoContextValue }>
-        <Key variant = { KeyVariant.Up }></Key>
+          <Key variant={KeyVariant.Backward}></Key>
+          <Key variant={KeyVariant.Up}></Key>
+          <Key variant={KeyVariant.Forward}></Key>
+          <Key variant={KeyVariant.Down}></Key>
       </playerContext.Provider>
-      
+
     </mkContext.Provider>
   );
 }

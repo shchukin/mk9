@@ -22,10 +22,7 @@ const Key: React.FC<KeyProps> = ({ variant }) => {
   const notation = contextP.playerNumber === 1 ? context.playerOneNotation : context.playerTwoNotation;
 
   return (
-    <>
-      <i className = {`key key--${variant}`}>{ content }</i>
-      <div>{ notation }</div>
-    </>
+    <i className = {`key key--${notation} key--${variant}`}>{ content }</i>
   )
 }
 
