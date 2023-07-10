@@ -45,10 +45,10 @@
 
 /* shared */
 
-.playstation .key--forward  , .xbox .key--forward  { width: 16px; margin: 0 5px; background-image: url("../vectors/key/arrow-forward.svg"); }
-.playstation .key--backward , .xbox .key--backward { width: 16px; margin: 0 5px; background-image: url("../vectors/key/arrow-backward.svg"); }
-.playstation .key--up       , .xbox .key--up       { width: 16px; margin: 0 5px; background-image: url("../vectors/key/arrow-up.svg"); }
-.playstation .key--down     , .xbox .key--down     { width: 16px; margin: 0 5px; background-image: url("../vectors/key/arrow-down.svg"); }
+.playstation .key--forward  , .xbox .key--forward  { width: 16px; background-image: url("../vectors/key/arrow-forward.svg"); }
+.playstation .key--backward , .xbox .key--backward { width: 16px; background-image: url("../vectors/key/arrow-backward.svg"); }
+.playstation .key--up       , .xbox .key--up       { width: 16px; background-image: url("../vectors/key/arrow-up.svg"); }
+.playstation .key--down     , .xbox .key--down     { width: 16px; background-image: url("../vectors/key/arrow-down.svg"); }
 
 .playstation .key--plus  , .xbox .key--plus     { width: 8px; margin: 0 -10px; background-image: url("../vectors/key/miscellaneous-plus.svg"); }
 .playstation .key--comma , .xbox .key--comma    { width: 4px; margin: 0 -8px; background-image: url("../vectors/key/miscellaneous-comma.svg"); }
