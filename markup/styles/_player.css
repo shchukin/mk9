@@ -1,4 +1,5 @@
 .player {
+    flex-shrink: 0;
     width: 100%;
     height: 100%;
 }
@@ -81,14 +82,14 @@
 
 }
     .page--player-2-active .player--one {
-        width: calc(50% - 20px);
+        width: calc(50% - var(--container-padding) / 2);
     }
         .page--player-2-active .player--one .player__list {
             margin-right: 0;
         }
 
     .page--player-2-active .player--two {
-        width: calc(50% + 20px);
+        width: calc(50% + var(--container-padding) / 2);
     }
         .page--player-2-active .player--two .player__list {
             margin-right: var(--horizontal-spacing);
