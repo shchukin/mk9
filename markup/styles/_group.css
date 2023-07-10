@@ -38,7 +38,7 @@
                 .group__handler::after {
                     content: "";
                     position: absolute;
-                    right: 26px;
+                    right: 27px;
                     top: 15px;
                     width: 16px;
                     height: 10px;
