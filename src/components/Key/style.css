@@ -1,0 +1,19 @@
+.key {
+  background-color: red;
+}
+
+.key--backward {
+  color: green;
+}
+
+.key--down {
+  color: blue;
+}
+
+.key--up {
+  color: yellow;
+}
+
+.key--forward {
+  color: gray;
+}
