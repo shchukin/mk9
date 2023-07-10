@@ -112,6 +112,27 @@
 
 
 
+@media (max-width: 699px) {
+
+    .player {
+
+    }
+
+    .player--one {
+        padding-left: 0;
+    }
+
+        .player__sidebar {
+            display: none;
+        }
+
+        .player__list {
+
+        }
+}
+
+
+
 
 /* scrollbar non the sidebar */
 .player__sidebar {

@@ -37,7 +37,7 @@
         }
 
 
-    @media (min-width: 600px) {
+    @media (min-width: 700px) {
 
         .player--one .tower__link--current::before {
             border-top-right-radius: 0;
