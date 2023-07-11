@@ -44,7 +44,7 @@ const App: React.FC = () => {
           Любая последовательность нажатий заворачивается в <b>Sequence</b>
           -- это просто обёрточный <b>div</b>, в который пробрасывается несколько кнопок.
         </p>
-        <Sequence></Sequence>
+        <Sequence keyVariants = {[KeyVariant.Fp, KeyVariant.Bp, KeyVariant.Fk]} />
 
         <br/>
         <br/>
@@ -57,7 +57,7 @@ const App: React.FC = () => {
           В него нужно пробросить название и последовательность нажатий
         </p>
 
-        <Action></Action>
+        <Action label = 'Heel Kicks' keyVariants = {[KeyVariant.Fp, KeyVariant.Bp, KeyVariant.Fk]} />
 
         <br/>
         <br/>
@@ -65,7 +65,7 @@ const App: React.FC = () => {
         <p>
           Под ударом (ниже по HTML) может быть комментарий <b>Comment</b>:
         </p>
-        <Comment></Comment>
+        <Comment>Can be done in the air</Comment>
 
 
         <br/>
@@ -75,7 +75,11 @@ const App: React.FC = () => {
           <b>Action</b> и <b>Comment</b> собираются в <b>Move</b>:
         </p>
 
-        <Move></Move>
+        <Move
+          label = 'Heel Kicks'
+          keyVariants = {[KeyVariant.Fp, KeyVariant.Bp, KeyVariant.Fk]}
+          comment = 'Can be done in the air'
+        />
 
         <p>
           <b>Move</b> -- главная сущность в проекте. Она берётся из БД в виде:

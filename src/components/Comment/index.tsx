@@ -1,9 +1,12 @@
 import React from 'react';
 import 'src/components/Comment/style.css';
 
-const Comment: React.FC = () => {
+type CommentProps = {
+  children: React.ReactNode;
+}
+const Comment: React.FC<CommentProps> = ({ children }) => {
   return (
-    <div className="comment">Can be done in the air</div>
+    <div className="comment">{ children }</div>
   )
 }
 

@@ -1,24 +1,25 @@
 import React from 'react';
 import 'src/components/Action/style.css';
 
-const Action: React.FC = () => {
+import Sequence from 'src/components/Sequence';
+import { KeyVariant } from 'src/types';
+
+type ActionProps = {
+    label: string;
+    keyVariants: KeyVariant[];
+}
+const Action: React.FC<ActionProps> = ({ label, keyVariants }) => {
   return (
     <div className="action">
       <div className="action">
         <strong className="action__title">
-          Flameport
+          { label }
         </strong>
         <span className="action__separator">
             :
         </span>
         <span className="action__combination">
-            <span className="sequence">
-                <i className="key key--playstation key--down">↓</i>
-                <i className="key key--playstation key--backward">←</i>
-                <i className="key key--playstation key--fk">FK</i>
-                <i className="key key--playstation key--plus">+</i>
-                <i className="key key--playstation key--block">Block</i>
-            </span>
+            <Sequence keyVariants = { keyVariants } />
         </span>
       </div>
     </div>

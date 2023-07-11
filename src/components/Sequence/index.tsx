@@ -1,14 +1,17 @@
 import React from 'react';
 import 'src/components/Sequence/style.css';
+import Key from 'src/components/Key';
+import { KeyVariant } from 'src/types';
 
-const Sequence: React.FC = () => {
+type SequenceProps = {
+    keyVariants: KeyVariant[];
+}
+const Sequence: React.FC<SequenceProps> = ({ keyVariants }) => {
     return(
         <div className="sequence">
-            <i className="key key--playstation key--down">↓</i>
-            <i className="key key--playstation key--backward">←</i>
-            <i className="key key--playstation key--fk">FK</i>
-            <i className="key key--playstation key--plus">+</i>
-            <i className="key key--playstation key--block">Block</i>
+            {keyVariants.map((item, index) => (
+                <Key key = { index } variant = { item } />
+            ))}
         </div>
     )
 }

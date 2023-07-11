@@ -1,29 +1,19 @@
 import React from 'react';
 import 'src/components/Move/style.css';
+import { KeyVariant } from 'src/types';
+import Action from 'src/components/Action';
+import Comment from 'src/components/Comment';
 
-const Move: React.FC = () => {
+type MoveProps = {
+  label: string;
+  comment?: string;
+  keyVariants: KeyVariant[];
+}
+const Move: React.FC<MoveProps> = ({ label, comment, keyVariants }) => {
   return (
     <div className="move">
-      <div className="action">
-        <strong className="action__title">
-          Flameport
-        </strong>
-        <span className="action__separator">
-            :
-        </span>
-        <span className="action__combination">
-            <span className="sequence">
-                <i className="key key--playstation key--down">↓</i>
-                <i className="key key--playstation key--backward">←</i>
-                <i className="key key--playstation key--fk">FK</i>
-                <i className="key key--playstation key--plus">+</i>
-                <i className="key key--playstation key--block">Block</i>
-            </span>
-        </span>
-      </div>
-      <div className="comment">
-        Can be done in the air
-      </div>
+      <Action label = { label } keyVariants = { keyVariants } />
+      { comment !== undefined ? <Comment>{ comment }</Comment> : null }
     </div>
   )
 }
