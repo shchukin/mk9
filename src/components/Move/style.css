@@ -1,0 +1,8 @@
+.move {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.group:last-child .move:last-child {
+    padding-bottom: 0; /* to be ended on the same horizontal line with scrollbar */
+}

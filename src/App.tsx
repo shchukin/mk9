@@ -7,6 +7,7 @@ import Key from 'src/components/Key';
 import Sequence from "./components/Sequence";
 import Comment from "./components/Comment";
 import Action from "./components/Action";
+import Move from "./components/Move";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Sequence></Sequence>
       <Comment></Comment>
       <Action></Action>
+      <Move></Move>
 
 
       <playerContext.Provider value = { playerOneContextValue }>
