@@ -13,11 +13,11 @@ const Move: React.FC = () => {
         </span>
         <span className="action__combination">
             <span className="sequence">
-                <i className="key key--down">↓</i>
-                <i className="key key--backward">←</i>
-                <i className="key key--fk">FK</i>
-                <i className="key key--plus">+</i>
-                <i className="key key--block">Block</i>
+                <i className="key key--playstation key--down">↓</i>
+                <i className="key key--playstation key--backward">←</i>
+                <i className="key key--playstation key--fk">FK</i>
+                <i className="key key--playstation key--plus">+</i>
+                <i className="key key--playstation key--block">Block</i>
             </span>
         </span>
       </div>
