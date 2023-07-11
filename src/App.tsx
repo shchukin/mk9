@@ -5,13 +5,15 @@ import { KeyVariant } from './types';
 
 import Key from 'src/components/Key';
 import Sequence from "./components/Sequence";
+import Comment from "./components/Comment";
 
 const App: React.FC = () => {
   return (
 
     <mkContext.Provider value = { mkContextValue }>
 
-        <Sequence></Sequence>
+    <Comment></Comment>
+    <Sequence></Sequence>
 
       <playerContext.Provider value = { playerOneContextValue }>
         <Key variant = { KeyVariant.Backward }></Key>
