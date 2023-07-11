@@ -4,11 +4,14 @@ import { mkContext, mkContextValue, playerContext, playerOneContextValue, player
 import { KeyVariant } from './types';
 
 import Key from 'src/components/Key';
+import Sequence from "./components/Sequence";
 
 const App: React.FC = () => {
   return (
 
     <mkContext.Provider value = { mkContextValue }>
+
+        <Sequence></Sequence>
 
       <playerContext.Provider value = { playerOneContextValue }>
         <Key variant = { KeyVariant.Backward }></Key>
