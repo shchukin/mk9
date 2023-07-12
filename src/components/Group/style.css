@@ -1,0 +1,84 @@
+.group {
+
+}
+
+.group + .group {
+    margin-top: var(--groups-gap);
+}
+
+    .group__head {
+        position: relative;
+    }
+        .group__heading {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+            .group__handler {
+                display: inline-block;
+                vertical-align: top;
+                width: 100%;
+                border: none;
+                padding: 12px 50px 12px 22px;
+                background-color: #292929;
+                border-radius: 3px;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 18px;
+                letter-spacing: 0.6px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                text-align: left;
+                cursor: pointer;
+                transition: background-color var(--transition-hover);
+            }
+
+            .group__handler:hover {
+                background-color: #323232;
+            }
+                .group__handler::after {
+                    content: "";
+                    position: absolute;
+                    right: 27px;
+                    top: 15px;
+                    width: 16px;
+                    height: 10px;
+                    background-image: url("../vectors/group-angle.svg");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+
+        .group__combination {
+            position: absolute;
+            right: 70px;
+            top: 8px;
+            pointer-events: none;
+        }
+
+        .classic .group__combination {
+            color: var(--gold);
+        }
+
+
+    .group__body {
+        display: none;
+    }
+        .group__list {
+            padding: 14px 22px 14px;
+        }
+
+        .group:last-child .group__list {
+            padding-bottom: 0; /* to be ended on the same horizontal line with scrollbar */
+        }
+
+.group--expanded {
+
+}
+    .group--expanded .group__body {
+        display: block;
+    }
+
+    .group--expanded .group__handler::after {
+        transform: scaleY(-1);
+
+    }

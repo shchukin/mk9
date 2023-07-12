@@ -8,6 +8,7 @@ import Sequence from "./components/Sequence";
 import Comment from "./components/Comment";
 import Action from "./components/Action";
 import Move from "./components/Move";
+import Group from "./components/Group";
 
 const App: React.FC = () => {
   return (
@@ -90,6 +91,25 @@ const App: React.FC = () => {
           </ul>
         </p>
 
+
+        <br/>
+        <br/>
+        <h2>Group</h2>
+      Basic attack
+        Doom Slice     [forward][plus][bp]
+        Blade Overhead [backward][plus][bp]
+        Heel Kicks     [forward][plus][fk]
+        Shin Blast     [forward][plus][bk]
+
+      Combo attacks
+        Torment     [fp][comma][fp][comma][fp]
+        Damnation   [fp][comma][fp][comma][bk]
+        Brimstone   [bp][comma][fp][comma][bp]
+        Gravedigger [bp][comma][fp][plus][bp]
+        Doom Blade  [forward][plus][bp][comma][fp][comma][bk]
+
+
+        {/*<Group title='KOMBO ATTACKS' movesList={}></Group>*/}
 
       </playerContext.Provider>
 
