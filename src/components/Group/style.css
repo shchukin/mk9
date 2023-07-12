@@ -61,7 +61,7 @@
 
 
     .group__body {
-        display: none;
+
     }
         .group__list {
             padding: 14px 22px 14px;
@@ -75,7 +75,7 @@
 
 }
     .group--expanded .group__body {
-        display: block;
+
     }
 
     .group--expanded .group__handler::after {

@@ -1,15 +1,15 @@
 import React from 'react';
 import 'src/components/Group/style.css';
-import Key from "../Key";
-import Move from "../Move";
-import {KeyVariant} from "../../types";
+import Sequence from 'src/components/Sequence';
+import Move from "src/components/Move";
+import {KeyVariant, MoveItem} from "src/types";
 
 type GroupProps = {
   title: string;
-  movesList: []; /* массив чего? какой тип? */
+  headSequence?: KeyVariant[];
+  movesList: MoveItem[];
 }
-
-const Group: React.FC<GroupProps> = ({title, movesList}) => {
+const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
   return (
     <div className="group group--expanded">
       <div className="group__head">
@@ -18,15 +18,21 @@ const Group: React.FC<GroupProps> = ({title, movesList}) => {
             {title}
           </button>
         </h3>
+        {headSequence !== undefined ? 
+          <div className="group__combination">
+            <Sequence keyVariants = { headSequence } />
+          </div>
+          :
+          null
+        }
       </div>
       <div className="group__body">
         <div className="group__list">
           {movesList.map((item, index) => (
-            /* Здесь по-идее должны быть данные изнутри самого movesList пробрасываться в move */
             <Move
-              label='Heel Kicks'
-              keyVariants={[KeyVariant.Fp, KeyVariant.Bp, KeyVariant.Fk]}
-              comment='Can be done in the air'
+              label={item.label}
+              keyVariants={item.keyVariants}
+              comment={item.comment}
             />
           ))}
         </div>

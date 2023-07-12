@@ -109,7 +109,7 @@ const App: React.FC = () => {
         Doom Blade  [forward][plus][bp][comma][fp][comma][bk]
 
 
-        {/*<Group title='KOMBO ATTACKS' movesList={}></Group>*/}
+        <Group title='KOMBO ATTACKS' movesList={}></Group>
 
       </playerContext.Provider>
 

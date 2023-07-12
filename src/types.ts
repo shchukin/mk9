@@ -20,3 +20,9 @@ export enum KeyVariant {
   Stance = 'stance',
   Block = 'block',
 }
+
+export type MoveItem = {
+  label: string;
+  comment?: string;
+  keyVariants: KeyVariant[];
+}

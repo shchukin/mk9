@@ -1,1221 +1,1221 @@
-1,1,1,Doom Slice,[forward][plus][bp],
-2,1,1,Blade Overhead,[backward][plus][bp],
-3,1,1,Heel Kicks,[forward][plus][fk],
-4,1,1,Shin Blast,[forward][plus][bk],
-5,1,2,Torment,[fp][comma][fp][comma][fp],
-6,1,2,Damnation,[fp][comma][fp][comma][bk],
-7,1,2,Brimstone,[bp][comma][fp][comma][bp],
-8,1,2,Gravedigger,[bp][comma][fp][plus][bp],
-9,1,2,Doom Blade,[forward][plus][bp][comma][fp][comma][bk],
-10,1,2,Dead End,[fk][comma][fk][comma][bk],
-11,1,2,Grievance,[forward][plus][bk][comma][fk],
-12,1,3,Underworld,[bp][comma][fp][plus][bp][comma][tag],
-13,1,3,Soulless,[backward][plus][bp][comma][tag],
-14,1,4,Eternal Vengeance,[fp][comma][fp][comma][tag],
-15,1,4,Punishment,[bp][comma][fp][comma][tag],
-16,1,4,Affiction,[forward][plus][bp][comma][fp][comma][tag],
-17,1,4,Revenge,[fk][comma][fk][comma][tag],
-18,1,5,Spear,[backward][backward][fp],
-19,1,5,Demon Fire,[down][backward][bp],
-20,1,5,Teleport,[down][backward][fk],Can be done in the air
-21,1,5,Takedown,[down][backward][bk],
-22,1,5,Air Throw,[throw],While in the air
-23,1,6,Flame Spear,[backward][backward][fp][plus][block],
-24,1,6,Hell Fire,[down][backward][bp][plus][block],
-25,1,6,Flameport,[down][backward][fk][plus][block],Can be done in the air
-26,1,6,Takeout,[down][backward][bk][plus][block],
-27,1,7,Scorpion Sting,[stance][plus][block],
-28,1,8,Split Decision,[forward][down][forward][bp],Touching
-29,1,8,Nether-Gate,[backward][forward][backward][fk],Touching
-30,1,8,Klassic Fatality,[down][up][up][bp],DLC
-31,1,8,Stage Fatality,[forward][up][up][fp],Varies
-32,1,8,Babality,[down][backward][forward][down][bp],Jump
-33,2,1,Strong Fist,[backward][plus][fp],
-34,2,1,Face Jab,[forward][plus][fp],
-35,2,1,Gut Strike,[backward][plus][bp],
-36,2,1,Knee Bash,[forward][plus][bp],
-37,2,1,Shaolin Heel,[forward][plus][fk],
-38,2,1,Knee Kick,[backward][plus][fk],
-39,2,1,Shin Kick,[forward][plus][bk],
-40,2,9,Final Act,[fp],
-41,2,9,Fist Of Death,[bp],
-42,2,9,Shaolin Flip,[fk],
-43,2,9,Moon Sweep,[bk],
-44,2,2,Three Fists,[fp][comma][fp][comma][fp],
-45,2,2,Death Fist,[fp][comma][fp][comma][bp],
-46,2,2,Immortal Dragon,[fp][comma][bp][comma][backward][plus][fp],
-47,2,2,Blazing Blasts,[forward][plus][fp][comma][bp][comma][fp],
-48,2,2,Fierce Tiger,[bp][comma][fp][comma][fk],
-49,2,2,Showdown,[forward][plus][bp][comma][bk],
-50,2,2,Launching Fury,[backward][plus][bp][comma][backward][plus][fk],
-51,2,2,Backdown,[backward][plus][bp][comma][fk],
-52,2,2,Lotus Flurry,[fk][comma][fk][comma][bk],
-53,2,2,Final Act,[backward][plus][fk][comma][fp][comma][bp],
-54,2,2,Krushing Kombo,[forward][plus][bk][comma][fk],
-55,2,3,Shaolin Spirit,[fp][comma][bp][comma][backward][plus][fp][comma][tag],
-56,2,3,Dragon's Bite,[backward][plus][fk][comma][fp][comma][bp][comma][tag],
-57,2,3,Next Time,[fp][comma][tag],From Dragon Stance
-58,2,3,Shaolin Step,[bp][comma][fp][comma][fk][comma][tag],
-59,2,4,Fist Swaps,[fp][comma][fp][comma][tag],
-60,2,4,Step In,[fp][comma][bp][comma][tag],
-61,2,4,Friendly,[forward][plus][fp][comma][bp][comma][tag],
-62,2,4,Dragon Dance,[bp][comma][fp][comma][tag],
-63,2,4,Twin Lotus,[fk][comma][fk][comma][tag],
-64,2,4,Harm-Onionus,[backward][plus][fk][comma][fp][comma][tag],
-65,2,5,High Fireball,[backward][forward][fp],Can be done in the air
-66,2,5,Low Fireball,[backward][forward][fk],
-67,2,5,Flying Dragon Kick,[backward][forward][bp],
-68,2,5,Bicycle Kick,[backward][backward][forward][bk],
-69,2,5,Parry,[down][backward][fp],
-70,2,6,High Dragon Fire,[backward][forward][fp][plus][block],Can be done in the air
-71,2,6,Low Dragon Fire,[backward][forward][fk][plus][block],
-72,2,6,Flame Dragon Kick,[backward][forward][bp][plus][block],
-73,2,6,Bicycle Steps,[backward][backward][forward][bk][plus][block],
-74,2,6,Burning Parry,[down][backward][fp][plus][block],
-75,2,7,Chin Up,[stance][plus][block],
-76,2,8,Fist Of Flame,[forward][backward][down][down][fk],Sweep
-77,2,8,The Beast Within,[down][down][forward][down][bk],Jump
-78,2,8,Stage Fatality,[down][forward][backward][fk],Varies
-79,2,8,Babality,[down][down][down][bk],Jump
-80,3,1,Chops,[backward][plus][fp],
-81,3,1,Hat Swipe,[forward][plus][bp],
-82,3,1,Rolling Thunder,[forward][plus][fk],
-83,3,1,Point Kick,[backward][plus][fk],
-84,3,1,Hop Kick,[forward][plus][bk],
-85,3,2,Windy Palm,[fp][comma][fp][comma][bp][comma][fp],
-86,3,2,Healing Wind,[backward][plus][fp][comma][forward][plus][fp],
-87,3,2,Chained Fist,[bp][comma][fp][comma][bp][comma][fp][comma][bp],Must be pressed rapidly
-88,3,2,Iron Broom,[bp][comma][bk][comma][fp][plus][bp],
-89,3,2,Leg Bar,[bp][comma][bk][comma][fp][plus][fk],
-90,3,2,Uprooting Step,[bp][comma][bk][comma][fp][plus][fk][comma][bk],
-91,3,2,Plum Flower,[bp][comma][bk][comma][fp][plus][fk][comma][bp],
-92,3,2,Lead The Way,[backward][plus][fk][comma][fk][comma][fk],
-93,3,3,Spinout,[down][forward][fp][comma][tag],
-94,3,4,Yin Yang,[fp][comma][fp][comma][bp][comma][tag],
-95,3,4,Swirling Dragon,[bp][comma][fp][comma][bp][comma][fp][comma][bp][comma][tag],
-96,3,4,Double Yang,[bp][comma][bk][comma][tag],
-97,3,5,Hat Toss,[backward][forward][bp],[up] and [down] Controls
-98,3,5,Ground Hat,[down][backward][bp],
-99,3,5,Spin,[down][forward][fp],
-100,3,5,Dive Kick,[down][plus][bk],While in the air
-101,3,5,Teleport,[down][up],Can be done in the air
-102,3,5,(While Teleporting),[fp] Throws [bp] Punches [fk] Kicks,
-103,3,6,Ultimate Hat,[backward][forward][bp][plus][block],
-104,3,6,Grinding Hat,[down][backward][bp][plus][block],Hold [bp] To delay
-105,3,6,Cyclone,[down][forward][fp][plus][block],
-106,3,6,Multi Kick,[down][plus][bk][plus][block],While in the air
-107,3,7,Fist Of Shaolin,[stance][plus][block],
-108,3,8,Hat Trick,[backward][forward][forward][backward][bp],Sweep
-109,3,8,Razor's Edge,[down][down][forward][backward][fp],Sweep
-110,3,8,Stage Fatality,[down][forward][down][fk],Varies
-111,3,8,Babality,[down][forward][down][bp],Jump
-112,4,1,Swipe,[backward][plus][fp],
-113,4,1,Force Claws (Hold),[backward][plus][bp],Can be dash canceled
-114,4,1,Big Leg,[forward][plus][bk],
-115,4,2,Frosty,[fp][comma][fp],
-116,4,2,Cold Feet,[fp][comma][fk][comma][forward][plus][bk],
-117,4,2,Artic Blast,[fp][comma][fk][comma][backward][plus][bk],
-118,4,2,Ice Pick,[backward][plus][fp][comma][bp][comma][fp],
-119,4,2,Ice Cold,[backward][plus][fp][comma][bp][comma][bk],
-120,4,2,Frost Bitten,[bp][comma][fp][comma][bp],
-121,4,2,Ices Up,[bp][comma][fp][comma][bk],
-122,4,2,Tundra Slice,[forward][plus][bk][comma][fp][plus][bp],
-123,4,2,Winter Blade,[bp][comma][bp][comma][bp],
-124,4,2,Cold Steel,[bp][comma][bp][comma][bk],
-125,4,2,Chill Out,[fk][comma][forward][plus][bk],
-126,4,3,Absolute Zero,[bp][comma][fp][comma][tag],
-127,4,4,Freezer Burn,[fp][comma][fk][comma][tag],
-128,4,4,Arctic Assault,[backward][plus][fp][comma][bp][comma][tag],
-129,4,4,Ability To Freeze,[bp][comma][bp][comma][tag],
-130,4,5,Iceball,[down][forward][fk],
-131,4,5,Slide,[backward][forward][bk],
-132,4,5,Ice Clone,[down][backward][fp],
-133,4,5,Ice Puddle,[down][backward][fk],
-134,4,6,Icebeam,[down][forward][fk][plus][block],
-135,4,6,Power Slide,[backward][forward][bk][plus][block],
-136,4,6,Ice Statue,[down][backward][fp][plus][block],
-137,4,6,Ground Freeze,[down][backward][fk][plus][block],
-138,4,7,Deep Freeze,[stance][plus][block],Hold To charge
-139,4,8,Have an Ice Day,[backward][forward][down][forward][bk],Sweep
-140,4,8,Spinal Smash,[down][backward][down][forward][bp],Sweep
-141,4,8,Klassic Fatality,[forward][down][forward][bp],DLC
-142,4,8,Stage fatality,[forward][down][backward][bp],Varies
-143,4,8,Babality,[down][backward][down][bk],Jump
-144,5,1,Hand Sweep,[backward][plus][fp],
-145,5,1,Face Chop,[forward][plus][fp],
-146,5,1,Rising Fist,[backward][plus][bp],
-147,5,1,Front Kick,[forward][plus][fk],
-148,5,1,Hand Plant Heel,[backward][plus][fk],
-149,5,1,Split Kick,[up][plus][fk],
-150,5,1,Arise,[up][plus][bk],
-151,5,2,Undead Bride,[fp][comma][fp][comma][fp],
-152,5,2,Royal Pain,[fp][comma][fp][comma][backward][plus][bp][comma][bk],
-153,5,2,Rebirth,[backward][plus][fp][comma][bp],
-154,5,2,Confronted,[forward][plus][fp][comma][bp][comma][bk],
-155,5,2,Anguish,[bp][comma][fp][comma][bp],
-156,5,2,Sadness,[bp][comma][fp][comma][backward][plus][fk],
-157,5,2,Conqueror,[backward][plus][bp][comma][bk],
-158,5,2,Queen's Anger,[fk][comma][fp][comma][fp],
-159,5,2,Rise To Power,[fk][comma][fp][comma][backward][plus][bp],
-160,5,2,Unforgettable,[backward][plus][fk][comma][forward][plus][bp],
-161,5,2,Child's Play,[bk][comma][bk][comma][up][plus][fk],
-162,5,3,Royal Flush,[fp][comma][fp][comma][backward][plus][bp][comma][tag],
-163,5,3,Regal Ruin,[backward][plus][fp][comma][bp][comma][tag],
-164,5,3,Cataclysm,[backward][plus][bp][comma][tag],
-165,5,3,Graceful Dead,[backward][plus][fk][comma][forward][plus][bp][comma][tag],
-166,5,4,Bow To Me,[fp][comma][fp][comma][tag],
-167,5,4,Worthless,[forward][plus][fp][comma][bp][comma][tag],
-168,5,4,Majestic Mash,[bp][comma][fp][comma][tag],
-169,5,4,Queen's Sorrow,[fk][comma][fp][comma][tag],
-170,5,4,That Was Fun!,[bk][comma][bk][comma][tag],
-171,5,5,Fireball,[down][forward][fp],Can be done in the air
-172,5,5,Low Fireball,[down][forward][fk],Can be done in the air
-173,5,5,Yell,[down][backward][bp],
-174,5,5,Levitate,[down][down][up],
-175,5,5,Hair Whip,[down][forward][bp],
-176,5,5,Step Up,[down][forward][bk],
-177,5,6,Power Fireball,[down][forward][fp][plus][block],Can be done in the air
-178,5,6,Low Fire,[down][forward][fk][plus][block],Can be done in the air
-179,5,6,Scream,[down][backward][bp][plus][block],
-180,5,6,Hair Toss,[down][forward][bp][plus][block],
-181,5,6,Step Over,[down][forward][bk][plus][block],
-182,5,7,Queen B,[stance][plus][block],
-183,5,8,Migraine,[backward][forward][down][forward][fp],Sweep
-184,5,8,Mouthful,[backward][forward][up][bp],Sweep
-185,5,8,Stage Fatality,[down][down][down][fp],Varies
-186,5,8,Babality,[down][down][down][up],Jump
-187,6,1,Back Fist,[forward][plus][fp],
-188,6,1,Wind Strikes,[backward][plus][fp],
-189,6,1,Fist Smash,[forward][plus][bp],
-190,6,1,Psychic Palm,[backward][plus][bp],Hold [bp] To charge
-191,6,1,Quick Kick,[backward][plus][fk],
-192,6,1,2-hit Kick,[forward][plus][bk],
-193,6,1,Low Leg,[up][plus][bk],
-194,6,2,Ermac Rush,[fp][comma][bp][comma][fp],
-195,6,2,Mysterious Mash,[forward][plus][fp][comma][fp][comma][bk],
-196,6,2,Fusion,[backward][plus][fp][comma][fp][comma][bk],
-197,6,2,We Win,[backward][plus][fp][comma][bp][comma][forward][plus][fp],
-198,6,2,Nether Pain,[bp][comma][bp],
-199,6,2,Psychic Strikes,[backward][plus][bp][comma][backward][plus][fp],
-200,6,2,Lost Souls,[backward][plus][bp][comma][fp][comma][forward][plus][bp],
-201,6,2,Relinquish,[fk][comma][fk],
-202,6,2,Surrender,[fk][comma][fp][comma][bp],
-203,6,2,Disoriented,[backward][plus][fk][comma][bk],
-204,6,2,Controlled Chaos,[forward][plus][bk][comma][backward][plus][bp],
-205,6,3,Breakdown,[forward][plus][bp][comma][tag],
-206,6,3,Brain Freeze,[backward][plus][bp][comma][tag],
-207,6,3,Mind-Blowing,[backward][plus][fp][comma][bp][comma][forward][plus][fp][comma][tag],
-208,6,4,Clear Your Mind,[forward][plus][fp][comma][fp][comma][tag],
-209,6,4,Subconscious,[backward][plus][fp][comma][fp][comma][tag],
-210,6,4,Lucidity,[fk][comma][fp][comma][tag],
-211,6,5,Force Ball,[down][backward][bp],
-212,6,5,Airblast,[down][backward][bp],While in the air
-213,6,5,Force Port,[down][backward][bk],Can be done in the air
-214,6,5,Force Lift,[down][backward][fp],
-215,6,5,Hover Slam,[down][down][up],Hold [block] To delay
-216,6,5,Force Push,[backward][forward][fp],
-217,6,6,Focus Ball,[down][backward][bp][plus][block],
-218,6,6,Force Blast,[down][backward][bp][plus][block],While in the air
-219,6,6,Teleport,[down][backward][bk][plus][block],Can be done in the air
-220,6,6,Telelift,[down][backward][fp][plus][block],
-221,6,6,Levitate Smash,[down][down][up][plus][block],Hold [block] To delay
-222,6,6,Telepush,[backward][forward][fp][plus][block],
-223,6,7,Cannonball Slam,[stance][plus][block],
-224,6,8,Mind Over Splatter,[down][up][down][down][block],Jump
-225,6,8,Pest Control,[forward][backward][forward][down][bk] ,Jump
-226,6,8,Stage Fatality,[down][up][down][down][fk],Varies
-227,6,8,Babality,[down][down][backward][down][bp],Jump
-228,7,1,Reptile Smash,[forward][plus][bp],
-229,7,1,Low Swipe,[backward][plus][fp],
-230,7,1,Hop Kick,[forward][plus][fk],
-231,7,2,Cold Blooded,[fp][comma][bp][comma][bk],
-232,7,2,Carnivore Bash,[fp][comma][bp][comma][bp][comma][fp],
-233,7,2,Deadly Venom,[fp][comma][bp][comma][backward][plus][fp],
-234,7,2,Just Hatched,[bp][comma][forward][plus][fk],
-235,7,2,Hybrid Blast,[bp][comma][fk][plus][bk],
-236,7,2,Hybrid Crush,[bp][comma][forward][plus][fk][comma][fp][plus][bp],
-237,7,2,Evolution,[forward][plus][bp][comma][backward][plus][fp],
-238,7,2,Amphibian Charge,[fk][comma][bp][comma][fp],
-239,7,2,Slithered,[fk][comma][bp][comma][backward][plus][bk],
-240,7,2,Swamp Strikes,[forward][plus][fk][comma][fp][plus][bp],
-241,7,3,Carnivorous,[fp][comma][bp][comma][bp][comma][fp][comma][tag],
-242,7,3,Nocturnal,[forward][plus][bp][comma][backward][plus][fp][comma][tag],
-243,7,3,Aquatic,[fk][comma][bp][comma][fp][comma][tag],
-244,7,3,Shedding Skin,[backward][forward][bp][plus][block][comma][tag],
-245,7,4,Toxic,[fp][comma][bp][comma][tag],
-246,7,4,Ravenous,[fp][comma][bp][comma][bp][comma][tag],
-247,7,4,Scaly Serpent,[bp][comma][forward][plus][fk][comma][tag],
-248,7,4,Bad Blood,[forward][plus][bp][comma][tag],
-249,7,4,Anguish,[fk][comma][bp][comma][tag],
-250,7,5,Slow Force Ball,[backward][backward][fp],
-251,7,5,Fast Force Ball,[backward][backward][fk],
-252,7,5,Slide,[backward][forward][bk],
-253,7,5,Acid Hand,[down][backward][bp],
-254,7,5,Invisibility,[down][up][bk],
-255,7,5,Acid Spit,[down][forward][fp],
-256,7,5,Elbow Dash,[backward][forward][bp],
-257,7,6,Slow Mega Ball,[backward][backward][fp][plus][block],Hold [fp] To charge
-258,7,6,Fast Mega Ball,[backward][backward][fk][plus][block],Hold [fk] To charge
-259,7,6,Slime Trail,[backward][forward][bk][plus][block],
-260,7,6,Reptilian Hand,[down][backward][bp][plus][block],
-261,7,6,Vanish,[down][up][bk][plus][block],
-262,7,6,Acid Stream,[down][forward][fp][plus][block],
-263,7,6,Reptilian Elbow,[backward][forward][bp][plus][block],
-264,7,7,Tricky Lizard,[stance][plus][block],
-265,7,8,Acid Yak,[forward][forward][down][up][fk],Sweep
-266,7,8,Weight Loss,[down][down][forward][backward][fp],Sweep
-267,7,8,Klassic Fatality,[backward][backward][forward][down][block],Jump
-268,7,8,Stage Fatality,[forward][down][down][block],Varies
-269,7,8,Babality,[backward][forward][backward][down][fk],Jump
-270,8,1,Fan Slice,[backward][plus][fp],
-271,8,1,Uprise,[backward][plus][bp],
-272,8,1,Shin Kick,[backward][plus][fk],
-273,8,1,Fan Stab,[forward][plus][bp],
-274,8,1,Hop Kick,[forward][plus][fk],
-275,8,1,Spin Kick,[forward][plus][bk],
-276,8,2,Royal Pain,[fp][comma][fp][comma][bp],
-277,8,2,Dignified,[backward][plus][fp][comma][bp],
-278,8,2,Majestic,[bp][comma][fp][comma][bp],
-279,8,2,Noble Lift,[forward][plus][bp][comma][fp],
-280,8,2,Regal Assault,[fk][comma][fk][comma][fk],
-281,8,2,Blue Blood,[backward][plus][fk][comma][fk],
-282,8,2,Power Intrusion,[forward][plus][fk][comma][fp][comma][bp],
-283,8,2,Deadly Rush,[forward][plus][bk][comma][fp],
-284,8,2,Pure Kicks,[forward][plus][bk][comma][fk],
-285,8,2,Deception,[forward][plus][bk][comma][backward][plus][bk],
-286,8,3,Truth Be Told,[forward][plus][bp][comma][fp][comma][tag],
-287,8,3,Effortless,[forward][plus][fk][comma][fp][comma][bp][comma][tag],
-288,8,3,Big Fan,[backward][backward][bp][comma][tag],
-289,8,4,Pretty Princess,[backward][plus][fp][comma][tag],
-290,8,4,Mesmerizing,[bp][comma][fp][comma][tag],
-291,8,4,Magnificent,[fk][comma][fk][comma][tag],
-292,8,4,Disrespect,[forward][plus][fk][comma][fp][comma][tag],
-293,8,5,Fan Toss,[down][forward][fp],Can be done in the air
-294,8,5,Upraise,[backward][backward][bp],
-295,8,5,Cutting Fan,[down][forward][bp],
-296,8,5,Square Boost,[down][backward][fp],Can be done in the air
-297,8,5,Pretty Kick,[down][backward][fk],
-298,8,5,Fake Out Kick,[down][backward][bk],
-299,8,6,Charged Fan,[down][forward][fp][plus][block],Hold [fp] To charge
-300,8,6,Uplift,[backward][backward][bp][plus][block],
-301,8,6,Fan Dice,[down][forward][bp][plus][block],
-302,8,6,Square Wave,[down][backward][fp][plus][block],Can be done in the air
-303,8,6,Pretty Legs,[down][backward][fk][plus][block],
-304,8,7,Fan-Tastic,[stance][plus][block],Can be done in the air
-305,8,8,Fan Opener,[down][down][backward][forward][bp],Sweep
-306,8,8,Splitting Headache,[forward][down][forward][backward][fk],Sweep
-307,8,8,Stage Fatality,[forward][down][down][fk],Varies
-308,8,8,Babality,[forward][down][forward][bk],Jump
-309,9,1,Charge Palm (Hold),[backward][plus][bp],Can be dash canceled
-310,9,1,2-Hit Elbow,[forward][plus][bp], 
-311,9,1,Pop Up,[backward][plus][fk],
-312,9,1,Rising Knee,[forward][plus][fk],
-313,9,1,Axe Kick,[forward][plus][bk],
-314,9,2,Out Take,[fp][comma][fp][comma][fp],
-315,9,2,Showtime,[fp][comma][fp][comma][forward][plus][fp],
-316,9,2,Stand In,[fp][comma][fp][comma][bk],
-317,9,2,Cross Cutting,[fp][comma][fk][comma][bp],
-318,9,2,Widescreen,[bp][comma][fp][comma][forward][plus][bp],
-319,9,2,Director's Cut,[bp][comma][fp][comma][backward][plus][bk],
-320,9,2,Take Two,[forward][plus][fk][comma][bp],
-321,9,2,Money Shot,[bk][comma][bk],
-322,9,2,That's The Ticket,[forward][plus][fk][comma][fk][comma][backward][plus][fk],
-323,9,3,Cliffhanger,[backward][plus](hold)[bp][comma][tag],Requires a full charge
-324,9,3,Fade Out,[forward][plus][bk][comma][tag],
-325,9,3,Bootleg,[backward][plus][fk][comma][tag],
-326,9,3,Stunt Double,[bp][comma][fp][comma][forward][plus][bp][comma][tag],
-327,9,4,Cameo,[fp][comma][fk][comma][tag],
-328,9,4,Double Feature,[bp][comma][fp][comma][tag],
-329,9,4,Stand-In,[forward][plus][fk][comma][fk][comma][tag],
-330,9,5,Low Forceball,[down][forward][bp],
-331,9,5,High Forceball,[down][backward][bp],
-332,9,5,Flipkick,[down][backward][fk],
-333,9,5,Shadow Kick,[backward][forward][plus][bk],
-334,9,5,Nut Punch,[backward][down][plus][fp],
-335,9,6,Double Low Ball,[down][forward][bp][plus][block],
-336,9,6,Double High Ball,[down][backward][bp][plus][block],
-337,9,6,Ultra Flipkick,[down][backward][fk][plus][block],
-338,9,6,Eclipse Kick,[backward][forward][bk][plus][block],
-339,9,6,Nutcracker,[backward][down][fp][plus][block],
-340,9,7,Ball Buster,[stance][plus][block],Counter Attack
-341,9,8,Heads Up!,[forward][forward][backward][down][fk],Touching
-342,9,8,And The Winner Is...,[down][forward][down][forward][bk],Sweep
-343,9,8,Stage Fatality,[down][backward][forward][block],Varies
-344,9,8,Babality,[forward][backward][forward][bk],Jump
-345,10,1,Staff Strikes,[backward][plus][fp],
-346,10,1,Rising Pole,[backward][plus][bp],
-347,10,1,Upward Thrust,[forward][plus][bp],
-348,10,1,Gut Kick,[backward][plus][fk],
-349,10,1,Pole Vault,[up][plus][fk],
-350,10,2,Pole Check,[fp][comma][bp][comma][bp],
-351,10,2,Jade Charge,[backward][plus][fp][comma][forward][plus][fp],
-352,10,2,Bad Girl,[bp][comma][fk][comma][forward][plus][bp],
-353,10,2,Edenian Rush,[forward][plus][bp][comma][fp][comma][bp],
-354,10,2,Betrayal,[fk][comma][bk][comma][bp],
-355,10,2,Assassin Strikes,[backward][plus][fk][comma][bp],
-356,10,2,Polecat,[bk][comma][forward][plus][fk],
-357,10,3,Untameable,[backward][plus][bp][comma][tag],
-358,10,3,Pole Pain,[up][plus][fk][comma][tag],
-359,10,4,After You,[fp][comma][bp][comma][tag],
-360,10,4,Likewise,[bp][comma][fk][comma][tag],
-361,10,4,Edenian Tag,[forward][plus][bp][comma][fp][comma][tag],
-362,10,4,Distrust,[fk][comma][bk][comma][tag],
-363,10,5,Boomerang,[down][forward][fp],
-364,10,5,Boomerang Up,[down][backward][fp],
-365,10,5,Boomerang Down,[down][forward][fk],
-366,10,5,Shadow Kick,[down][forward][bk],
-367,10,5,Shadow Flash,[backward][forward][fk],
-368,10,5,Staff Overhead,[down][backward][bp],
-369,10,5,Staff Grab,[down][forward][bp],
-370,10,6,Reboomerang,[down][forward][fp][plus][block],
-371,10,6,Boomerang Up,[down][backward][fp][plus][block],
-372,10,6,Boomerang Down,[down][forward][fk][plus][block],
-373,10,6,Eclipse Kick,[down][forward][bk][plus][block],
-374,10,6,Shadow Glow,[backward][forward][fk][plus][block],
-375,10,6,Staff Smash,[down][backward][bp][plus][block],
-376,10,6,Staff Slam,[down][forward][bp][plus][block],
-377,10,7,Staff Buster,[stance][plus][block],
-378,10,8,Head-A-Rang,[up][up][down][forward][fp],Fullscreen
-379,10,8,Half Mast,[backward][down][backward][down][bk],Sweep
-380,10,8,Stage Fatality,[backward][forward][down][block],Varies
-381,10,8,Babality,[down][down][forward][down][bk],Jump
-382,11,1,Side Chop   ,[backward][plus][fp],
-383,11,1,Leaping Sai ,[backward][plus][bp],
-384,11,1,Sai Impale  ,[forward][plus][bp],
-385,11,1,Lunge Kick  ,[forward][plus][fk],
-386,11,1,Sneaky Kick ,[backward][plus][fk],
-387,11,1,Splits      ,[up][plus][bk],
-388,11,2,Smacked Around,[fp][comma][fp][comma][bp],
-389,11,2,Boot Down,[backward][plus][fp][comma][bk],
-390,11,2,Bones,[bp][comma][fk][comma][bk],
-391,11,2,Pretty Slasher,[forward][plus][fk][comma][fp][plus][bp],
-392,11,2,Killer Heels,[fk][comma][bk],
-393,11,2,Getaway Sticks,[backward][plus][fk][comma][backward][plus][bk],
-394,11,2,Friendly Kiss,[bk][comma][bp],
-395,11,3,Malice,[up][plus][bk][comma][tag],
-396,11,4,Malevolence,[fp][comma][fp][comma][tag],
-397,11,4,Fiendish,[bp][comma][fk][comma][tag],
-398,11,5,Sai Blast,[backward][forward][fp],Can be done in the air
-399,11,5,Teleport Drop,[forward][forward][fk],Can be done in the air
-400,11,5,Leaping Neckbite,[backward][forward][bp],
-401,11,5,Ball Roll,[backward][down][bk],
-402,11,6,Sai Bursts,[backward][forward][fp][plus][block],Can be done in the air
-403,11,6,Tricky Teleport,[forward][forward][fk][plus][block],Can be done in the air
-404,11,6,Leaping Lunch,[backward][forward][bp][plus][block],
-405,11,6,Smashing Roll,[backward][down][bk][plus][block],
-406,11,7,Femme Fatale,[stance][plus][block],
-407,11,8,Be Mine,[backward][forward][backward][forward][bp],Jump
-408,11,8,Rip Off,[backward][forward][backward][down][fk],Jump
-409,11,8,Stage fatality,[down][down][down][fp],Varies
-410,11,8,Babality,[down][down][forward][backward][bp],Jump
-411,12,1,Knife Stab,[backward][plus][fp],
-412,12,1,Big Chop,[backward][plus][bp],
-413,12,1,Neck Stab,[forward][plus][bp],
-414,12,1,Toe Stomp,[forward][plus][fk],
-415,12,2,Blade And Edge,[fp][comma][fp][comma][bp],
-416,12,2,Axe Blast,[fp][comma][bp][comma][bp][comma][fp],
-417,12,2,Dagger Stab,[backward][plus][fp][comma][fp][comma][fp],
-418,12,2,Deadly Dance,[fp][comma][fp][comma][bk],
-419,12,2,New Earth,[bp][comma][fk][comma][bk],
-420,12,2,Tomahawk Smash,[backward][plus][bp][comma][bp][comma][fp],
-421,12,2,Full Moon,[forward][plus][fk][comma][fp][comma][bp],
-422,12,2,Spirit Tracks,[forward][plus][fk][comma][backward][plus][bk],
-423,12,3,Waning Moon,[forward][plus][fk][comma][fp][comma][bp][comma][tag],
-424,12,3,Rising Hawk,[down][forward][fp][comma][tag],
-425,12,3,Diving Eagle,[down][forward][fp][plus][block][comma][tag],
-426,12,4,Razor's Edge,[fp][comma][fp][comma][tag],
-427,12,4,Falcon Swap,[fp][comma][bp][comma][bp][comma][tag],
-428,12,4,Deadly Talon,[bp][comma][fk][comma][tag],
-429,12,4,Howling Wolf,[backward][plus][bp][comma][bp][comma][tag],
-430,12,4,Bull and Bear,[forward][plus][fk][comma][fp][comma][tag],
-431,12,5,Shoulder,[forward][forward][bk],
-432,12,5,Lightning,[down][backward][fk],
-433,12,5,Arrow Show,[down][backward][fp],
-434,12,5,Reflect,[down][backward][bp],
-435,12,5,Axe Swing,[down][forward][fp],
-436,12,5,Choke,[down][forward][bp],
-437,12,6,Power Charge,[forward][forward][bk][plus][block],
-438,12,6,Thunder Storm,[down][backward][fk][plus][block],
-439,12,6,Multi-Arrow,[down][backward][fp][plus][block],
-440,12,6,Absorb,[down][backward][bp][plus][block],
-441,12,6,Tomahawk Bash,[down][forward][fp][plus][block],
-442,12,6,Strangle,[down][forward][bp][plus][block],
-443,12,7,Ancestors Call,[stance][plus][block],
-444,12,8,Little Off The Top,[down][forward][down][backward][bk],Jump
-445,12,8,Ascension,[down][down][forward][backward][fp],Sweep
-446,12,8,Stage Fatality,[down][down][down][block],Varies
-447,12,8,Babality,[forward][backward][forward][backward][fp],Jump
-448,13,1,Yank  ,[backward][plus][fp],
-449,13,1,Blast Overhead  ,[backward][plus][bp],
-450,13,1,Tooth and Nail  ,[forward][plus][bp],
-451,13,1,Side Kick    ,[backward][plus][fk],
-452,13,1,Hop Kick     ,[up][plus][bk],
-453,13,2,See Saw,[fp][comma][fp][comma][fp],
-454,13,2,Steel Fists,[fp][comma][bp][comma][fp],
-455,13,2,Power Plant,[fp][comma][bp][comma][fk],
-456,13,2,Mustard,[bp][comma][fp][comma][bp],
-457,13,2,Saw Enough,[bp][comma][bp][comma][forward][plus][fp],
-458,13,2,Kombat Boots,[fk][comma][fk][comma][bk],
-459,13,2,Cyber Beatdown,[backward][plus][fp][comma][bp][comma][fp][comma][bp],Must be pressed rapidly
-460,13,3,Automation,[backward][plus][bp][comma][tag],
-461,13,4,Number Cruncher  ,[backward][plus][fp][comma][tag],
-462,13,4,High Tech     ,[fp][comma][bp][comma][tag],
-463,13,4,Short Circuit   ,[bp][comma][fp][comma][tag],
-464,13,5,Bomb (Close),[backward][backward][bk],
-465,13,5,Bomb (Medium),[forward][forward][bk],
-466,13,5,Bomb (Far),[backward][backward][forward][bk],
-467,13,5,Net,[backward][backward][fk],
-468,13,5,Teleport,[down][backward][fp],Can be done in the air
-469,13,5,Buzzsaw,[backward][forward][bp],
-470,13,5,Reverse Kick,[down][forward][fk],
-471,13,5,Ragdoll,[down][forward][fk]*[throw],* Press immediately
-472,13,5,Anti-Air,[down][forward][fp],Victim must be in the air
-473,13,6,Sticky Bomb,[backward][backward][bk][plus][block],
-474,13,6,Electro Net,[backward][backward][fk][plus][block],
-475,13,6,Bangport,[down][backward][fp][plus][block],Can be done in the air
-476,13,6,Saw Blade,[backward][forward][bp][plus][block],
-477,13,6,Donkey Kick,[down][forward][fk][plus][block],
-478,13,6,Ragdolls,[down][forward][fk][plus][block][comma]*[throw],* Press immediately
-479,13,6,Power Anti-Air,[down][forward][fp][plus][block],Victim must be in the air
-480,13,7,Cyberdriver,[stance][plus][block],
-481,13,8,Buzz Kill,[forward][down][forward][backward][bp],Touching
-482,13,8,Nothing But Net,[backward][down][backward][forward][fp],Jump
-483,13,8,Stage Fatality,[down][up][block],Varies
-484,13,8,Babality,[down][forward][backward][bp],Jump
-485,14,1,Saibot Strike,[backward][plus][fp],
-486,14,1,Hook Punch,[backward][plus][bp],
-487,14,1,Point Kick,[forward][plus][fk],
-488,14,1,Snap Kick,[forward][plus][bk],
-489,14,2,Saibot Blast,[fp][comma][bp],
-490,14,2,Sneaky Saibot,[backward][plus][fp][comma][bp][comma][forward][plus][bk],
-491,14,2,Evil Twin,[backward][plus][fp][comma][bp][comma][fp][comma][bk],
-492,14,2,Assassinate,[bp][comma][fp][comma][bp],
-493,14,2,No Compassion,[backward][plus][bp][comma][fp][comma][bk],
-494,14,2,Reincarnated,[forward][plus][fk][comma][fk][comma][fk],
-495,14,2,Possessed,[forward][plus][bk][comma][fk],
-496,14,3,Mysterious,[backward][plus][fp][comma][bp][comma][fp][comma][tag],
-497,14,4,Entangled,[backward][plus][fp][comma][bp][comma][tag],
-498,14,4,Warped Rush,[bp][comma][fp][comma][tag],
-499,14,4,Tragic,[backward][plus][bp][comma][fp][comma][tag],
-500,14,4,The Shadow,[forward][plus][fk][comma][fk][comma][tag],
-501,14,5,Ghostball,[down][forward][fp],
-502,14,5,Blackhole (Above),[down][backward][bp],
-503,14,5,Blackhole (Behind),[down][forward][bp],
-504,14,5,Blackhole (In Front),[down][forward][backward][bp],
-505,14,5,Teleport Slam,[down][up],Can be done in the air
-506,14,5,Shadow Charge,[down][forward][fk],
-507,14,5,Shadow Upknee,[down][backward][fk],
-508,14,5,Shadow Slide,[backward][forward][bk],
-509,14,6,Spiritball,[down][forward][fp][plus][block],
-510,14,6,Darkness (Above),[down][backward][bp][plus][block],
-511,14,6,Darkness (Behind),[down][forward][bp][plus][block],
-512,14,6,Darkness (In Front),[down][forward][backward][bp][plus][block],
-513,14,6,Teleport Smash,[down][up][plus][block],Can be done in the air
-514,14,6,Saibot Charge,[down][forward][fk][plus][block],
-515,14,6,Saibot Upknee,[down][backward][fk][plus][block],
-516,14,6,Saibot Slide,[backward][forward][bk][plus][block],
-517,14,7,Together Again,[stance][plus][block],
-518,14,8,Make a Wish,[backward][forward][backward][down][bk],Jump
-519,14,8,As One,[down][down][backward][down][block],Jump
-520,14,8,Stage Fatality,[forward][down][forward][block],Varies
-521,14,8,Babality,[forward][up][forward][fp],Jump
-522,15,1,Jaw Chop,[backward][plus][fp],
-523,15,1,Step Strike,[backward][plus][bp],
-524,15,1,Hook Kick,[backward][plus][fk],
-525,15,1,Spin Kicks,[forward][plus][bk],
-526,15,2,Ablaze,[fp][comma][fp][comma][bp],
-527,15,2,Smoldering,[fp][comma][fk],
-528,15,2,Red-Hot,[backward][plus][fp][comma][bk],
-529,15,2,Smokin,[backward][plus][bp][comma][fk],
-530,15,2,Rekindle,[bp][comma][fp][comma][bk],
-531,15,2,Combustion,[fk][comma][down][plus][fp][comma][bp],
-532,15,2,On Fire,[fk][comma][bp],
-533,15,3,Ashes to Ashes,[fk][comma][down][plus][fp][comma][bp][comma][tag],
-534,15,3,Dust to Dust,[fk][comma][bp][comma][tag],
-535,15,4,Incinerate,[fp][comma][fp][comma][tag],
-536,15,4,Immolation,[bp][comma][fp][comma][tag],
-537,15,4,Ignite,[fk][comma][down][plus][fp][comma][tag],
-538,15,5,Shake,[backward][forward][fp],Hold [fp] To charge
-539,15,5,Smoke Cloud,[down][backward][bp],
-540,15,5,Air Tthrow,[throw],While in the air
-541,15,5,Teleport,[down][backward][bk],Can be done in the air
-542,15,5,Invisibility,[down][up][fk],
-543,15,5,Smoke Away,[forward][backward][fk],
-544,15,5,Smoke Towards,[backward][forward][fk],
-545,15,6,Vibration,[backward][forward][fp][plus][block],Hold [fp] To charge
-546,15,6,Smoke Bomb,[down][backward][bp][plus][block],
-547,15,6,Smokeport,[down][backward][bk][plus][block],Can be done in the air
-548,15,6,Vanish,[down][up][fk][plus][block],
-549,15,6,Phase Away,[forward][backward][fk][plus][block],
-550,15,6,Phase Towards,[backward][forward][fk][plus][block],
-551,15,7,Burn Out,[stance][plus][block],
-552,15,8,Smoked Out,[backward][forward][backward][forward][fp],Sweep
-553,15,8,Tremor,[backward][backward][down][forward][bp],Sweep
-554,15,8,Stage Fatality,[forward][up][up][fp],Varies
-555,15,8,Babality,[down][backward][down][forward][down],Jump
-556,16,1,Afterburn,[backward][plus][fp],
-557,16,1,Gut Crusher,[backward][plus][bp],
-558,16,1,Toe Kick,[backward][plus][fk],
-559,16,1,Rising Knee,[forward][plus][bk],
-560,16,1,Chargine Elbow,[forward][plus][bp],
-561,16,10,Toe Kick,[bk],
-562,16,10,Sneaky Kicks,[fk][comma][bk],
-563,16,2,Artificial Intelligence,[fp][comma][fp][comma][backward][plus][fp],
-564,16,2,System Overload,[fp][comma][bp][comma][backward][plus][fp],
-565,16,2,Hard Crash,[fp][comma][bp][comma][bp],
-566,16,2,Malfunction,[forward][plus][bp][comma][backward][plus][fp],
-567,16,2,Fusion Force,[fp][comma][bp][comma][bk],
-568,16,2,Access Denied,[fp][comma][fk],
-569,16,2,Demolition,[bp][comma][fp][comma][bk],
-570,16,2,Drive Power,[backward][plus][bp][comma][fp],
-571,16,2,Run Down,[backward][plus][fk][comma][bk],
-572,16,2,User Error,[forward][plus][bk][comma][fk],
-573,16,2,Fatal Error,[forward][plus][bk][comma][bk],
-574,16,3,Intersect,[down][forward][bk][comma][tag],
-575,16,3,Partition,[down][forward][bk][plus][block][comma][tag],(Uses one bar of super)
-576,16,3,System Lock,[fp][comma][bp][comma][backward][plus][fp][comma][tag],
-577,16,4,Detached,[fp][comma][bp][comma][tag],
-578,16,4,Spare Parts,[bp][comma][fp][comma][tag],
-579,16,4,Branch Off,[backward][plus][bp][comma][tag],
-580,16,4,System Backup,[forward][comma][bk][comma][tag],
-581,16,5,Flame Burner,[backward][forward][bp],
-582,16,5,Teleport Uppercut,[down][forward][bk],
-583,16,5,Straight Missile,[backward][forward][fp],
-584,16,5,Up Missile (Above),[down][backward][fk],Lands on top
-585,16,5,Up Missile (Behind),[down][backward][forward][fk],Lands from behind
-586,16,5,Up Missile (In Front),[down][forward][backward][fk],Lands in front
-587,16,6,Flame Thrower,[backward][forward][bp][plus][block],
-588,16,6,Metal Uppercut,[down][forward][bk][plus][block],
-589,16,6,Double Missile,[backward][forward][fp][plus][block],
-590,16,6,Homing Missile,[down][backward][fk][plus][block],
-591,16,7,Massive Missile,[stance][plus][block],
-592,16,8,Robo-Sek,[forward][down][backward][forward][fk],Fullscreen
-593,16,8,The Scarecrow,[down][down][forward][backward][fp],Fullscreen
-594,16,8,Stage Fatality,[down][forward][down][block],Varies
-595,16,8,Babality,[backward][down][down][down][bk],Jump
-596,17,1,Hookshot,[backward][plus][bp],
-597,17,1,Backfist,[forward][plus][bp],
-598,17,1,Spin Kick,[backward][plus][fk],
-599,17,1,Heel Bash,[forward][plus][bk],
-600,17,11,Double Kick,[bk],
-601,17,11,Power Knee,[fk],
-602,17,11,Shoulder,[fp],
-603,17,11,Knockdown,[bp],
-604,17,11,Tackle,[fp][plus][fk][comma][fp][plus][bp],
-605,17,11,Dash Punches,[forward][plus][fp],
-606,17,11,Lift Off,[backward][plus][bp],
-607,17,11,Hit the Deck,[backward][plus][bk],
-608,17,2,Advance Force,[fp][comma][fp][comma][bp],
-609,17,2,Fierce Assault,[fp][comma][fp][comma][bk],
-610,17,2,Drop Zone,[bp][comma][fp][comma][backward][plus][fk],
-611,17,2,Ground Control,[bp][comma][fp][comma][backward][plus][bk],
-612,17,2,Power Rush,[forward][plus][bp][comma][bp][comma][bk],
-613,17,2,Mess Hall,[backward][plus][bp][comma][fp][comma][forward][plus][bp],
-614,17,2,Play Time,[fk][comma][fp][comma][bp],
-615,17,2,Beat Up,[fk][comma][fp][comma][bk],
-616,17,2,Pull Out,[bk][comma][bk],
-617,17,3,Switch Off,[bp][comma][tag],
-618,17,3,Fatal Kiss,[down][backward][fp][comma][tag],From Military Stance
-619,17,3,Surprise,[backward][plus][bp][comma][fp][comma][forward][plus][bp][comma][tag],
-620,17,3,Windmill,[down][forward][fk][comma][tag],
-621,17,4,Lick My Boots,[fp][comma][fp][comma][tag],
-622,17,4,Special Forced,[bp][comma][fp][comma][tag],
-623,17,4,Tough Love,[forward][plus][bp][comma][bp][comma][tag],
-624,17,4,Honorable Discharge,[fk][comma][fp][comma][tag],
-625,17,5,Enery Ring Blast,[backward][forward][bp],
-626,17,5,Leg Grab,[backward][forward][bk],
-627,17,5,Kiss,[down][backward][fp],
-628,17,5,Arc Kick,[down][backward][bk],
-629,17,5,Kartwheel,[down][forward][fk],
-630,17,5,Air Drop,[down][plus][bk],
-631,17,5,Air Throw,[throw],While in the air
-632,17,6,Rings of Justice,[backward][forward][bp][plus][block],While in the air
-633,17,6,Krazy Legs,[backward][forward][bk][plus][block],
-634,17,6,Deadly Kiss,[down][backward][fp][plus][block],
-635,17,6,Arc Wave,[down][backward][bk][plus][block],Hold [bp] To charge
-636,17,6,Kartwheel Bash,[down][forward][fk][plus][block],
-637,17,6,Air Strikes,[down][plus][bk][plus][block],
-638,17,7,SF Beat Up,[stance][plus][block],While in the air
-639,17,8,Scissor Split,[down][down][backward][forward][fp],
-640,17,8,Kut-Throat,[down][backward][forward][backward][bk],Jump
-641,17,8,Stage Fatality,[backward][forward][down][bp],Sweep
-642,17,8,Babality,[down][down][forward][fk],Varies
-643,18,1,Hook Swipe,[backward][plus][fp],Jump
-644,18,1,Big Leg,[forward][plus][fk],
-645,18,1,Shin Kick,[forward][plus][bk],
-646,18,1,Triple Slam,[fp][plus][bk],
-647,18,1,Quad slams,[bp][plus][fk],During throw
-648,18,2,Major Force,[fp][comma][bp][comma][fk],During Triple Slam
-649,18,2,Boot Kamp,[backward][plus][fp][comma][bp][comma][bk],
-650,18,2,Active Duty,[bp][comma][fp],
-651,18,2,Fild Grade,[bp][comma][bp],
-652,18,2,Chain of Command,[bp][comma][forward][plus][bp][comma][backward][plus][fp],
-653,18,2,Advance Force,[forward][plus][bk][comma][fp][comma][fk],
-654,18,2,Code of Conduct,[forward][plus][bk][comma][fp][comma][bk],
-655,18,3,Majority Rules,[down][backward][fk][comma][tag],
-656,18,3,Outranked,[down][backward][fk][plus][block][comma][tag],
-657,18,4,Major Muscles,[backward][plus][fp][comma][bp][comma][tag],
-658,18,4,Alloy Over You,[bp][comma][forward][plus][bp][comma][tag],
-659,18,4,Briggs Da Noise,[bp][comma][forward][plus][bp][comma][backward][plus][fp][comma][tag],
-660,18,5,Energy Wave,[down][backward][bp] ,
-661,18,5,Dash Punch,[down][forward][bp],
-662,18,5,Ground Pound (Close),[down][backward][fk] ,
-663,18,5,Ground Pound (Medium),[down][forward][fk],
-664,18,5,Ground Pound (Far),[down][backward][forward][fk],
-665,18,5,Gotcha Grab,[down][forward][fp],
-666,18,5,Air Gotcha Grab,[down][backward][fp],
-667,18,5,Overhead Smash,[down][up][bk],
-668,18,5,Back Breaker,[throw],
-669,18,6,Assault Wave,[down][backward][bp][plus][block],While in the air
-670,18,6,Dash Fist,[down][forward][bp][plus][block],
-671,18,6,Ground Quake,[down][backward][fk][plus][block],
-672,18,6,Gotcha Beatdown,[down][forward][fp][plus][block],
-673,18,6,Air Gotcha Blast,[down][backward][fp][plus][block],
-674,18,6,Elite Smash,[down][up][bk][plus][block],
-675,18,7,Briggs Bash,[stance][plus][block],
-676,18,8,Smash and Grab,[backward][forward][forward][backward][bp],
-677,18,8,Three Points!,[forward][forward][backward][down][fk],Touching
-678,18,8,Stage Fatality,[down][forward][down][fp],Sweep
-679,18,8,Babality,[down][down][down][fk],Varies
-680,19,1,Strong Strike,[forward][plus][fp],Jump
-681,19,1,Gut Poke,[backward][plus][fp],
-682,19,1,Overhead Smash,[backward][plus][bp],
-683,19,1,Shin Kick,[forward][plus][fk],
-684,19,1,Hop Roundhouse,[forward][plus][bk],
-685,19,2,One Two Three ,[fp][comma][fp][comma][bp],
-686,19,2,Fighting King ,[forward][plus][fp][comma][fp],
-687,19,2,No escape,[forward][plus][fp][comma][bp],
-688,19,2,Dragon's Tail,[backward][plus][fp][comma][fp][comma][bp],
-689,19,2,Snake Bite,[backward][plus][fp][comma][bp],
-690,19,2,Getting Ahead,[bp][comma][fp][comma][bp],
-691,19,2,Uplifting Force,[backward][plus][bp][comma][fk],
-692,19,2,Smashing Time,[backward][plus][bp][comma][forward][plus][fp],
-693,19,2,Double Dragon ,[fk][comma][fk],
-694,19,2,The Rage Kicks,[forward][plus][fk][comma][fk],
-695,19,2,Mean Machine,[forward][plus][fk][comma][backward][plus][bp],
-696,19,3,Lead Head,[backward][plus][fp][comma][fp][comma][bp][comma][tag],
-697,19,3,Ear to Ear,[bp][comma][fp][comma][bp][comma][tag],
-698,19,3,Bloodthirsty,[forward][plus][fk][comma][backward][plus][bp][comma][tag],
-699,19,4,Troublesome,[fp][comma][fp][comma][tag],
-700,19,4,Deliquent,[backward][plus][fp][comma][fp][comma][tag],
-701,19,4,Villianous,[bp][comma][fp][comma][tag],
-702,19,4,Mischievous,[backward][plus][bp][comma][tag],
-703,19,5,Ball,[forward][down][backward][forward],
-704,19,5,Down Ball,[forward][down][backward][forward],
-705,19,5,Up Ball,[down][forward][bp],While in the air
-706,19,5,Choke,[down][forward][fp],
-707,19,5,Knife Throw,[down][backward][bp],
-708,19,5,Air Throw,[throw],
-709,19,6,Kano Ball,[forward][down][backward][forward][plus][block],While in the air
-710,19,6,Downward Ball,[forward][down][backward][forward][plus][block],Hold [block] To delay
-711,19,6,Uprise Ball,[down][forward][bp][plus][block],While in the air
-712,19,6,Kano Choke,[down][forward][fp][plus][block],
-713,19,6,Knife Toss,[down][backward][bp][plus][block],
-714,19,7,Just The Tip,[stance][plus][block],
-715,19,8,Heartbreak,[backward][down][backward][forward][fp] ,
-716,19,8,Eat Your Heart Out,[down][down][forward][backward][bk],Sweep
-717,19,8,Stage Fatality,[up][up][backward][fk],Sweep
-718,19,8,Babality,[forward][forward][down][down][fk],Varies
-719,20,1,Cross Hook,[backward][plus][fp],Jump
-720,20,1,Baton Twirl,[backward][plus][bp],
-721,20,2,Kop Out,[fp][comma][bp],
-722,20,2,Dispatched,[fp][comma][fp][comma][bk],
-723,20,2,Beatdown,[backward][plus][fp][comma][bp][comma][bp],
-724,20,2,Pain Patrol,[bp][comma][fk][comma][bp],
-725,20,2,The Heat,[backward][plus][bp][comma][fp],
-726,20,2,Aggravated Assault,[backward][plus][bp][comma][forward][plus][bp],
-727,20,2,Spread 'Em,[backward][plus][bp][comma][backward][plus][bk],
-728,20,2,Come With Me,[backward][plus][fk][comma][bp],
-729,20,3,Serve and Protect,[backward][plus][fp][comma][bp][comma][bp][comma][tag],
-730,20,3,Remain Silent,[backward][plus][bp][comma][forward][plus][bp][comma][tag],
-731,20,3,Affirmative,[backward][plus][fk][comma][bp][comma][tag],
-732,20,4,We Aim to Please,[fp][comma][fp][comma][tag],
-733,20,4,Officer Friendly,[backward][plus][fp][comma][bp][comma][tag],
-734,20,4,Don't Move!,[bp][comma][fk][comma][tag],
-735,20,4,Assault and Battery,[backward][plus][bp][comma][tag],
-736,20,5,Baton Sweep,[down][backward][bk],
-737,20,5,High Grenade Toss,[down][backward][bp],
-738,20,5,Low Grenade Toss,[down][backward][fp],
-739,20,5,Gun Shot,[backward][forward][fp],
-740,20,5,Roll Toss,[backward][forward][bk],
-741,20,6,Baton Bash,[down][backward][bk][plus][block],
-742,20,6,Double Hight Grenade Toss,[down][backward][bp][plus][block],
-743,20,6,Double Low Grenade Toss,[down][backward][fp][plus][block],
-744,20,6,Bang Bang,[backward][forward][fp][plus][block],
-745,20,6,Roll Out,[backward][forward][bk][plus][block],
-746,20,7,Busted,[stance][plus][block],
-747,20,8,Time Served,[forward][down][forward][fk],
-748,20,8,Have a Blast,[down][forward][down][forward][block],Sweep
-749,20,8,Stage Fatality,[forward][up][up][bk],Sweep
-750,20,8,Babality ,[down][forward][down][backward][bp],Varies
-751,21,1,Elbow Poke,[backward][plus][fp],Jump
-752,21,1,Forearm Strike,[backward][plus][bp],
-753,21,1,Elbow Blast,[forward][plus][bp],
-754,21,1,Shin Attack,[forward][plus][fk],
-755,21,1,Quick Knee,[forward][plus][bk],
-756,21,2,Bad Omen,[fp][comma][bp][comma][fp],
-757,21,2,Soul Stain,[fp][comma][bp][comma][bp],
-758,21,2,Soul Torment,[fp][comma][fk],
-759,21,2,Reserved Pain,[backward][plus][fp][comma][bp][comma][fp][comma][bk],
-760,21,2,Death Walker,[bp][comma][bp][comma][fp],
-761,21,2,Restored Youth,[bp][comma][bp][comma][backward][plus][bk],
-762,21,2,Play Time,[forward][plus][fk][comma][bk],
-763,21,2,Deadly Truth,[forward][plus][bk][comma][fk][comma][bk],
-764,21,3,Side by Side,[backward][plus][fp][comma][bp][comma][fp][comma][tag],
-765,21,3,Ruthless,[bp][comma][bp][comma][fp][comma][tag],
-766,21,4,Soul Stealer,[fp][comma][bp][comma][tag],
-767,21,4,Burning Evil,[backward][plus][fp][comma][bp][comma][tag],
-768,21,4,B-Trade,[bp][comma][bp][comma][tag],
-769,21,4,Two of a Kind,[forward][plus][bk][comma][fk][comma][tag],
-770,21,5,Fire Skull,[backward][backward][fp],
-771,21,5,Up Skull (Above),[down][up][bp],
-772,21,5,Up Skull (Behind),[down][forward][bp],
-773,21,5,Up Skull (In Front),[down][backward][bp],
-774,21,5,Ground Skull (Close),[down][up][bk],
-775,21,5,Ground Skull (Medium),[down][backward][bk],
-776,21,5,Ground Skull (Far),[down][forward][bk],
-777,21,5,Soul Steal,[forward][down][backward][fk],
-778,21,6,Triple Skulls,[backward][backward][fp][plus][block],
-779,21,6,Skull Storm,[down][up][bp][plus][block],
-780,21,6,Ground Eruption,[down][up][bk][plus][block],
-781,21,6,Soul Capture,[forward][down][backward][fk][plus][block],
-782,21,7,Your Soul is Mine,[stance][plus][block],
-783,21,8,Bang Bang!,[backward][down][forward][fk],
-784,21,8,Identity Theft,[down][down][backward][down][bp],Sweep
-785,21,8,Stage Fatality,[up][up][backward][fp],Jump
-786,21,8,Babality ,[down][backward][down][fk],Varies
-787,22,1,Blade Slash,[backward][plus][fp],Jump
-788,22,1,Cross Swipe ,[backward][plus][bp],
-789,22,1,Gut Strike  ,[forward][plus][bp],
-790,22,1,Foot Stomp  ,[backward][plus][fk],
-791,22,1,Hop Kick    ,[up][plus][fk],
-792,22,1,Quick Knee  ,[forward][plus][bk],
-793,22,1,Big Legs    ,[up][plus][bk],
-794,22,2,Tarkatan Rush  ,[fp][comma][bp][comma][fp],
-795,22,2,Painful Swipes ,[fp][comma][bp][comma][bp],
-796,22,2,Tricky Fury    ,[fp][comma][bp][comma][backward][plus][fk],
-797,22,2,Cut 'Em Loose  ,[backward][plus][fp][comma][fp],
-798,22,2,Splinter  ,[backward][plus][fp][comma][forward][plus][bp],
-799,22,2,Cold Steel  ,[bp][comma][fp][comma][bp],
-800,22,2,Tears of Pain ,[bp][comma][bp][comma][fp][plus][bp],
-801,22,2,Tarkatan Push  ,[backward][plus][bp][comma][forward][plus][bp],
-802,22,2,Horror Show   ,[forward][plus][bp][comma][bk],
-803,22,2,Outworld Bash  ,[forward][plus][bp][comma][bp],
-804,22,2,Tarkatan Blows  ,[fk][comma][backward][plus][fk],
-805,22,2,Open Wound      ,[backward][plus][fk][comma][fp][comma][forward][plus][fp],
-806,22,2,Easy Kill     ,[backward][plus][fk][comma][bp][comma][bp],
-807,22,2,Doom Kicks    ,[forward][plus][bk][comma][bk],
-808,22,3,Bloody Mess,[backward][plus][fk][comma][fp][comma][tag],
-809,22,4,Skinned Alive ,[fp][comma][bp][comma][tag],
-810,22,4,Killer Kuts   ,[bp][comma][fp][comma][tag],
-811,22,4,Have At It    ,[bp][comma][bp][comma][tag],
-812,22,5,Blade Charge  ,[down][forward][bp],
-813,22,5,Spark          ,[down][backward][bp],
-814,22,5,Chop Chop,[backward][backward][fp],
-815,22,5,Blade Spin,[down][backward][fk],
-816,22,5,Slices       ,[down][forward][fp],
-817,22,6,Blade Rush   ,[down][forward][bp][plus][block],
-818,22,6,Sparked        ,[down][backward][bp][plus][block],
-819,22,6,Chopchop Shop  ,[backward][backward][fp][plus][block],
-820,22,6,Spinner      ,[down][backward][fk][plus][block],
-821,22,6,Slicer      ,[down][forward][fp][plus][block],
-822,22,7,Nail and Impale,[stance][plus][block],
-823,22,8,Up the middle ,[backward][forward][down][forward][fp],Sweep
-824,22,8,Take a Spin,[forward][forward][down][down][fk],Sweep
-825,22,8,Stage Fatality,[down][down][down][down][fk],Varies
-826,22,8,Babality,[forward][backward][forward][bk],Jump
-827,23,1,Hook Swipe ,[backward][plus][fp],
-828,23,1,Strong Fist ,[backward][plus][bp],
-829,23,1,Step Kick ,[forward][plus][fk],
-830,23,1,Big Knee ,[forward][plus][bk],
-831,23,2,Last Breath ,[fp][comma][fp][comma][fp],
-832,23,2,Extermination,[fp][comma][fp][comma][backward][plus][bk][comma][fk],
-833,23,2,Mutilation,[backward][plus][fp][comma][bp][comma][fp],
-834,23,2,Vanquish ,[bp][comma][fp][comma][bp],
-835,23,2,Nomad's Fear,[forward][plus][fk][comma][bp],
-836,23,2,Eviscerate,[forward][plus][bk][comma][fp][plus][bp],
-837,23,3,Up Next,[backward][plus][fp][comma][bp][comma][fp][comma][tag],
-838,23,4,Your Turn,[fp][comma][fp][comma][backward][plus][bk][comma][tag],
-839,23,4,Partners in Crime ,[backward][plus][fp][comma][bp][comma][tag],
-840,23,4,Rebirth,[bp][comma][fp][comma][tag],
-841,23,5,Gas Blast,[backward][backward][fp],Can be done in the air
-842,23,5,Nomad Dash,[backward][forward][bk],
-843,23,5,Buzzsaw,[backward][backward][fk],
-844,23,5,Tornado Slam,[down][backward][bp],
-845,23,6,Vapor Blase,[backward][backward][fp][plus][block],Can be done in the air
-846,23,6,Nomad Charge,[backward][forward][bk][plus][block],
-847,23,6,Saw Blades,[backward][backward][fk][plus][block],
-848,23,6,Cyclone Slam,[down][backward][bp][plus][block],
-849,23,7,Kabal's Deep  ,[stance][plus][block],
-850,23,8,Hook Up,[backward][forward][backward][forward][fp],Sweep
-851,23,8,It Takes Guts,[down][down][backward][forward][block],Sweep
-852,23,8,Stage Fatality,[down][down][bk],Varies
-853,23,8,Babality,[forward][down][backward][fk],Jump
-854,24,1,Static Touch,[backward][plus][bp],
-855,24,1,Gut Strike,[forward][plus][bp],
-856,24,1,Side Kick,[backward][plus][fk],
-857,24,1,Spinning Kick,[forward][plus][fk],
-858,24,1,Heel Smash,[forward][plus][bk],
-859,24,2,Heavenly Hand,[fp][comma][bp][comma][fp][comma][bp],
-860,24,2,Sudden Energy,[bp][comma][bp][comma][forward][plus][fp],
-861,24,2,White Lightning,[bp][comma][bp][comma][backward][plus][bk],
-862,24,2,Violent Thunder,[backward][plus][bp][comma][forward][plus][fp][comma][bp][plus][fp],
-863,24,2,Quick Burn,[forward][plus][bp][comma][bk],
-864,24,2,Flash Storm,[forward][plus][bp][comma][fk][comma][fp][plus][bp],
-865,24,2,Spark Kicks,[fk][comma][fk][comma][bk],
-866,24,2,Thunder God,[backward][plus][fk][comma][fp][comma][bp],
-867,24,3,Distant Thunder,[fk][comma][fk][comma][bk][comma][tag],
-868,24,3,Elder Fury,[backward][plus][fk][comma][fp][comma][bp][comma][tag],
-869,24,3,God Fist,[forward][plus][bp][comma][bk][comma][tag],
-870,24,4,Godlike,[bp][comma][bp][comma][tag],
-871,24,4,Supernatural,[backward][plus][bp][comma][forward][plus][fp][comma][tag],
-872,24,4,Divine Power,[forward][plus][bp][comma][fk][comma][tag],
-873,24,5,Lightning,[down][backward][fp],
-874,24,5,Electrocute,[down][forward][bp],
-875,24,5,Electric Fly,[backward][forward][fk],Can be done in the air
-876,24,5,Teleport,[down][up],
-877,24,5,Vicinity Blast,[down][backward][bp],
-878,24,6,Bolt,[down][backward][fp][plus][block],
-879,24,6,Shocker,[down][forward][bp][plus][block],
-880,24,6,Thunder Fly,[backward][forward][fk][plus][block],Can be done in the air
-881,24,6,Sparkport,[down][up][plus][block],
-882,24,6,Vicinity Burst,[down][backward][bp][plus][block],
-883,24,7,Shock Therapy,[stance][plus][block],
-884,24,8,Just a Scratch,[down][forward][down][forward][fp],Jump
-885,24,8,Transplant,[backward][forward][forward][down][bk],Sweep
-886,24,8,Stage Fatality,[down][down][down][bp],Varies
-887,24,8,Babality,[down][backward][down][bk],Jump
-888,25,1,Ares Slash,[backward][plus][fp],
-889,25,1,Zeus Slice,[forward][plus][fp],
-890,25,1,Divine Lift,[backward][plus][bp],Hold [bp] To follow up
-891,25,1,Spartan Bash,[forward][plus][bp],
-892,25,1,Spartan Knee,[forward][plus][bk],
-893,25,2,Valor Of Hercules,[fp][comma][fp][comma][bp],
-894,25,2,Hades Edge,[backward][plus][fp][comma][bp],
-895,25,2,Hades Pain,[backward][plus][fp][comma][backward][plus][bk],
-896,25,2,Aphrodite's Will,[forward][plus][fp][comma][bk],
-897,25,2,Wrath Of Ares,[forward][plus][bp][comma][fp],
-898,25,2,Anguish Of Zeus,[forward][plus][bp][comma][bp],
-899,25,2,Pandora's Soul,[forward][plus][bk][comma][bp],
-900,25,2,Athena's Fury,[bp][comma][fp][comma][bp],
-901,25,2,Olympic Ascencion,[backward][plus](Hold)[bp][comma][fp],
-902,25,2,Olympic Burst,[backward][plus](Hold)[bp][comma][bp],
-903,25,2,Olympic Blast,[backward][plus](Hold)[bp][comma][fk],
-904,25,2,Olympic Toss,[backward][plus](Hold)[bp][comma][bk],
-905,25,2,Achilles Strike,[forward][plus][bp][comma][bp][comma][fp],
-906,25,3,Athena's Rage,[bp][comma][fp][comma][bp][comma][tag],
-907,25,3,Olympic Chain,[backward][plus][bp][comma][tag],
-908,25,3,Pandora's Box,[forward][plus][bk][comma][bp][comma][tag],
-909,25,4,Hercules Rush,[fp][comma][fp][comma][tag],
-910,25,4,Athena's Pain,[bp][comma][fp][comma][tag],
-911,25,5,Apollo's Bow,[down][forward][bp],
-912,25,5,Head of Helios,[down][backward][bp],
-913,25,5,Hermes Dash,[backward][forward][bk],Hold [bk] To charge
-914,25,5,Golden Fleece,[down][backward][fp],
-915,25,5,Zeus' Rage,[down][forward][fk],
-916,25,6,Apollo's Inferno,[down][forward][bp][plus][block],
-917,25,6,Helios Flash,[down][backward][bp][plus][block],
-918,25,6,Hermes Rush,[backward][forward][bk][plus][block],Hold [bk] To charge
-919,25,6,Argo's Ram,[down][backward][fp][plus][block],
-920,25,6,Revenge of Olympus,[down][forward][fk][plus][block],
-921,25,7,Nemean Cestus,[stance][plus][block],
-922,25,8,Blade of Olympus,[down][down][backward][forward][bp],Touching
-923,25,8,Medusa's Gaze,[down][backward][down][forward][fp],Jump
-924,25,8,Stage Fatality,[down][down][down][fk],Varies
-925,25,8,Babality ,[down][forward][backward][bp],Jump
-926,26,1,Big Swing,[backward][plus][fp],
-927,26,1,Step Palms,[forward][plus][bp],
-928,26,1,Low Swipe,[backward][plus][bp],
-929,26,1,Knee Kick,[forward][plus][fk],
-930,26,1,Swinging Leg,[forward][plus][bk],
-931,26,2,Shokan Fury,[fp][comma][bp][comma][backward][plus][fp],
-932,26,2,Blood Lust,[fp][comma][backward][plus][bp][comma][forward][plus][fp],
-933,26,2,Darkness,[backward][plus][fp][comma][bp][comma][fp][plus][bp],
-934,26,2,Four-Way,[bp][comma][fp][comma][bp][comma][forward][plus][fp],
-935,26,2,Sheeva Rush,[bp][comma][fp][comma][bp][comma][backward][plus][fp],
-936,26,2,Quad Toss,[backward][plus][bp][comma][fp][plus][bp],
-937,26,2,Demolish,[forward][plus][bp][comma][backward][plus][fp],
-938,26,2,Turmoil,[fk][comma][fk],
-939,26,2,Swiper,[forward][plus][fk][comma][backward][plus][fp],
-940,26,2,Rehabilitated,[forward][plus][fk][comma][bp],
-941,26,3,Perfect Match,[fp][comma][bp][comma][backward][plus][fp][comma][tag],
-942,26,3,Better Than,[bp][comma][fp][comma][bp][comma][forward][plus][fp][comma][tag],
-943,26,4,Helping Hands,[fp][comma][bp][comma][tag],
-944,26,4,Protector,[fp][comma][backward][plus][bp][comma][tag],
-945,26,4,Distrusful,[backward][plus][fp][comma][bp][comma][tag],
-946,26,4,Destruction,[bp][comma][fp][comma][bp][comma][tag],
-947,26,5,Fireball,[down][forward][bp],
-948,26,5,Jump Stomp,[down][up],
-949,26,5,Ground Pound,[down][backward][bk],
-950,26,5,Grab N Punch,[backward][forward][fk],
-951,26,5,Anti-Air Grab,[down][forward][fp],
-952,26,5,Low Grab,[down][backward][fk],
-953,26,6,Fire Blast,[down][forward][bp][plus][block],
-954,26,6,Jump Crush,[down][up][plus][block],
-955,26,6,Ground Smash,[down][backward][bk][plus][block],
-956,26,6,Untamed Fury,[backward][forward][fk][plus][block],
-957,26,6,Power Anti-Air,[down][forward][fp][plus][block],
-958,26,6,Anti-Duck Throw,[down][backward][fk][plus][block],
-959,26,7,Slam Dance,[stance][plus][block],
-960,26,8,Stripped Down,[forward][down][down][forward][fp],
-961,26,8,Lend a Hand,[forward][backward][forward][backward][bk],
-962,26,8,Stage Fatality,[down][down][down][down][fp],
-963,26,8,Babality,[down][down][down][backward][bk],
-964,27,1,Back Hand,[backward][plus][fp],
-965,27,1,Overhead Swipe,[forward][plus][fp],
-966,27,1,Side Chop,[backward][plus][bp],
-967,27,1,Low Hop Kick,[up][plus][fk],
-968,27,1,Shin Kick,[backward][plus][fk],
-969,27,1,Hop Kick,[forward][plus][bk],
-970,27,2,Afterlife,[fp][comma][fp][comma][bp],
-971,27,2,Under Torment,[fp][comma][fp][comma][fk],
-972,27,2,Conjurer's Crush,[backward][plus][fp][comma][fp],
-973,27,2,Corruption,[forward][plus][fp][comma][bp][comma][fp]plus][bp],
-974,27,2,Spellbinder,[bp][comma][fp][comma][bp],
-975,27,2,Root Of Evil,[bp][comma][fp][comma][bk],
-976,27,2,Enchantment,[bp][comma][fp][comma][up][plus][fk],
-977,27,2,Wounded Wrath,[backward][plus][bp][comma][fp],
-978,27,2,Incantation,[backward][plus][bp][comma][bk],
-979,27,2,Deterioration,[backward][plus][fk][comma][fk],
-980,27,2,Annihilation,[backward][plus][fk][comma][fp][plus][bp],
-981,27,3,Sinister,[backward][plus][bp][comma][fp][comma][tag],
-982,27,3,Die-Abolical,[backward][plus][fk][comma][fp][plus][bp][comma][tag],
-983,27,4,Alternative Means,[fp][comma][fp][comma][tag],
-984,27,4,Kruel Intentions,[forward][plus][fp][comma][bp][comma][tag],
-985,27,4,Necro-Mashy,[bp][comma][fp][comma][tag],
-986,27,5,Skeletal Boost,[down][backward][bk],
-987,27,5,Ground Burst (Close),[down][backward][fp],
-988,27,5,Ground Burst (Medium),[down][forward][fp],
-989,27,5,Ground Burst (Far),[down][backward][forward][fp],
-990,27,5,Skull Ball,[down][backward][bp],
-991,27,5,Sky Drop,[down][backward][fk],Can be done in the air
-992,27,5,Trance,[backward][forward][fk],
-993,27,6,Skeletal Buff,[down][backward][bk][plus][block],
-994,27,6,Ground Blast (Close),[down][backward][fp][plus][block],
-995,27,6,Ground Blast (Medium),[down][forward][fp][plus][block],
-996,27,6,Ground Blast (Far),[down][backward][forward][fp][plus][block],
-997,27,6,Skull Chomp,[down][backward][bp][plus][block],
-998,27,6,Sky Stomp,[down][backward][fk][plus][block],Can be done in the air
-999,27,6,Mesmerize,[backward][forward][fk][plus][block],
-1000,27,7,Amulet Assault  ,[stance][plus][block],
-1001,27,8,Beat Down,[forward][forward][down][down][fp],Sweep
-1002,27,8,On Your Knees,[down][forward][down][forward][bk],Sweep
-1003,27,8,Stage Fatality,[backward][forward][down][bp],Varies
-1004,27,8,Babality,[forward][down][backward][bp],Jump
-1005,28,1,Straight Slab,[backward][plus][fp],
-1006,28,1,Backfist,[forward][plus][fp],
-1007,28,1,Chest Swipe,[backward][plus][bp],
-1008,28,1,Head Chop,[forward][plus][bp],
-1009,28,1,Spinning Low Kick,[backward][plus][fk],
-1010,28,1,Back Spin Kick,[forward][plus][bk],
-1011,28,1,Splits Attack,[up][plus][bk],
-1012,28,2,Cyborg Assault,[fp][comma][fp][comma][fp],
-1013,28,2,Automation,[fp][comma][fp][comma][bp],
-1014,28,2,Drive Power,[fp][comma][fp][comma][forward][plus][bk],
-1015,28,2,Freezing Pain,[forward][plus][fp][comma][bk],
-1016,28,2,Cyro Bash,[forward][plus][bp][comma][bp][comma][fp],
-1017,28,2,Frost,[backward][plus][fp][comma][bp],
-1018,28,2,Wildcard,[backward][plus][bp][comma][bp],
-1019,28,2,Upload,[backward][plus][bp][comma][bk],
-1020,28,2,Nano Smash,[bp][comma][fp][comma][fp][plus][bp],
-1021,28,2,System Error,[fk][comma][fk][comma][bp],
-1022,28,2,Reboot,[fk][comma][bk],
-1023,28,2,Blizzard,[backward][plus][fk][comma][bp][comma][fp],
-1024,28,3,Dual Core,[fk][comma][bk][comma][tag],
-1025,28,3,Meltdown,[backward][plus][fk][comma][bp][comma][tag],
-1026,28,4,Dry Ice,[fp][comma][fp][comma][tag],
-1027,28,4,Glacier,[bp][comma][fp][comma][tag],
-1028,28,4,Ice Over,[forward][plus][bp][comma][bp][comma][tag],
-1029,28,5,Ice Ball,[down][forward][fp],
-1030,28,5,Ice Bomb (Close),[backward][backward][fk],
-1031,28,5,Ice Bomb (Medium),[forward][forward][fk],
-1032,28,5,Ice Bomb (Far),[backward][backward][forward][fk],
-1033,28,5,Slide,[backward][forward][bk],
-1034,28,5,Teleport,[down][backward][fp],Can be done in the air
-1035,28,5,Ice Parry,[down][backward][bp],
-1036,28,5,Divekick (Close),[down][plus][fk],While in the air
-1037,28,5,Divekick (Far),[down][plus][bk],While in the air
-1038,28,6,Ice Beam,[down][forward][fp][plus][block],
-1039,28,6,Cryo Bomb (Close),[backward][backward][fk][plus][block],
-1040,28,6,Cryo Bomb (Medium),[forward][forward][fk][plus][block],
-1041,28,6,Cryo Bomb (Far),[backward][backward][forward][fk][plus][block],
-1042,28,6,Cyber-Slide,[backward][forward][bk][plus][block],
-1043,28,6,Bangport,[down][backward][fp][plus][block],Can be done in the air
-1044,28,6,Frozen Parry,[down][backward][bp][plus][block],
-1045,28,6,Powerkick (Close),[down][plus][fk][plus][block],While in the air
-1046,28,6,Powerkick (Far),[down][plus][bk][plus][block],While in the air
-1047,28,7,Cool Down,[stance][plus][block],While in the air
-1048,28,8,Kold Fusion,[down][backward][down][forward][bp],Jump
-1049,28,8,Brain Freeze,[down][down][backward][down][fp],Jump
-1050,28,8,Stage Fatality,[down][down][up][block],Varies
-1051,28,8,Babality ,[down][backward][forward][block],Jump
-1052,29,1,Razor Slash,[backward][plus][fp],
-1053,29,1,Double Swipe,[backward][plus][bp],
-1054,29,1,Hell Slice,[forward][plus][bp],
-1055,29,1,Low Blow,[backward][plus][fk],
-1056,29,1,Hop Kick,[up][plus][fk],
-1057,29,1,Big Knee,[forward][plus][bk],
-1058,29,12,Open Wide,[fp],
-1059,29,12,Claw Slam,[bp],
-1060,29,12,Low Slash,[fk],
-1061,29,12,Cancel,[bk],
-1062,29,2,Split You in Two,[fp][comma][fp][comma][fp],
-1063,29,2,Skin The Cat,[backward][plus][fp][comma][bp][comma][bp],
-1064,29,2,In Your Dreams,[backward][plus][fp][comma][bp][comma][up][plus][fp],
-1065,29,2,Kung Fu This Bitch,[bp][comma][bp][comma][fp][plus][bp],
-1066,29,2,I Am Eternal,[forward][plus][bp][comma][fp][comma][backward][plus][fk],
-1067,29,2,Never Sleep Again,[forward][plus][bp][comma][fp][comma][bk][comma] ,
-1068,29,2,I Love Screamers,[backward][plus][bp][comma][bk],
-1069,29,2,Come To Freddy,[fk][comma][fk],
-1070,29,2,Ungrateful Piggy,[backward][plus][fk][comma][fk],
-1071,29,2,Coming For You,[forward][plus][bk][comma][fk],
-1072,29,2,Playing With Power,[forward][plus][bk][comma][bp][comma][fp],
-1073,29,3,How Sweet Fresh Meat,[backward][plus][fp][comma][bp][comma][up][plus][fp][comma][tag],
-1074,29,3,Tag You're it,[up][plus][fk][comma][tag],
-1075,29,3,Great Graphics,[forward][plus][bk][comma][bp][comma][fp][comma][tag],
-1076,29,4,Party's Just Starting,[fp][comma][fp][comma][tag],
-1077,29,4,Always Room For More,[backward][plus][fp][comma][bp][comma][tag],
-1078,29,4,Reach Out & Cut Someone,[bp][comma][bp][comma][tag],
-1079,29,4,Meet Your Maker,[forward][plus][bp][comma][fp][comma][tag],
-1080,29,4,Now You Die,[forward][plus][bk][comma][bp][comma][tag],
-1081,29,5,Hell Spike (Close),[down][backward][fp],
-1082,29,5,Hell Spike (Medium),[down][forward][fp],
-1083,29,5,Hell Spike (Far),[down][backward][forward][fp],
-1084,29,5,Sweet Dreams,[down][forward][bk],
-1085,29,5,Glove Toss,[backward][forward][bp],
-1086,29,5,Freddy Fingers,[down][backward][bp],
-1087,29,5,Dream Shift Away,[down][backward][fk],
-1088,29,5,Dream Shift Towards,[down][forward][fk],
-1089,29,6,Hell Blast,[down][backward][fp][plus][block],
-1090,29,6,Deep Sleep,[down][forward][bk][plus][block],
-1091,29,6,Power Glove Toss,[backward][forward][bp][plus][block],
-1092,29,6,Freddy's Edge,[down][backward][bp][plus][block],
-1093,29,6,Hell Shift Away,[down][forward][bk][plus][block],
-1094,29,6,Hell Shift Towards,[down][forward][fk][plus][block],
-1095,29,7,What a Rush,[stance][plus][block],
-1096,29,8,Tell 'Em Freddy Sent Ya ,[backward][forward][down][down][fp],
-1097,29,8,Welcome To My Nightmare,[down][up][forward][backward][block],
-1098,29,8,Stage Fatality,[forward][down][down][fk],
-1099,29,8,Babality,[backward][forward][down][fp],
-1100,30,1,Axe Hand,[backward][plus][fp],
-1101,30,1,Side Swipe,[backward][plus][bp],
-1102,30,1,Stepping Sidekick,[backward][plus][fk],
-1103,30,2,It Pours,[fp][comma][fp],
-1104,30,2,Right as Rain,[fp][comma][bp][comma][forward][plus][bk],
-1105,30,2,Dehydrate,[bp][comma][bk],
-1106,30,2,Watery Grave,[backward][plus][bp][comma][fk],
-1107,30,2,Waterfall,[backward][plus][bp][comma][fp][plus][bp],
-1108,30,2,Spill Over,[fk][comma][fk][comma][bk],
-1109,30,2,Moisturize Me,[bk][comma][fk][comma][backward][plus][bk],
-1110,30,3,Thicker Then Water,[fp][comma][bp][comma][forward][plus][bk][comma][tag],
-1111,30,3,Rain Or Shine,[backward][plus][bp][comma][fp][plus][bp][comma][tag],
-1112,30,4,Rain And Suffering,[fp][comma][fp][comma][tag],
-1113,30,4,"No Rain, No Gain",[fk][comma][fk][comma][tag],
-1114,30,4,Dead In The Water,[bk][comma][fk][comma][tag] ,
-1115,30,5,Water Port,[down][up],
-1116,30,5,Super Kick,[down][backward][bk],
-1117,30,5,Water Bubble,[down][forward][fk],
-1118,30,5,Geyser Kick,[down][backward][fk],
-1119,30,5,Lightning,[down][backward][bp],
-1120,30,5,Aqua Splash,[backward][forward][fp],
-1121,30,5,H2O Boost,[backward][down][forward][fp],
-1122,30,6,Aqua-Port,[down][up][plus][block],
-1123,30,6,Power Kick,[down][backward][bk][plus][block],
-1124,30,6,Hydro Bubble,[down][forward][fk][plus][block],
-1125,30,6,Thermal Spring,[down][backward][fk][plus][block],
-1126,30,6,Thunder Storm,[down][backward][bp][plus][block],
-1127,30,6,Aqua Blast,[backward][forward][fp][plus][block],
-1128,30,6,H2O Buff,[backward][down][forward][fp][plus][block],
-1129,30,7,Rain Check,[stance][plus][block],
-1130,30,8,Bubble Burst,[backward][forward][down][backward][block],
-1131,30,8,Does it Sting,[up][down][backward][forward][bp],
-1132,30,8,Stage Fatality,[forward][down][forward][bk],
-1133,30,8,Babality,[backward][down][forward][fk],
-1134,31,1,Blade Stab,[backward][plus][bp],
-1135,31,1,Blade Swipe,[forward][plus][bp],
-1136,31,1,Shin Kick,[forward][plus][fk],
-1137,31,1,Snap Kick,[forward][plus][bk],
-1138,31,1,Windmill    ,[up][plus][bk],
-1139,31,2,Telekinetic Rush,[fp][comma][fp][comma][fp],
-1140,31,2,Blind Justice,[fp][comma][fp][comma][bp],
-1141,31,2,Off Balance,[fp][comma][fp][comma][bk],
-1142,31,2,Heightened Senses,[bp][comma][fp][comma][backward][plus][bp],
-1143,31,2,Stolen Soul,[bp][comma][fp][comma][forward][plus][bk],
-1144,31,2,Absentminded,[forward][plus][bp][comma][bp][backward][plus][fp],
-1145,31,2,Shortsighted,[forward][plus][bp][comma][bp][backward][plus][bp],
-1146,31,2,Brainpower,[forward][plus][fk][comma][bp],
-1147,31,3,Concentration,[bp][comma][fp][comma][backward][plus][bp][comma][tag],
-1148,31,3,Grey Matter,[forward][plus][bp][comma][bp][comma][backward][plus][fp][comma][tag],
-1149,31,3,Blind Fury,[forward][plus][fk][comma][bp][comma][tag],
-1150,31,4,Blind Swordsman,[bp][comma][fp][comma][tag],
-1151,31,4,Farsighted,[forward][plus][bp][comma][bp][comma][tag],
-1152,31,5,Spirit Charge,[backward][forward][bp],
-1153,31,5,Rising Karma,[down][backward][fp],
-1154,31,5,Telekinetic Slash (Close),[down][backward][bk],
-1155,31,5,Telekinetic Slash (Medium),[down][forward][bk],
-1156,31,5,Telekinetic Slash (Far),[down][backward][forward][bk],
-1157,31,5,Tele-Flury,[backward][forward][fk],
-1158,31,5,Blade Reflect,[down][backward][bp],
-1159,31,6,Spirit Vengeance,[backward][forward][bp][plus][block],
-1160,31,6,Karma Eruption,[down][backward][fp][plus][block],
-1161,31,6,Telekinetic Blade (Close),[down][backward][bk][plus][block],
-1162,31,6,Telekinetic Blade (Medium),[down][forward][bk][plus][block],
-1163,31,6,Telekinetic Blade (Far),[down][backward][forward][bk][plus][block],
-1164,31,6,Tele-Beatdown,[backward][forward][fk][plus][block],
-1165,31,6,Blade Absorb,[down][backward][bp][plus][block],
-1166,31,7,Soul Blade,[stance][plus][block],
-1167,31,8,Scatterbrained ,[up][down][up][down][block],
-1168,31,8,Split Ends,[backward][forward][down][forward][bp],
-1169,31,8,Stage Fatality,[down][forward][down][fk],
-1170,31,8,Babality,[down][backward][down][fp],
-1171,32,1,Dagger Slash,[backward][plus][fp],
-1172,32,1,Rising Blade,[backward][plus][bp],
-1173,32,1,Back Fist,[forward][plus][bp],
-1174,32,1,Upper Knee,[forward][plus][fk],
-1175,32,1,Roundhouse,[forward][plus][bk],
-1176,32,1,Lifting Leg,[up][plus][fk],
-1177,32,2,Krimson Bash,[fp][comma][fp][comma][bp],
-1178,32,2,Red Pain,[fp][comma][fp][comma][bk],
-1179,32,2,Blood Clot,[backward][plus][fp][comma][forward][plus][fk],
-1180,32,2,Coagulation,[backward][plus][fp][comma][fp][comma][fk],
-1181,32,2,Bad Blood,[backward][plus][fp][comma][fp][comma][forward][plus][bk],
-1182,32,2,Bloody Murder,[backward][plus][fp][comma][fp][comma][backward][plus][bk],
-1183,32,2,Bloodshed,[backward][plus][bp][comma][bk],
-1184,32,2,Punishment,[bp][comma][fp][comma][bp],
-1185,32,2,Bloodshot,[bp][comma][fk],
-1186,32,2,Flesh & Blood,[forward][plus][bp][comma][fp][comma][bp][comma][fp][plus][bp],
-1187,32,2,Blood Boil,[forward][plus][fk][comma][fp][comma][bp],
-1188,32,2,Slaughter,[forward][plus][fk][comma][fk],
-1189,32,2,Carnage,[up][plus][fk][comma][bk],
-1190,32,2,Thicker Than Water,[forward][plus][bk][comma][fk],
-1191,32,3,Transfustion ,[backward][plus][fp][comma][fp][comma][forward][plus][bk][comma][tag] ,
-1192,32,3,Blood & Tears,[forward][plus][bp][comma][fp][comma][bp][comma][fp][plus][bp][comma][tag],
-1193,32,3,Butchery,[forward][plus][fk][comma][fp][comma][bp][comma][tag],
-1194,32,3,Warfare,[up][plus][fk][comma][tag],
-1195,32,4,Bloodthirsy  ,[fp][comma][fp][comma][tag],
-1196,32,4,Krimson Blades,[backward][plus][fp][comma][fp][comma][tag],
-1197,32,4,Judgement,[bp][comma][fp][comma][tag],
-1198,32,4,Blood & Guts,[forward][plus][bp][comma][fp][comma][tag],
-1199,32,4,Bloody Hell,[forward][plus][fk][comma][fp][comma][tag],
-1200,32,5,Up Slash             ,[down][forward][bp] ,
-1201,32,5,Down Slash,[down][backward][bp],
-1202,32,5,Blood Drop          ,[down][backward][bk] ,
-1203,32,5,Red Dash   ,[down][forward][fk],
-1204,32,5,Slide  ,[bk],
-1205,32,5,Blood Ball ,[forward][down][backward][fp],
-1206,32,5,Dagger Toss,[down][forward][fp],
-1207,32,5,Air Dagger (Close)  ,[down][backward][fp],
-1208,32,5,Air Dagger (Far),[down][forward][fp],
-1209,32,6,Duel Up Slash      ,[down][forward][bp][plus][block],
-1210,32,6,Duel Down Slash   ,[down][backward][bp][plus][block],
-1211,32,6,Blood Stomp       ,[down][backward][bk][plus][block],
-1212,32,6,Krimson Dash   ,[down][forward][fk][plus][block],
-1213,32,6,Red Slide  ,[bk],
-1214,32,6,Dagger Toss,[down][forward][fp][plus][block],
-1215,32,6,Tri Air Dagger     ,[down][backward][fp][plus][block],
-1216,32,6,Tri Air Dagger    ,[down][forward][fp][plus][block],
-1217,32,7,Blood Bank,[stance][plus][block],
-1218,32,8,Blood Bath,[down][backward][down][down][block],
-1219,32,8,Make It Rain,[forward][backward][down][down][bk],
-1220,32,8,Stage Fatality,[forward][backward][forward][fp],
-1221,32,8,Babality ,[down][backward][down][forward][bp],
+1;1;1;Doom Slice;[forward][plus][bp];
+2;1;1;Blade Overhead;[backward][plus][bp];
+3;1;1;Heel Kicks;[forward][plus][fk];
+4;1;1;Shin Blast;[forward][plus][bk];
+5;1;2;Torment;[fp][comma][fp][comma][fp];
+6;1;2;Damnation;[fp][comma][fp][comma][bk];
+7;1;2;Brimstone;[bp][comma][fp][comma][bp];
+8;1;2;Gravedigger;[bp][comma][fp][plus][bp];
+9;1;2;Doom Blade;[forward][plus][bp][comma][fp][comma][bk];
+10;1;2;Dead End;[fk][comma][fk][comma][bk];
+11;1;2;Grievance;[forward][plus][bk][comma][fk];
+12;1;3;Underworld;[bp][comma][fp][plus][bp][comma][tag];
+13;1;3;Soulless;[backward][plus][bp][comma][tag];
+14;1;4;Eternal Vengeance;[fp][comma][fp][comma][tag];
+15;1;4;Punishment;[bp][comma][fp][comma][tag];
+16;1;4;Affiction;[forward][plus][bp][comma][fp][comma][tag];
+17;1;4;Revenge;[fk][comma][fk][comma][tag];
+18;1;5;Spear;[backward][backward][fp];
+19;1;5;Demon Fire;[down][backward][bp];
+20;1;5;Teleport;[down][backward][fk];Can be done in the air
+21;1;5;Takedown;[down][backward][bk];
+22;1;5;Air Throw;[throw];While in the air
+23;1;6;Flame Spear;[backward][backward][fp][plus][block];
+24;1;6;Hell Fire;[down][backward][bp][plus][block];
+25;1;6;Flameport;[down][backward][fk][plus][block];Can be done in the air
+26;1;6;Takeout;[down][backward][bk][plus][block];
+27;1;7;Scorpion Sting;[stance][plus][block];
+28;1;8;Split Decision;[forward][down][forward][bp];Touching
+29;1;8;Nether-Gate;[backward][forward][backward][fk];Touching
+30;1;8;Klassic Fatality;[down][up][up][bp];DLC
+31;1;8;Stage Fatality;[forward][up][up][fp];Varies
+32;1;8;Babality;[down][backward][forward][down][bp];Jump
+33;2;1;Strong Fist;[backward][plus][fp];
+34;2;1;Face Jab;[forward][plus][fp];
+35;2;1;Gut Strike;[backward][plus][bp];
+36;2;1;Knee Bash;[forward][plus][bp];
+37;2;1;Shaolin Heel;[forward][plus][fk];
+38;2;1;Knee Kick;[backward][plus][fk];
+39;2;1;Shin Kick;[forward][plus][bk];
+40;2;9;Final Act;[fp];
+41;2;9;Fist Of Death;[bp];
+42;2;9;Shaolin Flip;[fk];
+43;2;9;Moon Sweep;[bk];
+44;2;2;Three Fists;[fp][comma][fp][comma][fp];
+45;2;2;Death Fist;[fp][comma][fp][comma][bp];
+46;2;2;Immortal Dragon;[fp][comma][bp][comma][backward][plus][fp];
+47;2;2;Blazing Blasts;[forward][plus][fp][comma][bp][comma][fp];
+48;2;2;Fierce Tiger;[bp][comma][fp][comma][fk];
+49;2;2;Showdown;[forward][plus][bp][comma][bk];
+50;2;2;Launching Fury;[backward][plus][bp][comma][backward][plus][fk];
+51;2;2;Backdown;[backward][plus][bp][comma][fk];
+52;2;2;Lotus Flurry;[fk][comma][fk][comma][bk];
+53;2;2;Final Act;[backward][plus][fk][comma][fp][comma][bp];
+54;2;2;Krushing Kombo;[forward][plus][bk][comma][fk];
+55;2;3;Shaolin Spirit;[fp][comma][bp][comma][backward][plus][fp][comma][tag];
+56;2;3;Dragon's Bite;[backward][plus][fk][comma][fp][comma][bp][comma][tag];
+57;2;3;Next Time;[fp][comma][tag];From Dragon Stance
+58;2;3;Shaolin Step;[bp][comma][fp][comma][fk][comma][tag];
+59;2;4;Fist Swaps;[fp][comma][fp][comma][tag];
+60;2;4;Step In;[fp][comma][bp][comma][tag];
+61;2;4;Friendly;[forward][plus][fp][comma][bp][comma][tag];
+62;2;4;Dragon Dance;[bp][comma][fp][comma][tag];
+63;2;4;Twin Lotus;[fk][comma][fk][comma][tag];
+64;2;4;Harm-Onionus;[backward][plus][fk][comma][fp][comma][tag];
+65;2;5;High Fireball;[backward][forward][fp];Can be done in the air
+66;2;5;Low Fireball;[backward][forward][fk];
+67;2;5;Flying Dragon Kick;[backward][forward][bp];
+68;2;5;Bicycle Kick;[backward][backward][forward][bk];
+69;2;5;Parry;[down][backward][fp];
+70;2;6;High Dragon Fire;[backward][forward][fp][plus][block];Can be done in the air
+71;2;6;Low Dragon Fire;[backward][forward][fk][plus][block];
+72;2;6;Flame Dragon Kick;[backward][forward][bp][plus][block];
+73;2;6;Bicycle Steps;[backward][backward][forward][bk][plus][block];
+74;2;6;Burning Parry;[down][backward][fp][plus][block];
+75;2;7;Chin Up;[stance][plus][block];
+76;2;8;Fist Of Flame;[forward][backward][down][down][fk];Sweep
+77;2;8;The Beast Within;[down][down][forward][down][bk];Jump
+78;2;8;Stage Fatality;[down][forward][backward][fk];Varies
+79;2;8;Babality;[down][down][down][bk];Jump
+80;3;1;Chops;[backward][plus][fp];
+81;3;1;Hat Swipe;[forward][plus][bp];
+82;3;1;Rolling Thunder;[forward][plus][fk];
+83;3;1;Point Kick;[backward][plus][fk];
+84;3;1;Hop Kick;[forward][plus][bk];
+85;3;2;Windy Palm;[fp][comma][fp][comma][bp][comma][fp];
+86;3;2;Healing Wind;[backward][plus][fp][comma][forward][plus][fp];
+87;3;2;Chained Fist;[bp][comma][fp][comma][bp][comma][fp][comma][bp];Must be pressed rapidly
+88;3;2;Iron Broom;[bp][comma][bk][comma][fp][plus][bp];
+89;3;2;Leg Bar;[bp][comma][bk][comma][fp][plus][fk];
+90;3;2;Uprooting Step;[bp][comma][bk][comma][fp][plus][fk][comma][bk];
+91;3;2;Plum Flower;[bp][comma][bk][comma][fp][plus][fk][comma][bp];
+92;3;2;Lead The Way;[backward][plus][fk][comma][fk][comma][fk];
+93;3;3;Spinout;[down][forward][fp][comma][tag];
+94;3;4;Yin Yang;[fp][comma][fp][comma][bp][comma][tag];
+95;3;4;Swirling Dragon;[bp][comma][fp][comma][bp][comma][fp][comma][bp][comma][tag];
+96;3;4;Double Yang;[bp][comma][bk][comma][tag];
+97;3;5;Hat Toss;[backward][forward][bp];[up] and [down] Controls
+98;3;5;Ground Hat;[down][backward][bp];
+99;3;5;Spin;[down][forward][fp];
+100;3;5;Dive Kick;[down][plus][bk];While in the air
+101;3;5;Teleport;[down][up];Can be done in the air
+102;3;5;(While Teleporting);[fp] Throws [bp] Punches [fk] Kicks;
+103;3;6;Ultimate Hat;[backward][forward][bp][plus][block];
+104;3;6;Grinding Hat;[down][backward][bp][plus][block];Hold [bp] To delay
+105;3;6;Cyclone;[down][forward][fp][plus][block];
+106;3;6;Multi Kick;[down][plus][bk][plus][block];While in the air
+107;3;7;Fist Of Shaolin;[stance][plus][block];
+108;3;8;Hat Trick;[backward][forward][forward][backward][bp];Sweep
+109;3;8;Razor's Edge;[down][down][forward][backward][fp];Sweep
+110;3;8;Stage Fatality;[down][forward][down][fk];Varies
+111;3;8;Babality;[down][forward][down][bp];Jump
+112;4;1;Swipe;[backward][plus][fp];
+113;4;1;Force Claws (Hold);[backward][plus][bp];Can be dash canceled
+114;4;1;Big Leg;[forward][plus][bk];
+115;4;2;Frosty;[fp][comma][fp];
+116;4;2;Cold Feet;[fp][comma][fk][comma][forward][plus][bk];
+117;4;2;Artic Blast;[fp][comma][fk][comma][backward][plus][bk];
+118;4;2;Ice Pick;[backward][plus][fp][comma][bp][comma][fp];
+119;4;2;Ice Cold;[backward][plus][fp][comma][bp][comma][bk];
+120;4;2;Frost Bitten;[bp][comma][fp][comma][bp];
+121;4;2;Ices Up;[bp][comma][fp][comma][bk];
+122;4;2;Tundra Slice;[forward][plus][bk][comma][fp][plus][bp];
+123;4;2;Winter Blade;[bp][comma][bp][comma][bp];
+124;4;2;Cold Steel;[bp][comma][bp][comma][bk];
+125;4;2;Chill Out;[fk][comma][forward][plus][bk];
+126;4;3;Absolute Zero;[bp][comma][fp][comma][tag];
+127;4;4;Freezer Burn;[fp][comma][fk][comma][tag];
+128;4;4;Arctic Assault;[backward][plus][fp][comma][bp][comma][tag];
+129;4;4;Ability To Freeze;[bp][comma][bp][comma][tag];
+130;4;5;Iceball;[down][forward][fk];
+131;4;5;Slide;[backward][forward][bk];
+132;4;5;Ice Clone;[down][backward][fp];
+133;4;5;Ice Puddle;[down][backward][fk];
+134;4;6;Icebeam;[down][forward][fk][plus][block];
+135;4;6;Power Slide;[backward][forward][bk][plus][block];
+136;4;6;Ice Statue;[down][backward][fp][plus][block];
+137;4;6;Ground Freeze;[down][backward][fk][plus][block];
+138;4;7;Deep Freeze;[stance][plus][block];Hold To charge
+139;4;8;Have an Ice Day;[backward][forward][down][forward][bk];Sweep
+140;4;8;Spinal Smash;[down][backward][down][forward][bp];Sweep
+141;4;8;Klassic Fatality;[forward][down][forward][bp];DLC
+142;4;8;Stage fatality;[forward][down][backward][bp];Varies
+143;4;8;Babality;[down][backward][down][bk];Jump
+144;5;1;Hand Sweep;[backward][plus][fp];
+145;5;1;Face Chop;[forward][plus][fp];
+146;5;1;Rising Fist;[backward][plus][bp];
+147;5;1;Front Kick;[forward][plus][fk];
+148;5;1;Hand Plant Heel;[backward][plus][fk];
+149;5;1;Split Kick;[up][plus][fk];
+150;5;1;Arise;[up][plus][bk];
+151;5;2;Undead Bride;[fp][comma][fp][comma][fp];
+152;5;2;Royal Pain;[fp][comma][fp][comma][backward][plus][bp][comma][bk];
+153;5;2;Rebirth;[backward][plus][fp][comma][bp];
+154;5;2;Confronted;[forward][plus][fp][comma][bp][comma][bk];
+155;5;2;Anguish;[bp][comma][fp][comma][bp];
+156;5;2;Sadness;[bp][comma][fp][comma][backward][plus][fk];
+157;5;2;Conqueror;[backward][plus][bp][comma][bk];
+158;5;2;Queen's Anger;[fk][comma][fp][comma][fp];
+159;5;2;Rise To Power;[fk][comma][fp][comma][backward][plus][bp];
+160;5;2;Unforgettable;[backward][plus][fk][comma][forward][plus][bp];
+161;5;2;Child's Play;[bk][comma][bk][comma][up][plus][fk];
+162;5;3;Royal Flush;[fp][comma][fp][comma][backward][plus][bp][comma][tag];
+163;5;3;Regal Ruin;[backward][plus][fp][comma][bp][comma][tag];
+164;5;3;Cataclysm;[backward][plus][bp][comma][tag];
+165;5;3;Graceful Dead;[backward][plus][fk][comma][forward][plus][bp][comma][tag];
+166;5;4;Bow To Me;[fp][comma][fp][comma][tag];
+167;5;4;Worthless;[forward][plus][fp][comma][bp][comma][tag];
+168;5;4;Majestic Mash;[bp][comma][fp][comma][tag];
+169;5;4;Queen's Sorrow;[fk][comma][fp][comma][tag];
+170;5;4;That Was Fun!;[bk][comma][bk][comma][tag];
+171;5;5;Fireball;[down][forward][fp];Can be done in the air
+172;5;5;Low Fireball;[down][forward][fk];Can be done in the air
+173;5;5;Yell;[down][backward][bp];
+174;5;5;Levitate;[down][down][up];
+175;5;5;Hair Whip;[down][forward][bp];
+176;5;5;Step Up;[down][forward][bk];
+177;5;6;Power Fireball;[down][forward][fp][plus][block];Can be done in the air
+178;5;6;Low Fire;[down][forward][fk][plus][block];Can be done in the air
+179;5;6;Scream;[down][backward][bp][plus][block];
+180;5;6;Hair Toss;[down][forward][bp][plus][block];
+181;5;6;Step Over;[down][forward][bk][plus][block];
+182;5;7;Queen B;[stance][plus][block];
+183;5;8;Migraine;[backward][forward][down][forward][fp];Sweep
+184;5;8;Mouthful;[backward][forward][up][bp];Sweep
+185;5;8;Stage Fatality;[down][down][down][fp];Varies
+186;5;8;Babality;[down][down][down][up];Jump
+187;6;1;Back Fist;[forward][plus][fp];
+188;6;1;Wind Strikes;[backward][plus][fp];
+189;6;1;Fist Smash;[forward][plus][bp];
+190;6;1;Psychic Palm;[backward][plus][bp];Hold [bp] To charge
+191;6;1;Quick Kick;[backward][plus][fk];
+192;6;1;2-hit Kick;[forward][plus][bk];
+193;6;1;Low Leg;[up][plus][bk];
+194;6;2;Ermac Rush;[fp][comma][bp][comma][fp];
+195;6;2;Mysterious Mash;[forward][plus][fp][comma][fp][comma][bk];
+196;6;2;Fusion;[backward][plus][fp][comma][fp][comma][bk];
+197;6;2;We Win;[backward][plus][fp][comma][bp][comma][forward][plus][fp];
+198;6;2;Nether Pain;[bp][comma][bp];
+199;6;2;Psychic Strikes;[backward][plus][bp][comma][backward][plus][fp];
+200;6;2;Lost Souls;[backward][plus][bp][comma][fp][comma][forward][plus][bp];
+201;6;2;Relinquish;[fk][comma][fk];
+202;6;2;Surrender;[fk][comma][fp][comma][bp];
+203;6;2;Disoriented;[backward][plus][fk][comma][bk];
+204;6;2;Controlled Chaos;[forward][plus][bk][comma][backward][plus][bp];
+205;6;3;Breakdown;[forward][plus][bp][comma][tag];
+206;6;3;Brain Freeze;[backward][plus][bp][comma][tag];
+207;6;3;Mind-Blowing;[backward][plus][fp][comma][bp][comma][forward][plus][fp][comma][tag];
+208;6;4;Clear Your Mind;[forward][plus][fp][comma][fp][comma][tag];
+209;6;4;Subconscious;[backward][plus][fp][comma][fp][comma][tag];
+210;6;4;Lucidity;[fk][comma][fp][comma][tag];
+211;6;5;Force Ball;[down][backward][bp];
+212;6;5;Airblast;[down][backward][bp];While in the air
+213;6;5;Force Port;[down][backward][bk];Can be done in the air
+214;6;5;Force Lift;[down][backward][fp];
+215;6;5;Hover Slam;[down][down][up];Hold [block] To delay
+216;6;5;Force Push;[backward][forward][fp];
+217;6;6;Focus Ball;[down][backward][bp][plus][block];
+218;6;6;Force Blast;[down][backward][bp][plus][block];While in the air
+219;6;6;Teleport;[down][backward][bk][plus][block];Can be done in the air
+220;6;6;Telelift;[down][backward][fp][plus][block];
+221;6;6;Levitate Smash;[down][down][up][plus][block];Hold [block] To delay
+222;6;6;Telepush;[backward][forward][fp][plus][block];
+223;6;7;Cannonball Slam;[stance][plus][block];
+224;6;8;Mind Over Splatter;[down][up][down][down][block];Jump
+225;6;8;Pest Control;[forward][backward][forward][down][bk] ;Jump
+226;6;8;Stage Fatality;[down][up][down][down][fk];Varies
+227;6;8;Babality;[down][down][backward][down][bp];Jump
+228;7;1;Reptile Smash;[forward][plus][bp];
+229;7;1;Low Swipe;[backward][plus][fp];
+230;7;1;Hop Kick;[forward][plus][fk];
+231;7;2;Cold Blooded;[fp][comma][bp][comma][bk];
+232;7;2;Carnivore Bash;[fp][comma][bp][comma][bp][comma][fp];
+233;7;2;Deadly Venom;[fp][comma][bp][comma][backward][plus][fp];
+234;7;2;Just Hatched;[bp][comma][forward][plus][fk];
+235;7;2;Hybrid Blast;[bp][comma][fk][plus][bk];
+236;7;2;Hybrid Crush;[bp][comma][forward][plus][fk][comma][fp][plus][bp];
+237;7;2;Evolution;[forward][plus][bp][comma][backward][plus][fp];
+238;7;2;Amphibian Charge;[fk][comma][bp][comma][fp];
+239;7;2;Slithered;[fk][comma][bp][comma][backward][plus][bk];
+240;7;2;Swamp Strikes;[forward][plus][fk][comma][fp][plus][bp];
+241;7;3;Carnivorous;[fp][comma][bp][comma][bp][comma][fp][comma][tag];
+242;7;3;Nocturnal;[forward][plus][bp][comma][backward][plus][fp][comma][tag];
+243;7;3;Aquatic;[fk][comma][bp][comma][fp][comma][tag];
+244;7;3;Shedding Skin;[backward][forward][bp][plus][block][comma][tag];
+245;7;4;Toxic;[fp][comma][bp][comma][tag];
+246;7;4;Ravenous;[fp][comma][bp][comma][bp][comma][tag];
+247;7;4;Scaly Serpent;[bp][comma][forward][plus][fk][comma][tag];
+248;7;4;Bad Blood;[forward][plus][bp][comma][tag];
+249;7;4;Anguish;[fk][comma][bp][comma][tag];
+250;7;5;Slow Force Ball;[backward][backward][fp];
+251;7;5;Fast Force Ball;[backward][backward][fk];
+252;7;5;Slide;[backward][forward][bk];
+253;7;5;Acid Hand;[down][backward][bp];
+254;7;5;Invisibility;[down][up][bk];
+255;7;5;Acid Spit;[down][forward][fp];
+256;7;5;Elbow Dash;[backward][forward][bp];
+257;7;6;Slow Mega Ball;[backward][backward][fp][plus][block];Hold [fp] To charge
+258;7;6;Fast Mega Ball;[backward][backward][fk][plus][block];Hold [fk] To charge
+259;7;6;Slime Trail;[backward][forward][bk][plus][block];
+260;7;6;Reptilian Hand;[down][backward][bp][plus][block];
+261;7;6;Vanish;[down][up][bk][plus][block];
+262;7;6;Acid Stream;[down][forward][fp][plus][block];
+263;7;6;Reptilian Elbow;[backward][forward][bp][plus][block];
+264;7;7;Tricky Lizard;[stance][plus][block];
+265;7;8;Acid Yak;[forward][forward][down][up][fk];Sweep
+266;7;8;Weight Loss;[down][down][forward][backward][fp];Sweep
+267;7;8;Klassic Fatality;[backward][backward][forward][down][block];Jump
+268;7;8;Stage Fatality;[forward][down][down][block];Varies
+269;7;8;Babality;[backward][forward][backward][down][fk];Jump
+270;8;1;Fan Slice;[backward][plus][fp];
+271;8;1;Uprise;[backward][plus][bp];
+272;8;1;Shin Kick;[backward][plus][fk];
+273;8;1;Fan Stab;[forward][plus][bp];
+274;8;1;Hop Kick;[forward][plus][fk];
+275;8;1;Spin Kick;[forward][plus][bk];
+276;8;2;Royal Pain;[fp][comma][fp][comma][bp];
+277;8;2;Dignified;[backward][plus][fp][comma][bp];
+278;8;2;Majestic;[bp][comma][fp][comma][bp];
+279;8;2;Noble Lift;[forward][plus][bp][comma][fp];
+280;8;2;Regal Assault;[fk][comma][fk][comma][fk];
+281;8;2;Blue Blood;[backward][plus][fk][comma][fk];
+282;8;2;Power Intrusion;[forward][plus][fk][comma][fp][comma][bp];
+283;8;2;Deadly Rush;[forward][plus][bk][comma][fp];
+284;8;2;Pure Kicks;[forward][plus][bk][comma][fk];
+285;8;2;Deception;[forward][plus][bk][comma][backward][plus][bk];
+286;8;3;Truth Be Told;[forward][plus][bp][comma][fp][comma][tag];
+287;8;3;Effortless;[forward][plus][fk][comma][fp][comma][bp][comma][tag];
+288;8;3;Big Fan;[backward][backward][bp][comma][tag];
+289;8;4;Pretty Princess;[backward][plus][fp][comma][tag];
+290;8;4;Mesmerizing;[bp][comma][fp][comma][tag];
+291;8;4;Magnificent;[fk][comma][fk][comma][tag];
+292;8;4;Disrespect;[forward][plus][fk][comma][fp][comma][tag];
+293;8;5;Fan Toss;[down][forward][fp];Can be done in the air
+294;8;5;Upraise;[backward][backward][bp];
+295;8;5;Cutting Fan;[down][forward][bp];
+296;8;5;Square Boost;[down][backward][fp];Can be done in the air
+297;8;5;Pretty Kick;[down][backward][fk];
+298;8;5;Fake Out Kick;[down][backward][bk];
+299;8;6;Charged Fan;[down][forward][fp][plus][block];Hold [fp] To charge
+300;8;6;Uplift;[backward][backward][bp][plus][block];
+301;8;6;Fan Dice;[down][forward][bp][plus][block];
+302;8;6;Square Wave;[down][backward][fp][plus][block];Can be done in the air
+303;8;6;Pretty Legs;[down][backward][fk][plus][block];
+304;8;7;Fan-Tastic;[stance][plus][block];Can be done in the air
+305;8;8;Fan Opener;[down][down][backward][forward][bp];Sweep
+306;8;8;Splitting Headache;[forward][down][forward][backward][fk];Sweep
+307;8;8;Stage Fatality;[forward][down][down][fk];Varies
+308;8;8;Babality;[forward][down][forward][bk];Jump
+309;9;1;Charge Palm (Hold);[backward][plus][bp];Can be dash canceled
+310;9;1;2-Hit Elbow;[forward][plus][bp]; 
+311;9;1;Pop Up;[backward][plus][fk];
+312;9;1;Rising Knee;[forward][plus][fk];
+313;9;1;Axe Kick;[forward][plus][bk];
+314;9;2;Out Take;[fp][comma][fp][comma][fp];
+315;9;2;Showtime;[fp][comma][fp][comma][forward][plus][fp];
+316;9;2;Stand In;[fp][comma][fp][comma][bk];
+317;9;2;Cross Cutting;[fp][comma][fk][comma][bp];
+318;9;2;Widescreen;[bp][comma][fp][comma][forward][plus][bp];
+319;9;2;Director's Cut;[bp][comma][fp][comma][backward][plus][bk];
+320;9;2;Take Two;[forward][plus][fk][comma][bp];
+321;9;2;Money Shot;[bk][comma][bk];
+322;9;2;That's The Ticket;[forward][plus][fk][comma][fk][comma][backward][plus][fk];
+323;9;3;Cliffhanger;[backward][plus](hold)[bp][comma][tag];Requires a full charge
+324;9;3;Fade Out;[forward][plus][bk][comma][tag];
+325;9;3;Bootleg;[backward][plus][fk][comma][tag];
+326;9;3;Stunt Double;[bp][comma][fp][comma][forward][plus][bp][comma][tag];
+327;9;4;Cameo;[fp][comma][fk][comma][tag];
+328;9;4;Double Feature;[bp][comma][fp][comma][tag];
+329;9;4;Stand-In;[forward][plus][fk][comma][fk][comma][tag];
+330;9;5;Low Forceball;[down][forward][bp];
+331;9;5;High Forceball;[down][backward][bp];
+332;9;5;Flipkick;[down][backward][fk];
+333;9;5;Shadow Kick;[backward][forward][plus][bk];
+334;9;5;Nut Punch;[backward][down][plus][fp];
+335;9;6;Double Low Ball;[down][forward][bp][plus][block];
+336;9;6;Double High Ball;[down][backward][bp][plus][block];
+337;9;6;Ultra Flipkick;[down][backward][fk][plus][block];
+338;9;6;Eclipse Kick;[backward][forward][bk][plus][block];
+339;9;6;Nutcracker;[backward][down][fp][plus][block];
+340;9;7;Ball Buster;[stance][plus][block];Counter Attack
+341;9;8;Heads Up!;[forward][forward][backward][down][fk];Touching
+342;9;8;And The Winner Is...;[down][forward][down][forward][bk];Sweep
+343;9;8;Stage Fatality;[down][backward][forward][block];Varies
+344;9;8;Babality;[forward][backward][forward][bk];Jump
+345;10;1;Staff Strikes;[backward][plus][fp];
+346;10;1;Rising Pole;[backward][plus][bp];
+347;10;1;Upward Thrust;[forward][plus][bp];
+348;10;1;Gut Kick;[backward][plus][fk];
+349;10;1;Pole Vault;[up][plus][fk];
+350;10;2;Pole Check;[fp][comma][bp][comma][bp];
+351;10;2;Jade Charge;[backward][plus][fp][comma][forward][plus][fp];
+352;10;2;Bad Girl;[bp][comma][fk][comma][forward][plus][bp];
+353;10;2;Edenian Rush;[forward][plus][bp][comma][fp][comma][bp];
+354;10;2;Betrayal;[fk][comma][bk][comma][bp];
+355;10;2;Assassin Strikes;[backward][plus][fk][comma][bp];
+356;10;2;Polecat;[bk][comma][forward][plus][fk];
+357;10;3;Untameable;[backward][plus][bp][comma][tag];
+358;10;3;Pole Pain;[up][plus][fk][comma][tag];
+359;10;4;After You;[fp][comma][bp][comma][tag];
+360;10;4;Likewise;[bp][comma][fk][comma][tag];
+361;10;4;Edenian Tag;[forward][plus][bp][comma][fp][comma][tag];
+362;10;4;Distrust;[fk][comma][bk][comma][tag];
+363;10;5;Boomerang;[down][forward][fp];
+364;10;5;Boomerang Up;[down][backward][fp];
+365;10;5;Boomerang Down;[down][forward][fk];
+366;10;5;Shadow Kick;[down][forward][bk];
+367;10;5;Shadow Flash;[backward][forward][fk];
+368;10;5;Staff Overhead;[down][backward][bp];
+369;10;5;Staff Grab;[down][forward][bp];
+370;10;6;Reboomerang;[down][forward][fp][plus][block];
+371;10;6;Boomerang Up;[down][backward][fp][plus][block];
+372;10;6;Boomerang Down;[down][forward][fk][plus][block];
+373;10;6;Eclipse Kick;[down][forward][bk][plus][block];
+374;10;6;Shadow Glow;[backward][forward][fk][plus][block];
+375;10;6;Staff Smash;[down][backward][bp][plus][block];
+376;10;6;Staff Slam;[down][forward][bp][plus][block];
+377;10;7;Staff Buster;[stance][plus][block];
+378;10;8;Head-A-Rang;[up][up][down][forward][fp];Fullscreen
+379;10;8;Half Mast;[backward][down][backward][down][bk];Sweep
+380;10;8;Stage Fatality;[backward][forward][down][block];Varies
+381;10;8;Babality;[down][down][forward][down][bk];Jump
+382;11;1;Side Chop   ;[backward][plus][fp];
+383;11;1;Leaping Sai ;[backward][plus][bp];
+384;11;1;Sai Impale  ;[forward][plus][bp];
+385;11;1;Lunge Kick  ;[forward][plus][fk];
+386;11;1;Sneaky Kick ;[backward][plus][fk];
+387;11;1;Splits      ;[up][plus][bk];
+388;11;2;Smacked Around;[fp][comma][fp][comma][bp];
+389;11;2;Boot Down;[backward][plus][fp][comma][bk];
+390;11;2;Bones;[bp][comma][fk][comma][bk];
+391;11;2;Pretty Slasher;[forward][plus][fk][comma][fp][plus][bp];
+392;11;2;Killer Heels;[fk][comma][bk];
+393;11;2;Getaway Sticks;[backward][plus][fk][comma][backward][plus][bk];
+394;11;2;Friendly Kiss;[bk][comma][bp];
+395;11;3;Malice;[up][plus][bk][comma][tag];
+396;11;4;Malevolence;[fp][comma][fp][comma][tag];
+397;11;4;Fiendish;[bp][comma][fk][comma][tag];
+398;11;5;Sai Blast;[backward][forward][fp];Can be done in the air
+399;11;5;Teleport Drop;[forward][forward][fk];Can be done in the air
+400;11;5;Leaping Neckbite;[backward][forward][bp];
+401;11;5;Ball Roll;[backward][down][bk];
+402;11;6;Sai Bursts;[backward][forward][fp][plus][block];Can be done in the air
+403;11;6;Tricky Teleport;[forward][forward][fk][plus][block];Can be done in the air
+404;11;6;Leaping Lunch;[backward][forward][bp][plus][block];
+405;11;6;Smashing Roll;[backward][down][bk][plus][block];
+406;11;7;Femme Fatale;[stance][plus][block];
+407;11;8;Be Mine;[backward][forward][backward][forward][bp];Jump
+408;11;8;Rip Off;[backward][forward][backward][down][fk];Jump
+409;11;8;Stage fatality;[down][down][down][fp];Varies
+410;11;8;Babality;[down][down][forward][backward][bp];Jump
+411;12;1;Knife Stab;[backward][plus][fp];
+412;12;1;Big Chop;[backward][plus][bp];
+413;12;1;Neck Stab;[forward][plus][bp];
+414;12;1;Toe Stomp;[forward][plus][fk];
+415;12;2;Blade And Edge;[fp][comma][fp][comma][bp];
+416;12;2;Axe Blast;[fp][comma][bp][comma][bp][comma][fp];
+417;12;2;Dagger Stab;[backward][plus][fp][comma][fp][comma][fp];
+418;12;2;Deadly Dance;[fp][comma][fp][comma][bk];
+419;12;2;New Earth;[bp][comma][fk][comma][bk];
+420;12;2;Tomahawk Smash;[backward][plus][bp][comma][bp][comma][fp];
+421;12;2;Full Moon;[forward][plus][fk][comma][fp][comma][bp];
+422;12;2;Spirit Tracks;[forward][plus][fk][comma][backward][plus][bk];
+423;12;3;Waning Moon;[forward][plus][fk][comma][fp][comma][bp][comma][tag];
+424;12;3;Rising Hawk;[down][forward][fp][comma][tag];
+425;12;3;Diving Eagle;[down][forward][fp][plus][block][comma][tag];
+426;12;4;Razor's Edge;[fp][comma][fp][comma][tag];
+427;12;4;Falcon Swap;[fp][comma][bp][comma][bp][comma][tag];
+428;12;4;Deadly Talon;[bp][comma][fk][comma][tag];
+429;12;4;Howling Wolf;[backward][plus][bp][comma][bp][comma][tag];
+430;12;4;Bull and Bear;[forward][plus][fk][comma][fp][comma][tag];
+431;12;5;Shoulder;[forward][forward][bk];
+432;12;5;Lightning;[down][backward][fk];
+433;12;5;Arrow Show;[down][backward][fp];
+434;12;5;Reflect;[down][backward][bp];
+435;12;5;Axe Swing;[down][forward][fp];
+436;12;5;Choke;[down][forward][bp];
+437;12;6;Power Charge;[forward][forward][bk][plus][block];
+438;12;6;Thunder Storm;[down][backward][fk][plus][block];
+439;12;6;Multi-Arrow;[down][backward][fp][plus][block];
+440;12;6;Absorb;[down][backward][bp][plus][block];
+441;12;6;Tomahawk Bash;[down][forward][fp][plus][block];
+442;12;6;Strangle;[down][forward][bp][plus][block];
+443;12;7;Ancestors Call;[stance][plus][block];
+444;12;8;Little Off The Top;[down][forward][down][backward][bk];Jump
+445;12;8;Ascension;[down][down][forward][backward][fp];Sweep
+446;12;8;Stage Fatality;[down][down][down][block];Varies
+447;12;8;Babality;[forward][backward][forward][backward][fp];Jump
+448;13;1;Yank  ;[backward][plus][fp];
+449;13;1;Blast Overhead  ;[backward][plus][bp];
+450;13;1;Tooth and Nail  ;[forward][plus][bp];
+451;13;1;Side Kick    ;[backward][plus][fk];
+452;13;1;Hop Kick     ;[up][plus][bk];
+453;13;2;See Saw;[fp][comma][fp][comma][fp];
+454;13;2;Steel Fists;[fp][comma][bp][comma][fp];
+455;13;2;Power Plant;[fp][comma][bp][comma][fk];
+456;13;2;Mustard;[bp][comma][fp][comma][bp];
+457;13;2;Saw Enough;[bp][comma][bp][comma][forward][plus][fp];
+458;13;2;Kombat Boots;[fk][comma][fk][comma][bk];
+459;13;2;Cyber Beatdown;[backward][plus][fp][comma][bp][comma][fp][comma][bp];Must be pressed rapidly
+460;13;3;Automation;[backward][plus][bp][comma][tag];
+461;13;4;Number Cruncher  ;[backward][plus][fp][comma][tag];
+462;13;4;High Tech     ;[fp][comma][bp][comma][tag];
+463;13;4;Short Circuit   ;[bp][comma][fp][comma][tag];
+464;13;5;Bomb (Close);[backward][backward][bk];
+465;13;5;Bomb (Medium);[forward][forward][bk];
+466;13;5;Bomb (Far);[backward][backward][forward][bk];
+467;13;5;Net;[backward][backward][fk];
+468;13;5;Teleport;[down][backward][fp];Can be done in the air
+469;13;5;Buzzsaw;[backward][forward][bp];
+470;13;5;Reverse Kick;[down][forward][fk];
+471;13;5;Ragdoll;[down][forward][fk]*[throw];* Press immediately
+472;13;5;Anti-Air;[down][forward][fp];Victim must be in the air
+473;13;6;Sticky Bomb;[backward][backward][bk][plus][block];
+474;13;6;Electro Net;[backward][backward][fk][plus][block];
+475;13;6;Bangport;[down][backward][fp][plus][block];Can be done in the air
+476;13;6;Saw Blade;[backward][forward][bp][plus][block];
+477;13;6;Donkey Kick;[down][forward][fk][plus][block];
+478;13;6;Ragdolls;[down][forward][fk][plus][block][comma]*[throw];* Press immediately
+479;13;6;Power Anti-Air;[down][forward][fp][plus][block];Victim must be in the air
+480;13;7;Cyberdriver;[stance][plus][block];
+481;13;8;Buzz Kill;[forward][down][forward][backward][bp];Touching
+482;13;8;Nothing But Net;[backward][down][backward][forward][fp];Jump
+483;13;8;Stage Fatality;[down][up][block];Varies
+484;13;8;Babality;[down][forward][backward][bp];Jump
+485;14;1;Saibot Strike;[backward][plus][fp];
+486;14;1;Hook Punch;[backward][plus][bp];
+487;14;1;Point Kick;[forward][plus][fk];
+488;14;1;Snap Kick;[forward][plus][bk];
+489;14;2;Saibot Blast;[fp][comma][bp];
+490;14;2;Sneaky Saibot;[backward][plus][fp][comma][bp][comma][forward][plus][bk];
+491;14;2;Evil Twin;[backward][plus][fp][comma][bp][comma][fp][comma][bk];
+492;14;2;Assassinate;[bp][comma][fp][comma][bp];
+493;14;2;No Compassion;[backward][plus][bp][comma][fp][comma][bk];
+494;14;2;Reincarnated;[forward][plus][fk][comma][fk][comma][fk];
+495;14;2;Possessed;[forward][plus][bk][comma][fk];
+496;14;3;Mysterious;[backward][plus][fp][comma][bp][comma][fp][comma][tag];
+497;14;4;Entangled;[backward][plus][fp][comma][bp][comma][tag];
+498;14;4;Warped Rush;[bp][comma][fp][comma][tag];
+499;14;4;Tragic;[backward][plus][bp][comma][fp][comma][tag];
+500;14;4;The Shadow;[forward][plus][fk][comma][fk][comma][tag];
+501;14;5;Ghostball;[down][forward][fp];
+502;14;5;Blackhole (Above);[down][backward][bp];
+503;14;5;Blackhole (Behind);[down][forward][bp];
+504;14;5;Blackhole (In Front);[down][forward][backward][bp];
+505;14;5;Teleport Slam;[down][up];Can be done in the air
+506;14;5;Shadow Charge;[down][forward][fk];
+507;14;5;Shadow Upknee;[down][backward][fk];
+508;14;5;Shadow Slide;[backward][forward][bk];
+509;14;6;Spiritball;[down][forward][fp][plus][block];
+510;14;6;Darkness (Above);[down][backward][bp][plus][block];
+511;14;6;Darkness (Behind);[down][forward][bp][plus][block];
+512;14;6;Darkness (In Front);[down][forward][backward][bp][plus][block];
+513;14;6;Teleport Smash;[down][up][plus][block];Can be done in the air
+514;14;6;Saibot Charge;[down][forward][fk][plus][block];
+515;14;6;Saibot Upknee;[down][backward][fk][plus][block];
+516;14;6;Saibot Slide;[backward][forward][bk][plus][block];
+517;14;7;Together Again;[stance][plus][block];
+518;14;8;Make a Wish;[backward][forward][backward][down][bk];Jump
+519;14;8;As One;[down][down][backward][down][block];Jump
+520;14;8;Stage Fatality;[forward][down][forward][block];Varies
+521;14;8;Babality;[forward][up][forward][fp];Jump
+522;15;1;Jaw Chop;[backward][plus][fp];
+523;15;1;Step Strike;[backward][plus][bp];
+524;15;1;Hook Kick;[backward][plus][fk];
+525;15;1;Spin Kicks;[forward][plus][bk];
+526;15;2;Ablaze;[fp][comma][fp][comma][bp];
+527;15;2;Smoldering;[fp][comma][fk];
+528;15;2;Red-Hot;[backward][plus][fp][comma][bk];
+529;15;2;Smokin;[backward][plus][bp][comma][fk];
+530;15;2;Rekindle;[bp][comma][fp][comma][bk];
+531;15;2;Combustion;[fk][comma][down][plus][fp][comma][bp];
+532;15;2;On Fire;[fk][comma][bp];
+533;15;3;Ashes to Ashes;[fk][comma][down][plus][fp][comma][bp][comma][tag];
+534;15;3;Dust to Dust;[fk][comma][bp][comma][tag];
+535;15;4;Incinerate;[fp][comma][fp][comma][tag];
+536;15;4;Immolation;[bp][comma][fp][comma][tag];
+537;15;4;Ignite;[fk][comma][down][plus][fp][comma][tag];
+538;15;5;Shake;[backward][forward][fp];Hold [fp] To charge
+539;15;5;Smoke Cloud;[down][backward][bp];
+540;15;5;Air Tthrow;[throw];While in the air
+541;15;5;Teleport;[down][backward][bk];Can be done in the air
+542;15;5;Invisibility;[down][up][fk];
+543;15;5;Smoke Away;[forward][backward][fk];
+544;15;5;Smoke Towards;[backward][forward][fk];
+545;15;6;Vibration;[backward][forward][fp][plus][block];Hold [fp] To charge
+546;15;6;Smoke Bomb;[down][backward][bp][plus][block];
+547;15;6;Smokeport;[down][backward][bk][plus][block];Can be done in the air
+548;15;6;Vanish;[down][up][fk][plus][block];
+549;15;6;Phase Away;[forward][backward][fk][plus][block];
+550;15;6;Phase Towards;[backward][forward][fk][plus][block];
+551;15;7;Burn Out;[stance][plus][block];
+552;15;8;Smoked Out;[backward][forward][backward][forward][fp];Sweep
+553;15;8;Tremor;[backward][backward][down][forward][bp];Sweep
+554;15;8;Stage Fatality;[forward][up][up][fp];Varies
+555;15;8;Babality;[down][backward][down][forward][down];Jump
+556;16;1;Afterburn;[backward][plus][fp];
+557;16;1;Gut Crusher;[backward][plus][bp];
+558;16;1;Toe Kick;[backward][plus][fk];
+559;16;1;Rising Knee;[forward][plus][bk];
+560;16;1;Chargine Elbow;[forward][plus][bp];
+561;16;10;Toe Kick;[bk];
+562;16;10;Sneaky Kicks;[fk][comma][bk];
+563;16;2;Artificial Intelligence;[fp][comma][fp][comma][backward][plus][fp];
+564;16;2;System Overload;[fp][comma][bp][comma][backward][plus][fp];
+565;16;2;Hard Crash;[fp][comma][bp][comma][bp];
+566;16;2;Malfunction;[forward][plus][bp][comma][backward][plus][fp];
+567;16;2;Fusion Force;[fp][comma][bp][comma][bk];
+568;16;2;Access Denied;[fp][comma][fk];
+569;16;2;Demolition;[bp][comma][fp][comma][bk];
+570;16;2;Drive Power;[backward][plus][bp][comma][fp];
+571;16;2;Run Down;[backward][plus][fk][comma][bk];
+572;16;2;User Error;[forward][plus][bk][comma][fk];
+573;16;2;Fatal Error;[forward][plus][bk][comma][bk];
+574;16;3;Intersect;[down][forward][bk][comma][tag];
+575;16;3;Partition;[down][forward][bk][plus][block][comma][tag];(Uses one bar of super)
+576;16;3;System Lock;[fp][comma][bp][comma][backward][plus][fp][comma][tag];
+577;16;4;Detached;[fp][comma][bp][comma][tag];
+578;16;4;Spare Parts;[bp][comma][fp][comma][tag];
+579;16;4;Branch Off;[backward][plus][bp][comma][tag];
+580;16;4;System Backup;[forward][comma][bk][comma][tag];
+581;16;5;Flame Burner;[backward][forward][bp];
+582;16;5;Teleport Uppercut;[down][forward][bk];
+583;16;5;Straight Missile;[backward][forward][fp];
+584;16;5;Up Missile (Above);[down][backward][fk];Lands on top
+585;16;5;Up Missile (Behind);[down][backward][forward][fk];Lands from behind
+586;16;5;Up Missile (In Front);[down][forward][backward][fk];Lands in front
+587;16;6;Flame Thrower;[backward][forward][bp][plus][block];
+588;16;6;Metal Uppercut;[down][forward][bk][plus][block];
+589;16;6;Double Missile;[backward][forward][fp][plus][block];
+590;16;6;Homing Missile;[down][backward][fk][plus][block];
+591;16;7;Massive Missile;[stance][plus][block];
+592;16;8;Robo-Sek;[forward][down][backward][forward][fk];Fullscreen
+593;16;8;The Scarecrow;[down][down][forward][backward][fp];Fullscreen
+594;16;8;Stage Fatality;[down][forward][down][block];Varies
+595;16;8;Babality;[backward][down][down][down][bk];Jump
+596;17;1;Hookshot;[backward][plus][bp];
+597;17;1;Backfist;[forward][plus][bp];
+598;17;1;Spin Kick;[backward][plus][fk];
+599;17;1;Heel Bash;[forward][plus][bk];
+600;17;11;Double Kick;[bk];
+601;17;11;Power Knee;[fk];
+602;17;11;Shoulder;[fp];
+603;17;11;Knockdown;[bp];
+604;17;11;Tackle;[fp][plus][fk][comma][fp][plus][bp];
+605;17;11;Dash Punches;[forward][plus][fp];
+606;17;11;Lift Off;[backward][plus][bp];
+607;17;11;Hit the Deck;[backward][plus][bk];
+608;17;2;Advance Force;[fp][comma][fp][comma][bp];
+609;17;2;Fierce Assault;[fp][comma][fp][comma][bk];
+610;17;2;Drop Zone;[bp][comma][fp][comma][backward][plus][fk];
+611;17;2;Ground Control;[bp][comma][fp][comma][backward][plus][bk];
+612;17;2;Power Rush;[forward][plus][bp][comma][bp][comma][bk];
+613;17;2;Mess Hall;[backward][plus][bp][comma][fp][comma][forward][plus][bp];
+614;17;2;Play Time;[fk][comma][fp][comma][bp];
+615;17;2;Beat Up;[fk][comma][fp][comma][bk];
+616;17;2;Pull Out;[bk][comma][bk];
+617;17;3;Switch Off;[bp][comma][tag];
+618;17;3;Fatal Kiss;[down][backward][fp][comma][tag];From Military Stance
+619;17;3;Surprise;[backward][plus][bp][comma][fp][comma][forward][plus][bp][comma][tag];
+620;17;3;Windmill;[down][forward][fk][comma][tag];
+621;17;4;Lick My Boots;[fp][comma][fp][comma][tag];
+622;17;4;Special Forced;[bp][comma][fp][comma][tag];
+623;17;4;Tough Love;[forward][plus][bp][comma][bp][comma][tag];
+624;17;4;Honorable Discharge;[fk][comma][fp][comma][tag];
+625;17;5;Enery Ring Blast;[backward][forward][bp];
+626;17;5;Leg Grab;[backward][forward][bk];
+627;17;5;Kiss;[down][backward][fp];
+628;17;5;Arc Kick;[down][backward][bk];
+629;17;5;Kartwheel;[down][forward][fk];
+630;17;5;Air Drop;[down][plus][bk];
+631;17;5;Air Throw;[throw];While in the air
+632;17;6;Rings of Justice;[backward][forward][bp][plus][block];While in the air
+633;17;6;Krazy Legs;[backward][forward][bk][plus][block];
+634;17;6;Deadly Kiss;[down][backward][fp][plus][block];
+635;17;6;Arc Wave;[down][backward][bk][plus][block];Hold [bp] To charge
+636;17;6;Kartwheel Bash;[down][forward][fk][plus][block];
+637;17;6;Air Strikes;[down][plus][bk][plus][block];
+638;17;7;SF Beat Up;[stance][plus][block];While in the air
+639;17;8;Scissor Split;[down][down][backward][forward][fp];
+640;17;8;Kut-Throat;[down][backward][forward][backward][bk];Jump
+641;17;8;Stage Fatality;[backward][forward][down][bp];Sweep
+642;17;8;Babality;[down][down][forward][fk];Varies
+643;18;1;Hook Swipe;[backward][plus][fp];Jump
+644;18;1;Big Leg;[forward][plus][fk];
+645;18;1;Shin Kick;[forward][plus][bk];
+646;18;1;Triple Slam;[fp][plus][bk];
+647;18;1;Quad slams;[bp][plus][fk];During throw
+648;18;2;Major Force;[fp][comma][bp][comma][fk];During Triple Slam
+649;18;2;Boot Kamp;[backward][plus][fp][comma][bp][comma][bk];
+650;18;2;Active Duty;[bp][comma][fp];
+651;18;2;Fild Grade;[bp][comma][bp];
+652;18;2;Chain of Command;[bp][comma][forward][plus][bp][comma][backward][plus][fp];
+653;18;2;Advance Force;[forward][plus][bk][comma][fp][comma][fk];
+654;18;2;Code of Conduct;[forward][plus][bk][comma][fp][comma][bk];
+655;18;3;Majority Rules;[down][backward][fk][comma][tag];
+656;18;3;Outranked;[down][backward][fk][plus][block][comma][tag];
+657;18;4;Major Muscles;[backward][plus][fp][comma][bp][comma][tag];
+658;18;4;Alloy Over You;[bp][comma][forward][plus][bp][comma][tag];
+659;18;4;Briggs Da Noise;[bp][comma][forward][plus][bp][comma][backward][plus][fp][comma][tag];
+660;18;5;Energy Wave;[down][backward][bp] ;
+661;18;5;Dash Punch;[down][forward][bp];
+662;18;5;Ground Pound (Close);[down][backward][fk] ;
+663;18;5;Ground Pound (Medium);[down][forward][fk];
+664;18;5;Ground Pound (Far);[down][backward][forward][fk];
+665;18;5;Gotcha Grab;[down][forward][fp];
+666;18;5;Air Gotcha Grab;[down][backward][fp];
+667;18;5;Overhead Smash;[down][up][bk];
+668;18;5;Back Breaker;[throw];
+669;18;6;Assault Wave;[down][backward][bp][plus][block];While in the air
+670;18;6;Dash Fist;[down][forward][bp][plus][block];
+671;18;6;Ground Quake;[down][backward][fk][plus][block];
+672;18;6;Gotcha Beatdown;[down][forward][fp][plus][block];
+673;18;6;Air Gotcha Blast;[down][backward][fp][plus][block];
+674;18;6;Elite Smash;[down][up][bk][plus][block];
+675;18;7;Briggs Bash;[stance][plus][block];
+676;18;8;Smash and Grab;[backward][forward][forward][backward][bp];
+677;18;8;Three Points!;[forward][forward][backward][down][fk];Touching
+678;18;8;Stage Fatality;[down][forward][down][fp];Sweep
+679;18;8;Babality;[down][down][down][fk];Varies
+680;19;1;Strong Strike;[forward][plus][fp];Jump
+681;19;1;Gut Poke;[backward][plus][fp];
+682;19;1;Overhead Smash;[backward][plus][bp];
+683;19;1;Shin Kick;[forward][plus][fk];
+684;19;1;Hop Roundhouse;[forward][plus][bk];
+685;19;2;One Two Three ;[fp][comma][fp][comma][bp];
+686;19;2;Fighting King ;[forward][plus][fp][comma][fp];
+687;19;2;No escape;[forward][plus][fp][comma][bp];
+688;19;2;Dragon's Tail;[backward][plus][fp][comma][fp][comma][bp];
+689;19;2;Snake Bite;[backward][plus][fp][comma][bp];
+690;19;2;Getting Ahead;[bp][comma][fp][comma][bp];
+691;19;2;Uplifting Force;[backward][plus][bp][comma][fk];
+692;19;2;Smashing Time;[backward][plus][bp][comma][forward][plus][fp];
+693;19;2;Double Dragon ;[fk][comma][fk];
+694;19;2;The Rage Kicks;[forward][plus][fk][comma][fk];
+695;19;2;Mean Machine;[forward][plus][fk][comma][backward][plus][bp];
+696;19;3;Lead Head;[backward][plus][fp][comma][fp][comma][bp][comma][tag];
+697;19;3;Ear to Ear;[bp][comma][fp][comma][bp][comma][tag];
+698;19;3;Bloodthirsty;[forward][plus][fk][comma][backward][plus][bp][comma][tag];
+699;19;4;Troublesome;[fp][comma][fp][comma][tag];
+700;19;4;Deliquent;[backward][plus][fp][comma][fp][comma][tag];
+701;19;4;Villianous;[bp][comma][fp][comma][tag];
+702;19;4;Mischievous;[backward][plus][bp][comma][tag];
+703;19;5;Ball;[forward][down][backward][forward];
+704;19;5;Down Ball;[forward][down][backward][forward];
+705;19;5;Up Ball;[down][forward][bp];While in the air
+706;19;5;Choke;[down][forward][fp];
+707;19;5;Knife Throw;[down][backward][bp];
+708;19;5;Air Throw;[throw];
+709;19;6;Kano Ball;[forward][down][backward][forward][plus][block];While in the air
+710;19;6;Downward Ball;[forward][down][backward][forward][plus][block];Hold [block] To delay
+711;19;6;Uprise Ball;[down][forward][bp][plus][block];While in the air
+712;19;6;Kano Choke;[down][forward][fp][plus][block];
+713;19;6;Knife Toss;[down][backward][bp][plus][block];
+714;19;7;Just The Tip;[stance][plus][block];
+715;19;8;Heartbreak;[backward][down][backward][forward][fp] ;
+716;19;8;Eat Your Heart Out;[down][down][forward][backward][bk];Sweep
+717;19;8;Stage Fatality;[up][up][backward][fk];Sweep
+718;19;8;Babality;[forward][forward][down][down][fk];Varies
+719;20;1;Cross Hook;[backward][plus][fp];Jump
+720;20;1;Baton Twirl;[backward][plus][bp];
+721;20;2;Kop Out;[fp][comma][bp];
+722;20;2;Dispatched;[fp][comma][fp][comma][bk];
+723;20;2;Beatdown;[backward][plus][fp][comma][bp][comma][bp];
+724;20;2;Pain Patrol;[bp][comma][fk][comma][bp];
+725;20;2;The Heat;[backward][plus][bp][comma][fp];
+726;20;2;Aggravated Assault;[backward][plus][bp][comma][forward][plus][bp];
+727;20;2;Spread 'Em;[backward][plus][bp][comma][backward][plus][bk];
+728;20;2;Come With Me;[backward][plus][fk][comma][bp];
+729;20;3;Serve and Protect;[backward][plus][fp][comma][bp][comma][bp][comma][tag];
+730;20;3;Remain Silent;[backward][plus][bp][comma][forward][plus][bp][comma][tag];
+731;20;3;Affirmative;[backward][plus][fk][comma][bp][comma][tag];
+732;20;4;We Aim to Please;[fp][comma][fp][comma][tag];
+733;20;4;Officer Friendly;[backward][plus][fp][comma][bp][comma][tag];
+734;20;4;Don't Move!;[bp][comma][fk][comma][tag];
+735;20;4;Assault and Battery;[backward][plus][bp][comma][tag];
+736;20;5;Baton Sweep;[down][backward][bk];
+737;20;5;High Grenade Toss;[down][backward][bp];
+738;20;5;Low Grenade Toss;[down][backward][fp];
+739;20;5;Gun Shot;[backward][forward][fp];
+740;20;5;Roll Toss;[backward][forward][bk];
+741;20;6;Baton Bash;[down][backward][bk][plus][block];
+742;20;6;Double Hight Grenade Toss;[down][backward][bp][plus][block];
+743;20;6;Double Low Grenade Toss;[down][backward][fp][plus][block];
+744;20;6;Bang Bang;[backward][forward][fp][plus][block];
+745;20;6;Roll Out;[backward][forward][bk][plus][block];
+746;20;7;Busted;[stance][plus][block];
+747;20;8;Time Served;[forward][down][forward][fk];
+748;20;8;Have a Blast;[down][forward][down][forward][block];Sweep
+749;20;8;Stage Fatality;[forward][up][up][bk];Sweep
+750;20;8;Babality ;[down][forward][down][backward][bp];Varies
+751;21;1;Elbow Poke;[backward][plus][fp];Jump
+752;21;1;Forearm Strike;[backward][plus][bp];
+753;21;1;Elbow Blast;[forward][plus][bp];
+754;21;1;Shin Attack;[forward][plus][fk];
+755;21;1;Quick Knee;[forward][plus][bk];
+756;21;2;Bad Omen;[fp][comma][bp][comma][fp];
+757;21;2;Soul Stain;[fp][comma][bp][comma][bp];
+758;21;2;Soul Torment;[fp][comma][fk];
+759;21;2;Reserved Pain;[backward][plus][fp][comma][bp][comma][fp][comma][bk];
+760;21;2;Death Walker;[bp][comma][bp][comma][fp];
+761;21;2;Restored Youth;[bp][comma][bp][comma][backward][plus][bk];
+762;21;2;Play Time;[forward][plus][fk][comma][bk];
+763;21;2;Deadly Truth;[forward][plus][bk][comma][fk][comma][bk];
+764;21;3;Side by Side;[backward][plus][fp][comma][bp][comma][fp][comma][tag];
+765;21;3;Ruthless;[bp][comma][bp][comma][fp][comma][tag];
+766;21;4;Soul Stealer;[fp][comma][bp][comma][tag];
+767;21;4;Burning Evil;[backward][plus][fp][comma][bp][comma][tag];
+768;21;4;B-Trade;[bp][comma][bp][comma][tag];
+769;21;4;Two of a Kind;[forward][plus][bk][comma][fk][comma][tag];
+770;21;5;Fire Skull;[backward][backward][fp];
+771;21;5;Up Skull (Above);[down][up][bp];
+772;21;5;Up Skull (Behind);[down][forward][bp];
+773;21;5;Up Skull (In Front);[down][backward][bp];
+774;21;5;Ground Skull (Close);[down][up][bk];
+775;21;5;Ground Skull (Medium);[down][backward][bk];
+776;21;5;Ground Skull (Far);[down][forward][bk];
+777;21;5;Soul Steal;[forward][down][backward][fk];
+778;21;6;Triple Skulls;[backward][backward][fp][plus][block];
+779;21;6;Skull Storm;[down][up][bp][plus][block];
+780;21;6;Ground Eruption;[down][up][bk][plus][block];
+781;21;6;Soul Capture;[forward][down][backward][fk][plus][block];
+782;21;7;Your Soul is Mine;[stance][plus][block];
+783;21;8;Bang Bang!;[backward][down][forward][fk];
+784;21;8;Identity Theft;[down][down][backward][down][bp];Sweep
+785;21;8;Stage Fatality;[up][up][backward][fp];Jump
+786;21;8;Babality ;[down][backward][down][fk];Varies
+787;22;1;Blade Slash;[backward][plus][fp];Jump
+788;22;1;Cross Swipe ;[backward][plus][bp];
+789;22;1;Gut Strike  ;[forward][plus][bp];
+790;22;1;Foot Stomp  ;[backward][plus][fk];
+791;22;1;Hop Kick    ;[up][plus][fk];
+792;22;1;Quick Knee  ;[forward][plus][bk];
+793;22;1;Big Legs    ;[up][plus][bk];
+794;22;2;Tarkatan Rush  ;[fp][comma][bp][comma][fp];
+795;22;2;Painful Swipes ;[fp][comma][bp][comma][bp];
+796;22;2;Tricky Fury    ;[fp][comma][bp][comma][backward][plus][fk];
+797;22;2;Cut 'Em Loose  ;[backward][plus][fp][comma][fp];
+798;22;2;Splinter  ;[backward][plus][fp][comma][forward][plus][bp];
+799;22;2;Cold Steel  ;[bp][comma][fp][comma][bp];
+800;22;2;Tears of Pain ;[bp][comma][bp][comma][fp][plus][bp];
+801;22;2;Tarkatan Push  ;[backward][plus][bp][comma][forward][plus][bp];
+802;22;2;Horror Show   ;[forward][plus][bp][comma][bk];
+803;22;2;Outworld Bash  ;[forward][plus][bp][comma][bp];
+804;22;2;Tarkatan Blows  ;[fk][comma][backward][plus][fk];
+805;22;2;Open Wound      ;[backward][plus][fk][comma][fp][comma][forward][plus][fp];
+806;22;2;Easy Kill     ;[backward][plus][fk][comma][bp][comma][bp];
+807;22;2;Doom Kicks    ;[forward][plus][bk][comma][bk];
+808;22;3;Bloody Mess;[backward][plus][fk][comma][fp][comma][tag];
+809;22;4;Skinned Alive ;[fp][comma][bp][comma][tag];
+810;22;4;Killer Kuts   ;[bp][comma][fp][comma][tag];
+811;22;4;Have At It    ;[bp][comma][bp][comma][tag];
+812;22;5;Blade Charge  ;[down][forward][bp];
+813;22;5;Spark          ;[down][backward][bp];
+814;22;5;Chop Chop;[backward][backward][fp];
+815;22;5;Blade Spin;[down][backward][fk];
+816;22;5;Slices       ;[down][forward][fp];
+817;22;6;Blade Rush   ;[down][forward][bp][plus][block];
+818;22;6;Sparked        ;[down][backward][bp][plus][block];
+819;22;6;Chopchop Shop  ;[backward][backward][fp][plus][block];
+820;22;6;Spinner      ;[down][backward][fk][plus][block];
+821;22;6;Slicer      ;[down][forward][fp][plus][block];
+822;22;7;Nail and Impale;[stance][plus][block];
+823;22;8;Up the middle ;[backward][forward][down][forward][fp];Sweep
+824;22;8;Take a Spin;[forward][forward][down][down][fk];Sweep
+825;22;8;Stage Fatality;[down][down][down][down][fk];Varies
+826;22;8;Babality;[forward][backward][forward][bk];Jump
+827;23;1;Hook Swipe ;[backward][plus][fp];
+828;23;1;Strong Fist ;[backward][plus][bp];
+829;23;1;Step Kick ;[forward][plus][fk];
+830;23;1;Big Knee ;[forward][plus][bk];
+831;23;2;Last Breath ;[fp][comma][fp][comma][fp];
+832;23;2;Extermination;[fp][comma][fp][comma][backward][plus][bk][comma][fk];
+833;23;2;Mutilation;[backward][plus][fp][comma][bp][comma][fp];
+834;23;2;Vanquish ;[bp][comma][fp][comma][bp];
+835;23;2;Nomad's Fear;[forward][plus][fk][comma][bp];
+836;23;2;Eviscerate;[forward][plus][bk][comma][fp][plus][bp];
+837;23;3;Up Next;[backward][plus][fp][comma][bp][comma][fp][comma][tag];
+838;23;4;Your Turn;[fp][comma][fp][comma][backward][plus][bk][comma][tag];
+839;23;4;Partners in Crime ;[backward][plus][fp][comma][bp][comma][tag];
+840;23;4;Rebirth;[bp][comma][fp][comma][tag];
+841;23;5;Gas Blast;[backward][backward][fp];Can be done in the air
+842;23;5;Nomad Dash;[backward][forward][bk];
+843;23;5;Buzzsaw;[backward][backward][fk];
+844;23;5;Tornado Slam;[down][backward][bp];
+845;23;6;Vapor Blase;[backward][backward][fp][plus][block];Can be done in the air
+846;23;6;Nomad Charge;[backward][forward][bk][plus][block];
+847;23;6;Saw Blades;[backward][backward][fk][plus][block];
+848;23;6;Cyclone Slam;[down][backward][bp][plus][block];
+849;23;7;Kabal's Deep  ;[stance][plus][block];
+850;23;8;Hook Up;[backward][forward][backward][forward][fp];Sweep
+851;23;8;It Takes Guts;[down][down][backward][forward][block];Sweep
+852;23;8;Stage Fatality;[down][down][bk];Varies
+853;23;8;Babality;[forward][down][backward][fk];Jump
+854;24;1;Static Touch;[backward][plus][bp];
+855;24;1;Gut Strike;[forward][plus][bp];
+856;24;1;Side Kick;[backward][plus][fk];
+857;24;1;Spinning Kick;[forward][plus][fk];
+858;24;1;Heel Smash;[forward][plus][bk];
+859;24;2;Heavenly Hand;[fp][comma][bp][comma][fp][comma][bp];
+860;24;2;Sudden Energy;[bp][comma][bp][comma][forward][plus][fp];
+861;24;2;White Lightning;[bp][comma][bp][comma][backward][plus][bk];
+862;24;2;Violent Thunder;[backward][plus][bp][comma][forward][plus][fp][comma][bp][plus][fp];
+863;24;2;Quick Burn;[forward][plus][bp][comma][bk];
+864;24;2;Flash Storm;[forward][plus][bp][comma][fk][comma][fp][plus][bp];
+865;24;2;Spark Kicks;[fk][comma][fk][comma][bk];
+866;24;2;Thunder God;[backward][plus][fk][comma][fp][comma][bp];
+867;24;3;Distant Thunder;[fk][comma][fk][comma][bk][comma][tag];
+868;24;3;Elder Fury;[backward][plus][fk][comma][fp][comma][bp][comma][tag];
+869;24;3;God Fist;[forward][plus][bp][comma][bk][comma][tag];
+870;24;4;Godlike;[bp][comma][bp][comma][tag];
+871;24;4;Supernatural;[backward][plus][bp][comma][forward][plus][fp][comma][tag];
+872;24;4;Divine Power;[forward][plus][bp][comma][fk][comma][tag];
+873;24;5;Lightning;[down][backward][fp];
+874;24;5;Electrocute;[down][forward][bp];
+875;24;5;Electric Fly;[backward][forward][fk];Can be done in the air
+876;24;5;Teleport;[down][up];
+877;24;5;Vicinity Blast;[down][backward][bp];
+878;24;6;Bolt;[down][backward][fp][plus][block];
+879;24;6;Shocker;[down][forward][bp][plus][block];
+880;24;6;Thunder Fly;[backward][forward][fk][plus][block];Can be done in the air
+881;24;6;Sparkport;[down][up][plus][block];
+882;24;6;Vicinity Burst;[down][backward][bp][plus][block];
+883;24;7;Shock Therapy;[stance][plus][block];
+884;24;8;Just a Scratch;[down][forward][down][forward][fp];Jump
+885;24;8;Transplant;[backward][forward][forward][down][bk];Sweep
+886;24;8;Stage Fatality;[down][down][down][bp];Varies
+887;24;8;Babality;[down][backward][down][bk];Jump
+888;25;1;Ares Slash;[backward][plus][fp];
+889;25;1;Zeus Slice;[forward][plus][fp];
+890;25;1;Divine Lift;[backward][plus][bp];Hold [bp] To follow up
+891;25;1;Spartan Bash;[forward][plus][bp];
+892;25;1;Spartan Knee;[forward][plus][bk];
+893;25;2;Valor Of Hercules;[fp][comma][fp][comma][bp];
+894;25;2;Hades Edge;[backward][plus][fp][comma][bp];
+895;25;2;Hades Pain;[backward][plus][fp][comma][backward][plus][bk];
+896;25;2;Aphrodite's Will;[forward][plus][fp][comma][bk];
+897;25;2;Wrath Of Ares;[forward][plus][bp][comma][fp];
+898;25;2;Anguish Of Zeus;[forward][plus][bp][comma][bp];
+899;25;2;Pandora's Soul;[forward][plus][bk][comma][bp];
+900;25;2;Athena's Fury;[bp][comma][fp][comma][bp];
+901;25;2;Olympic Ascencion;[backward][plus](Hold)[bp][comma][fp];
+902;25;2;Olympic Burst;[backward][plus](Hold)[bp][comma][bp];
+903;25;2;Olympic Blast;[backward][plus](Hold)[bp][comma][fk];
+904;25;2;Olympic Toss;[backward][plus](Hold)[bp][comma][bk];
+905;25;2;Achilles Strike;[forward][plus][bp][comma][bp][comma][fp];
+906;25;3;Athena's Rage;[bp][comma][fp][comma][bp][comma][tag];
+907;25;3;Olympic Chain;[backward][plus][bp][comma][tag];
+908;25;3;Pandora's Box;[forward][plus][bk][comma][bp][comma][tag];
+909;25;4;Hercules Rush;[fp][comma][fp][comma][tag];
+910;25;4;Athena's Pain;[bp][comma][fp][comma][tag];
+911;25;5;Apollo's Bow;[down][forward][bp];
+912;25;5;Head of Helios;[down][backward][bp];
+913;25;5;Hermes Dash;[backward][forward][bk];Hold [bk] To charge
+914;25;5;Golden Fleece;[down][backward][fp];
+915;25;5;Zeus' Rage;[down][forward][fk];
+916;25;6;Apollo's Inferno;[down][forward][bp][plus][block];
+917;25;6;Helios Flash;[down][backward][bp][plus][block];
+918;25;6;Hermes Rush;[backward][forward][bk][plus][block];Hold [bk] To charge
+919;25;6;Argo's Ram;[down][backward][fp][plus][block];
+920;25;6;Revenge of Olympus;[down][forward][fk][plus][block];
+921;25;7;Nemean Cestus;[stance][plus][block];
+922;25;8;Blade of Olympus;[down][down][backward][forward][bp];Touching
+923;25;8;Medusa's Gaze;[down][backward][down][forward][fp];Jump
+924;25;8;Stage Fatality;[down][down][down][fk];Varies
+925;25;8;Babality ;[down][forward][backward][bp];Jump
+926;26;1;Big Swing;[backward][plus][fp];
+927;26;1;Step Palms;[forward][plus][bp];
+928;26;1;Low Swipe;[backward][plus][bp];
+929;26;1;Knee Kick;[forward][plus][fk];
+930;26;1;Swinging Leg;[forward][plus][bk];
+931;26;2;Shokan Fury;[fp][comma][bp][comma][backward][plus][fp];
+932;26;2;Blood Lust;[fp][comma][backward][plus][bp][comma][forward][plus][fp];
+933;26;2;Darkness;[backward][plus][fp][comma][bp][comma][fp][plus][bp];
+934;26;2;Four-Way;[bp][comma][fp][comma][bp][comma][forward][plus][fp];
+935;26;2;Sheeva Rush;[bp][comma][fp][comma][bp][comma][backward][plus][fp];
+936;26;2;Quad Toss;[backward][plus][bp][comma][fp][plus][bp];
+937;26;2;Demolish;[forward][plus][bp][comma][backward][plus][fp];
+938;26;2;Turmoil;[fk][comma][fk];
+939;26;2;Swiper;[forward][plus][fk][comma][backward][plus][fp];
+940;26;2;Rehabilitated;[forward][plus][fk][comma][bp];
+941;26;3;Perfect Match;[fp][comma][bp][comma][backward][plus][fp][comma][tag];
+942;26;3;Better Than;[bp][comma][fp][comma][bp][comma][forward][plus][fp][comma][tag];
+943;26;4;Helping Hands;[fp][comma][bp][comma][tag];
+944;26;4;Protector;[fp][comma][backward][plus][bp][comma][tag];
+945;26;4;Distrusful;[backward][plus][fp][comma][bp][comma][tag];
+946;26;4;Destruction;[bp][comma][fp][comma][bp][comma][tag];
+947;26;5;Fireball;[down][forward][bp];
+948;26;5;Jump Stomp;[down][up];
+949;26;5;Ground Pound;[down][backward][bk];
+950;26;5;Grab N Punch;[backward][forward][fk];
+951;26;5;Anti-Air Grab;[down][forward][fp];
+952;26;5;Low Grab;[down][backward][fk];
+953;26;6;Fire Blast;[down][forward][bp][plus][block];
+954;26;6;Jump Crush;[down][up][plus][block];
+955;26;6;Ground Smash;[down][backward][bk][plus][block];
+956;26;6;Untamed Fury;[backward][forward][fk][plus][block];
+957;26;6;Power Anti-Air;[down][forward][fp][plus][block];
+958;26;6;Anti-Duck Throw;[down][backward][fk][plus][block];
+959;26;7;Slam Dance;[stance][plus][block];
+960;26;8;Stripped Down;[forward][down][down][forward][fp];
+961;26;8;Lend a Hand;[forward][backward][forward][backward][bk];
+962;26;8;Stage Fatality;[down][down][down][down][fp];
+963;26;8;Babality;[down][down][down][backward][bk];
+964;27;1;Back Hand;[backward][plus][fp];
+965;27;1;Overhead Swipe;[forward][plus][fp];
+966;27;1;Side Chop;[backward][plus][bp];
+967;27;1;Low Hop Kick;[up][plus][fk];
+968;27;1;Shin Kick;[backward][plus][fk];
+969;27;1;Hop Kick;[forward][plus][bk];
+970;27;2;Afterlife;[fp][comma][fp][comma][bp];
+971;27;2;Under Torment;[fp][comma][fp][comma][fk];
+972;27;2;Conjurer's Crush;[backward][plus][fp][comma][fp];
+973;27;2;Corruption;[forward][plus][fp][comma][bp][comma][fp]plus][bp];
+974;27;2;Spellbinder;[bp][comma][fp][comma][bp];
+975;27;2;Root Of Evil;[bp][comma][fp][comma][bk];
+976;27;2;Enchantment;[bp][comma][fp][comma][up][plus][fk];
+977;27;2;Wounded Wrath;[backward][plus][bp][comma][fp];
+978;27;2;Incantation;[backward][plus][bp][comma][bk];
+979;27;2;Deterioration;[backward][plus][fk][comma][fk];
+980;27;2;Annihilation;[backward][plus][fk][comma][fp][plus][bp];
+981;27;3;Sinister;[backward][plus][bp][comma][fp][comma][tag];
+982;27;3;Die-Abolical;[backward][plus][fk][comma][fp][plus][bp][comma][tag];
+983;27;4;Alternative Means;[fp][comma][fp][comma][tag];
+984;27;4;Kruel Intentions;[forward][plus][fp][comma][bp][comma][tag];
+985;27;4;Necro-Mashy;[bp][comma][fp][comma][tag];
+986;27;5;Skeletal Boost;[down][backward][bk];
+987;27;5;Ground Burst (Close);[down][backward][fp];
+988;27;5;Ground Burst (Medium);[down][forward][fp];
+989;27;5;Ground Burst (Far);[down][backward][forward][fp];
+990;27;5;Skull Ball;[down][backward][bp];
+991;27;5;Sky Drop;[down][backward][fk];Can be done in the air
+992;27;5;Trance;[backward][forward][fk];
+993;27;6;Skeletal Buff;[down][backward][bk][plus][block];
+994;27;6;Ground Blast (Close);[down][backward][fp][plus][block];
+995;27;6;Ground Blast (Medium);[down][forward][fp][plus][block];
+996;27;6;Ground Blast (Far);[down][backward][forward][fp][plus][block];
+997;27;6;Skull Chomp;[down][backward][bp][plus][block];
+998;27;6;Sky Stomp;[down][backward][fk][plus][block];Can be done in the air
+999;27;6;Mesmerize;[backward][forward][fk][plus][block];
+1000;27;7;Amulet Assault  ;[stance][plus][block];
+1001;27;8;Beat Down;[forward][forward][down][down][fp];Sweep
+1002;27;8;On Your Knees;[down][forward][down][forward][bk];Sweep
+1003;27;8;Stage Fatality;[backward][forward][down][bp];Varies
+1004;27;8;Babality;[forward][down][backward][bp];Jump
+1005;28;1;Straight Slab;[backward][plus][fp];
+1006;28;1;Backfist;[forward][plus][fp];
+1007;28;1;Chest Swipe;[backward][plus][bp];
+1008;28;1;Head Chop;[forward][plus][bp];
+1009;28;1;Spinning Low Kick;[backward][plus][fk];
+1010;28;1;Back Spin Kick;[forward][plus][bk];
+1011;28;1;Splits Attack;[up][plus][bk];
+1012;28;2;Cyborg Assault;[fp][comma][fp][comma][fp];
+1013;28;2;Automation;[fp][comma][fp][comma][bp];
+1014;28;2;Drive Power;[fp][comma][fp][comma][forward][plus][bk];
+1015;28;2;Freezing Pain;[forward][plus][fp][comma][bk];
+1016;28;2;Cyro Bash;[forward][plus][bp][comma][bp][comma][fp];
+1017;28;2;Frost;[backward][plus][fp][comma][bp];
+1018;28;2;Wildcard;[backward][plus][bp][comma][bp];
+1019;28;2;Upload;[backward][plus][bp][comma][bk];
+1020;28;2;Nano Smash;[bp][comma][fp][comma][fp][plus][bp];
+1021;28;2;System Error;[fk][comma][fk][comma][bp];
+1022;28;2;Reboot;[fk][comma][bk];
+1023;28;2;Blizzard;[backward][plus][fk][comma][bp][comma][fp];
+1024;28;3;Dual Core;[fk][comma][bk][comma][tag];
+1025;28;3;Meltdown;[backward][plus][fk][comma][bp][comma][tag];
+1026;28;4;Dry Ice;[fp][comma][fp][comma][tag];
+1027;28;4;Glacier;[bp][comma][fp][comma][tag];
+1028;28;4;Ice Over;[forward][plus][bp][comma][bp][comma][tag];
+1029;28;5;Ice Ball;[down][forward][fp];
+1030;28;5;Ice Bomb (Close);[backward][backward][fk];
+1031;28;5;Ice Bomb (Medium);[forward][forward][fk];
+1032;28;5;Ice Bomb (Far);[backward][backward][forward][fk];
+1033;28;5;Slide;[backward][forward][bk];
+1034;28;5;Teleport;[down][backward][fp];Can be done in the air
+1035;28;5;Ice Parry;[down][backward][bp];
+1036;28;5;Divekick (Close);[down][plus][fk];While in the air
+1037;28;5;Divekick (Far);[down][plus][bk];While in the air
+1038;28;6;Ice Beam;[down][forward][fp][plus][block];
+1039;28;6;Cryo Bomb (Close);[backward][backward][fk][plus][block];
+1040;28;6;Cryo Bomb (Medium);[forward][forward][fk][plus][block];
+1041;28;6;Cryo Bomb (Far);[backward][backward][forward][fk][plus][block];
+1042;28;6;Cyber-Slide;[backward][forward][bk][plus][block];
+1043;28;6;Bangport;[down][backward][fp][plus][block];Can be done in the air
+1044;28;6;Frozen Parry;[down][backward][bp][plus][block];
+1045;28;6;Powerkick (Close);[down][plus][fk][plus][block];While in the air
+1046;28;6;Powerkick (Far);[down][plus][bk][plus][block];While in the air
+1047;28;7;Cool Down;[stance][plus][block];While in the air
+1048;28;8;Kold Fusion;[down][backward][down][forward][bp];Jump
+1049;28;8;Brain Freeze;[down][down][backward][down][fp];Jump
+1050;28;8;Stage Fatality;[down][down][up][block];Varies
+1051;28;8;Babality ;[down][backward][forward][block];Jump
+1052;29;1;Razor Slash;[backward][plus][fp];
+1053;29;1;Double Swipe;[backward][plus][bp];
+1054;29;1;Hell Slice;[forward][plus][bp];
+1055;29;1;Low Blow;[backward][plus][fk];
+1056;29;1;Hop Kick;[up][plus][fk];
+1057;29;1;Big Knee;[forward][plus][bk];
+1058;29;12;Open Wide;[fp];
+1059;29;12;Claw Slam;[bp];
+1060;29;12;Low Slash;[fk];
+1061;29;12;Cancel;[bk];
+1062;29;2;Split You in Two;[fp][comma][fp][comma][fp];
+1063;29;2;Skin The Cat;[backward][plus][fp][comma][bp][comma][bp];
+1064;29;2;In Your Dreams;[backward][plus][fp][comma][bp][comma][up][plus][fp];
+1065;29;2;Kung Fu This Bitch;[bp][comma][bp][comma][fp][plus][bp];
+1066;29;2;I Am Eternal;[forward][plus][bp][comma][fp][comma][backward][plus][fk];
+1067;29;2;Never Sleep Again;[forward][plus][bp][comma][fp][comma][bk][comma] ;
+1068;29;2;I Love Screamers;[backward][plus][bp][comma][bk];
+1069;29;2;Come To Freddy;[fk][comma][fk];
+1070;29;2;Ungrateful Piggy;[backward][plus][fk][comma][fk];
+1071;29;2;Coming For You;[forward][plus][bk][comma][fk];
+1072;29;2;Playing With Power;[forward][plus][bk][comma][bp][comma][fp];
+1073;29;3;How Sweet Fresh Meat;[backward][plus][fp][comma][bp][comma][up][plus][fp][comma][tag];
+1074;29;3;Tag You're it;[up][plus][fk][comma][tag];
+1075;29;3;Great Graphics;[forward][plus][bk][comma][bp][comma][fp][comma][tag];
+1076;29;4;Party's Just Starting;[fp][comma][fp][comma][tag];
+1077;29;4;Always Room For More;[backward][plus][fp][comma][bp][comma][tag];
+1078;29;4;Reach Out & Cut Someone;[bp][comma][bp][comma][tag];
+1079;29;4;Meet Your Maker;[forward][plus][bp][comma][fp][comma][tag];
+1080;29;4;Now You Die;[forward][plus][bk][comma][bp][comma][tag];
+1081;29;5;Hell Spike (Close);[down][backward][fp];
+1082;29;5;Hell Spike (Medium);[down][forward][fp];
+1083;29;5;Hell Spike (Far);[down][backward][forward][fp];
+1084;29;5;Sweet Dreams;[down][forward][bk];
+1085;29;5;Glove Toss;[backward][forward][bp];
+1086;29;5;Freddy Fingers;[down][backward][bp];
+1087;29;5;Dream Shift Away;[down][backward][fk];
+1088;29;5;Dream Shift Towards;[down][forward][fk];
+1089;29;6;Hell Blast;[down][backward][fp][plus][block];
+1090;29;6;Deep Sleep;[down][forward][bk][plus][block];
+1091;29;6;Power Glove Toss;[backward][forward][bp][plus][block];
+1092;29;6;Freddy's Edge;[down][backward][bp][plus][block];
+1093;29;6;Hell Shift Away;[down][forward][bk][plus][block];
+1094;29;6;Hell Shift Towards;[down][forward][fk][plus][block];
+1095;29;7;What a Rush;[stance][plus][block];
+1096;29;8;Tell 'Em Freddy Sent Ya ;[backward][forward][down][down][fp];
+1097;29;8;Welcome To My Nightmare;[down][up][forward][backward][block];
+1098;29;8;Stage Fatality;[forward][down][down][fk];
+1099;29;8;Babality;[backward][forward][down][fp];
+1100;30;1;Axe Hand;[backward][plus][fp];
+1101;30;1;Side Swipe;[backward][plus][bp];
+1102;30;1;Stepping Sidekick;[backward][plus][fk];
+1103;30;2;It Pours;[fp][comma][fp];
+1104;30;2;Right as Rain;[fp][comma][bp][comma][forward][plus][bk];
+1105;30;2;Dehydrate;[bp][comma][bk];
+1106;30;2;Watery Grave;[backward][plus][bp][comma][fk];
+1107;30;2;Waterfall;[backward][plus][bp][comma][fp][plus][bp];
+1108;30;2;Spill Over;[fk][comma][fk][comma][bk];
+1109;30;2;Moisturize Me;[bk][comma][fk][comma][backward][plus][bk];
+1110;30;3;Thicker Then Water;[fp][comma][bp][comma][forward][plus][bk][comma][tag];
+1111;30;3;Rain Or Shine;[backward][plus][bp][comma][fp][plus][bp][comma][tag];
+1112;30;4;Rain And Suffering;[fp][comma][fp][comma][tag];
+1113;30;4;"No Rain; No Gain";[fk][comma][fk][comma][tag];
+1114;30;4;Dead In The Water;[bk][comma][fk][comma][tag] ;
+1115;30;5;Water Port;[down][up];
+1116;30;5;Super Kick;[down][backward][bk];
+1117;30;5;Water Bubble;[down][forward][fk];
+1118;30;5;Geyser Kick;[down][backward][fk];
+1119;30;5;Lightning;[down][backward][bp];
+1120;30;5;Aqua Splash;[backward][forward][fp];
+1121;30;5;H2O Boost;[backward][down][forward][fp];
+1122;30;6;Aqua-Port;[down][up][plus][block];
+1123;30;6;Power Kick;[down][backward][bk][plus][block];
+1124;30;6;Hydro Bubble;[down][forward][fk][plus][block];
+1125;30;6;Thermal Spring;[down][backward][fk][plus][block];
+1126;30;6;Thunder Storm;[down][backward][bp][plus][block];
+1127;30;6;Aqua Blast;[backward][forward][fp][plus][block];
+1128;30;6;H2O Buff;[backward][down][forward][fp][plus][block];
+1129;30;7;Rain Check;[stance][plus][block];
+1130;30;8;Bubble Burst;[backward][forward][down][backward][block];
+1131;30;8;Does it Sting;[up][down][backward][forward][bp];
+1132;30;8;Stage Fatality;[forward][down][forward][bk];
+1133;30;8;Babality;[backward][down][forward][fk];
+1134;31;1;Blade Stab;[backward][plus][bp];
+1135;31;1;Blade Swipe;[forward][plus][bp];
+1136;31;1;Shin Kick;[forward][plus][fk];
+1137;31;1;Snap Kick;[forward][plus][bk];
+1138;31;1;Windmill    ;[up][plus][bk];
+1139;31;2;Telekinetic Rush;[fp][comma][fp][comma][fp];
+1140;31;2;Blind Justice;[fp][comma][fp][comma][bp];
+1141;31;2;Off Balance;[fp][comma][fp][comma][bk];
+1142;31;2;Heightened Senses;[bp][comma][fp][comma][backward][plus][bp];
+1143;31;2;Stolen Soul;[bp][comma][fp][comma][forward][plus][bk];
+1144;31;2;Absentminded;[forward][plus][bp][comma][bp][backward][plus][fp];
+1145;31;2;Shortsighted;[forward][plus][bp][comma][bp][backward][plus][bp];
+1146;31;2;Brainpower;[forward][plus][fk][comma][bp];
+1147;31;3;Concentration;[bp][comma][fp][comma][backward][plus][bp][comma][tag];
+1148;31;3;Grey Matter;[forward][plus][bp][comma][bp][comma][backward][plus][fp][comma][tag];
+1149;31;3;Blind Fury;[forward][plus][fk][comma][bp][comma][tag];
+1150;31;4;Blind Swordsman;[bp][comma][fp][comma][tag];
+1151;31;4;Farsighted;[forward][plus][bp][comma][bp][comma][tag];
+1152;31;5;Spirit Charge;[backward][forward][bp];
+1153;31;5;Rising Karma;[down][backward][fp];
+1154;31;5;Telekinetic Slash (Close);[down][backward][bk];
+1155;31;5;Telekinetic Slash (Medium);[down][forward][bk];
+1156;31;5;Telekinetic Slash (Far);[down][backward][forward][bk];
+1157;31;5;Tele-Flury;[backward][forward][fk];
+1158;31;5;Blade Reflect;[down][backward][bp];
+1159;31;6;Spirit Vengeance;[backward][forward][bp][plus][block];
+1160;31;6;Karma Eruption;[down][backward][fp][plus][block];
+1161;31;6;Telekinetic Blade (Close);[down][backward][bk][plus][block];
+1162;31;6;Telekinetic Blade (Medium);[down][forward][bk][plus][block];
+1163;31;6;Telekinetic Blade (Far);[down][backward][forward][bk][plus][block];
+1164;31;6;Tele-Beatdown;[backward][forward][fk][plus][block];
+1165;31;6;Blade Absorb;[down][backward][bp][plus][block];
+1166;31;7;Soul Blade;[stance][plus][block];
+1167;31;8;Scatterbrained ;[up][down][up][down][block];
+1168;31;8;Split Ends;[backward][forward][down][forward][bp];
+1169;31;8;Stage Fatality;[down][forward][down][fk];
+1170;31;8;Babality;[down][backward][down][fp];
+1171;32;1;Dagger Slash;[backward][plus][fp];
+1172;32;1;Rising Blade;[backward][plus][bp];
+1173;32;1;Back Fist;[forward][plus][bp];
+1174;32;1;Upper Knee;[forward][plus][fk];
+1175;32;1;Roundhouse;[forward][plus][bk];
+1176;32;1;Lifting Leg;[up][plus][fk];
+1177;32;2;Krimson Bash;[fp][comma][fp][comma][bp];
+1178;32;2;Red Pain;[fp][comma][fp][comma][bk];
+1179;32;2;Blood Clot;[backward][plus][fp][comma][forward][plus][fk];
+1180;32;2;Coagulation;[backward][plus][fp][comma][fp][comma][fk];
+1181;32;2;Bad Blood;[backward][plus][fp][comma][fp][comma][forward][plus][bk];
+1182;32;2;Bloody Murder;[backward][plus][fp][comma][fp][comma][backward][plus][bk];
+1183;32;2;Bloodshed;[backward][plus][bp][comma][bk];
+1184;32;2;Punishment;[bp][comma][fp][comma][bp];
+1185;32;2;Bloodshot;[bp][comma][fk];
+1186;32;2;Flesh & Blood;[forward][plus][bp][comma][fp][comma][bp][comma][fp][plus][bp];
+1187;32;2;Blood Boil;[forward][plus][fk][comma][fp][comma][bp];
+1188;32;2;Slaughter;[forward][plus][fk][comma][fk];
+1189;32;2;Carnage;[up][plus][fk][comma][bk];
+1190;32;2;Thicker Than Water;[forward][plus][bk][comma][fk];
+1191;32;3;Transfustion ;[backward][plus][fp][comma][fp][comma][forward][plus][bk][comma][tag] ;
+1192;32;3;Blood & Tears;[forward][plus][bp][comma][fp][comma][bp][comma][fp][plus][bp][comma][tag];
+1193;32;3;Butchery;[forward][plus][fk][comma][fp][comma][bp][comma][tag];
+1194;32;3;Warfare;[up][plus][fk][comma][tag];
+1195;32;4;Bloodthirsy  ;[fp][comma][fp][comma][tag];
+1196;32;4;Krimson Blades;[backward][plus][fp][comma][fp][comma][tag];
+1197;32;4;Judgement;[bp][comma][fp][comma][tag];
+1198;32;4;Blood & Guts;[forward][plus][bp][comma][fp][comma][tag];
+1199;32;4;Bloody Hell;[forward][plus][fk][comma][fp][comma][tag];
+1200;32;5;Up Slash             ;[down][forward][bp] ;
+1201;32;5;Down Slash;[down][backward][bp];
+1202;32;5;Blood Drop          ;[down][backward][bk] ;
+1203;32;5;Red Dash   ;[down][forward][fk];
+1204;32;5;Slide  ;[bk];
+1205;32;5;Blood Ball ;[forward][down][backward][fp];
+1206;32;5;Dagger Toss;[down][forward][fp];
+1207;32;5;Air Dagger (Close)  ;[down][backward][fp];
+1208;32;5;Air Dagger (Far);[down][forward][fp];
+1209;32;6;Duel Up Slash      ;[down][forward][bp][plus][block];
+1210;32;6;Duel Down Slash   ;[down][backward][bp][plus][block];
+1211;32;6;Blood Stomp       ;[down][backward][bk][plus][block];
+1212;32;6;Krimson Dash   ;[down][forward][fk][plus][block];
+1213;32;6;Red Slide  ;[bk];
+1214;32;6;Dagger Toss;[down][forward][fp][plus][block];
+1215;32;6;Tri Air Dagger     ;[down][backward][fp][plus][block];
+1216;32;6;Tri Air Dagger    ;[down][forward][fp][plus][block];
+1217;32;7;Blood Bank;[stance][plus][block];
+1218;32;8;Blood Bath;[down][backward][down][down][block];
+1219;32;8;Make It Rain;[forward][backward][down][down][bk];
+1220;32;8;Stage Fatality;[forward][backward][forward][fp];
+1221;32;8;Babality ;[down][backward][down][forward][bp];
