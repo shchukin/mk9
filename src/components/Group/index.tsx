@@ -30,8 +30,8 @@ const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
         <div className="group__list">
           {movesList.map((item, index) => (
             <Move
-              label={item.label}
-              keyVariants={item.keyVariants}
+              label={item.name}
+              keyVariants={item.sequence}
               comment={item.comment}
             />
           ))}

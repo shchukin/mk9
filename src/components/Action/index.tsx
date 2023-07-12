@@ -11,17 +11,15 @@ type ActionProps = {
 const Action: React.FC<ActionProps> = ({ label, keyVariants }) => {
   return (
     <div className="action">
-      <div className="action">
-        <strong className="action__title">
-          { label }
-        </strong>
-        <span className="action__separator">
-            :
-        </span>
-        <span className="action__combination">
-            <Sequence keyVariants = { keyVariants } />
-        </span>
-      </div>
+      <strong className="action__title">
+        { label }
+      </strong>
+      <span className="action__separator">
+          :
+      </span>
+      <span className="action__combination">
+          <Sequence keyVariants = { keyVariants } />
+      </span>
     </div>
   )
 }

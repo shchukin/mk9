@@ -22,7 +22,62 @@ export enum KeyVariant {
 }
 
 export type MoveItem = {
-  label: string;
+  name: string;
+  sequence: KeyVariant[];
   comment?: string;
-  keyVariants: KeyVariant[];
 }
+
+export type WarriorDTO = {
+  warriorid: number;
+  warriorname: string;
+}
+
+export type WarriorEntity = {
+  id: number;
+  name: string;
+}
+
+export type GroupDTO = {
+  groupid: number;
+  sort: number;
+  grouptitle: string;
+  sequence: string;
+}
+
+export type GroupEntity = {
+  id: number;
+  sort: number;
+  title: string;
+  sequence?: KeyVariant[];
+}
+
+export type MoveDTO = {
+  moveid: number;
+  warriorid: number;
+  groupid: number;
+  movename: string;
+  movesequence: string;
+  comment: string;
+}
+
+export type MoveEntity = {
+  id: number;
+  warriorId: number;
+  groupId: number;
+  moveName: string;
+  moveSequence: KeyVariant[];
+  comment?: string;
+}
+
+export type WarriorsData = {
+  name: string;
+  groups: {
+    title: string;
+    sequence?: KeyVariant[];
+    moves: {
+      name: string;
+      sequence: KeyVariant[];
+      comment?: string;
+    }[];
+  }[];
+}[]

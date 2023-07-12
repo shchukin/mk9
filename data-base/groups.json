@@ -1,62 +1,62 @@
 [
   {
-    "id": 1,
     "groupid": 1,
+    "sort": 1,
     "grouptitle": "Basic attacks"
   },
   {
-    "id": 2,
-    "groupid": 3,
+    "groupid": 2,
+    "sort": 3,
     "grouptitle": "Kombo attacks"
   },
   {
-    "id": 3,
-    "groupid": 4,
+    "groupid": 3,
+    "sort": 4,
     "grouptitle": "Fast tags"
   },
   {
-    "id": 4,
-    "groupid": 5,
+    "groupid": 4,
+    "sort": 5,
     "grouptitle": "Tag kombos"
   },
   {
-    "id": 5,
-    "groupid": 6,
+    "groupid": 5,
+    "sort": 6,
     "grouptitle": "Special attacks"
   },
   {
-    "id": 6,
-    "groupid": 7,
+    "groupid": 6,
+    "sort": 7,
     "grouptitle": "Enhanced attacks"
   },
   {
-    "id": 7,
-    "groupid": 8,
+    "groupid": 7,
+    "sort": 8,
     "grouptitle": "X-ray attack"
   },
   {
-    "id": 8,
-    "groupid": 9,
+    "groupid": 8,
+    "sort": 9,
     "grouptitle": "Finishing moves"
   },
   {
-    "id": 9,
-    "groupid": 2,
+    "groupid": 9,
+    "sort": 2,
     "grouptitle": "Dragon stance"
   },
   {
-    "id": 10,
-    "groupid": 2,
+    "groupid": 10,
+    "sort": 2,
     "grouptitle": "Leg Lift"
   },
   {
-    "id": 11,
-    "groupid": 2,
+    "groupid": 11,
+    "sort": 2,
     "grouptitle": "Military Stance"
   },
   {
-    "id": 12,
-    "groupid": 2,
+    "groupid": 12,
+    "sort": 2,
     "grouptitle": "Nightmare Stance"
   }
 ]

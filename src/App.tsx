@@ -1,7 +1,7 @@
 import React from 'react';
 import { mkContext, mkContextValue, playerContext, playerOneContextValue, playerTwoContextValue } from 'src/context';
 
-import { KeyVariant } from './types';
+import { KeyVariant, WarriorsData } from './types';
 
 import Key from 'src/components/Key';
 import Sequence from "./components/Sequence";
@@ -10,7 +10,22 @@ import Action from "./components/Action";
 import Move from "./components/Move";
 import Group from "./components/Group";
 
+import { Api } from 'src/services/api';
+
 const App: React.FC = () => {
+  const [warriorsData, setWarriorsData] = React.useState<WarriorsData>([]);
+
+  React.useEffect(() => {
+    Api.getDb().then((db) => setWarriorsData(db));
+  }, []);
+
+  if (warriorsData.length === 0)
+  {
+    return <div>loading</div>;
+  }
+
+  const group = warriorsData[0].groups[0];
+
   return (
 
     <mkContext.Provider value = { mkContextValue }>
@@ -95,21 +110,15 @@ const App: React.FC = () => {
         <br/>
         <br/>
         <h2>Group</h2>
-      Basic attack
-        Doom Slice     [forward][plus][bp]
-        Blade Overhead [backward][plus][bp]
-        Heel Kicks     [forward][plus][fk]
-        Shin Blast     [forward][plus][bk]
-
-      Combo attacks
-        Torment     [fp][comma][fp][comma][fp]
-        Damnation   [fp][comma][fp][comma][bk]
-        Brimstone   [bp][comma][fp][comma][bp]
-        Gravedigger [bp][comma][fp][plus][bp]
-        Doom Blade  [forward][plus][bp][comma][fp][comma][bk]
-
-
-        <Group title='KOMBO ATTACKS' movesList={}></Group>
+        {warriorsData.map((warrior) => (
+          <div>
+            <div>{warrior.name}</div>
+            {warrior.groups.map((group) => (
+              <Group title={group.title} headSequence = { group.sequence } movesList = { group.moves }></Group>
+            ))}
+          </div>
+        ))}
+        
 
       </playerContext.Provider>
 
