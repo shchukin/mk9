@@ -10031,7 +10031,7 @@ export class Api {
         }))
 
         resolve(result);
-      }, 100000);
+      }, 100);
     })
   }
 
