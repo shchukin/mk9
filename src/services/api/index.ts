@@ -10004,13 +10004,13 @@ export class Api {
           }));
           console.log(groups);
         const moves = (JSON.parse(movesJSON) as MoveDTO[])
-          .map<MoveEntity>((item) => ({ 
-            id: item.moveid, 
-            groupId: item.groupid, 
-            warriorId: item.warriorid, 
-            moveName: item.movename, 
-            moveSequence: Util.convertStringToKeyVariants(item.movesequence), 
-            comment: item.comment === '' ? undefined : item.comment 
+          .map<MoveEntity>((item) => ({
+            id: item.moveid,
+            groupId: item.groupid,
+            warriorId: item.warriorid,
+            moveName: item.movename,
+            moveSequence: Util.convertStringToKeyVariants(item.movesequence),
+            comment: item.comment === '' ? undefined : item.comment
           }));
           console.log(moves);
 
@@ -10029,9 +10029,9 @@ export class Api {
                 .map((move) => ({ name: move.moveName, sequence: move.moveSequence, comment: move.comment }))
             }))
         }))
-          
+
         resolve(result);
-      }, 2000);
+      }, 100);
     })
   }
 
