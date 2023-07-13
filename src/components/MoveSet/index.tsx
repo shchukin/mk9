@@ -1,5 +1,5 @@
 import React from 'react';
-import 'src/components/Sequence/style.css';
+import 'src/components/MoveSet/style.css';
 
 type MoveSet = {
   // data: data[]; /* В каком виде дата? */
