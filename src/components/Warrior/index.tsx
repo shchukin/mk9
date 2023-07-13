@@ -1,11 +1,8 @@
 import React from 'react';
 import 'src/components/Warrior/style.css';
 
-type Warrior = {
-  // data: data[]; /* В каком виде дата? */
-}
 
-const Warrior: React.FC<Warrior> = (/* data */) => {
+const Warrior: React.FC = () => {
   return (
     <div className="warrior">
       <h2 className="warrior__name">

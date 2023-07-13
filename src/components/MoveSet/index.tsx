@@ -1,11 +1,7 @@
 import React from 'react';
 import 'src/components/MoveSet/style.css';
 
-type MoveSet = {
-  // data: data[]; /* В каком виде дата? */
-}
-
-const MoveSet: React.FC<MoveSet> = (/* data */) => {
+const MoveSet: React.FC = () => {
   return (
     <div className="move-set">
       <div className="move-set__column">
