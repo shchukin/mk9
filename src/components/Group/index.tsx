@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
+import cc from 'classcat';
+
+
 import 'src/components/Group/style.css';
 import Sequence from 'src/components/Sequence';
 import Move from "src/components/Move";
@@ -10,15 +13,17 @@ type GroupProps = {
   movesList: MoveItem[];
 }
 const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
+  const [groupExpanding, setGroupExpanding] = React.useState<boolean>(true);
 
-  /* state draft */
-  const groupExpanding = React.useState();
+  const onHeadButtonClick = () => {
+    setGroupExpanding(!groupExpanding);
+  }
 
   return (
-    <div className="group group--expanded">
+    <div className={cc([{ "group--expanded": groupExpanding }, "group"])}>
       <div className="group__head">
         <h3 className="group__heading">
-          <button className="group__handler" type="button">
+          <button className="group__handler" type="button" onClick = {onHeadButtonClick}>
             {title}
           </button>
         </h3>
@@ -30,17 +35,19 @@ const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
           null
         }
       </div>
-      <div className="group__body">
-        <div className="group__list">
-          {movesList.map((item, index) => (
-            <Move
-              label={item.name}
-              keyVariants={item.sequence}
-              comment={item.comment}
-            />
-          ))}
+      {groupExpanding && (
+        <div className="group__body">
+          <div className="group__list">
+            {movesList.map((item, index) => (
+              <Move
+                label={item.name}
+                keyVariants={item.sequence}
+                comment={item.comment}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   )
 }

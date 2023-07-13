@@ -1,21 +1,24 @@
 import React from 'react';
-import { Notation } from 'src/types';
+import { Notation, WarriorsData } from 'src/types';
 
 
 interface MKContext {
   showSecondPlayer: boolean;
   playerOneNotation: Notation;
   playerTwoNotation: Notation;
+  warriorsData: WarriorsData;
 
   changeShowSecondPlayer: (value: boolean) => void;
   changePlayerOneNotation: (value: Notation) => void;
   changePlayerTwoNotation: (value: Notation) => void;
+  setWarriorsData: (data: WarriorsData) => void;
 }
 
 class MKContextClass implements MKContext {
   showSecondPlayer = false;
   playerOneNotation = Notation.Playstation;
   playerTwoNotation = Notation.Xbox;
+  warriorsData = [] as WarriorsData;
 
   changeShowSecondPlayer(value: boolean) {
     this.showSecondPlayer = value;
@@ -27,6 +30,10 @@ class MKContextClass implements MKContext {
 
   changePlayerTwoNotation(value: Notation) {
     this.playerTwoNotation = value;
+  }
+
+  setWarriorsData(data: WarriorsData) {
+    this.warriorsData = data;
   }
 }
 

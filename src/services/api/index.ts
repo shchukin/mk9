@@ -10015,6 +10015,7 @@ export class Api {
           console.log(moves);
 
         const result: WarriorsData = warriors.map((warrior) => ({
+          id: warrior.id,
           name: warrior.name,
           groups: moves
             .filter((move) => move.warriorId === warrior.id)
@@ -10022,16 +10023,17 @@ export class Api {
             .map<GroupEntity>((groupId) => groups.find((group) => group.id === groupId)!)
             .sort((a, b) => a.sort - b.sort)
             .map((group) => ({
+              id: group.id,
               title: group.title,
               sequence: group.sequence,
               moves: moves
                 .filter((move) => move.warriorId === warrior.id && move.groupId === group.id)
-                .map((move) => ({ name: move.moveName, sequence: move.moveSequence, comment: move.comment }))
+                .map((move) => ({ id: move.id, name: move.moveName, sequence: move.moveSequence, comment: move.comment }))
             }))
         }))
 
         resolve(result);
-      }, 100);
+      }, 1000);
     })
   }
 

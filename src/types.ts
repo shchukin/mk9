@@ -70,11 +70,14 @@ export type MoveEntity = {
 }
 
 export type WarriorsData = {
+  id: number;
   name: string;
   groups: {
+    id: number;
     title: string;
     sequence?: KeyVariant[];
     moves: {
+      id: number;
       name: string;
       sequence: KeyVariant[];
       comment?: string;

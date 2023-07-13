@@ -9,17 +9,19 @@ import Comment from "./components/Comment";
 import Action from "./components/Action";
 import Move from "./components/Move";
 import Group from "./components/Group";
+import MoveSet from "./components/MoveSet";
+import Warrior from "./components/Warrior";
 
 import { Api } from 'src/services/api';
 
 const App: React.FC = () => {
-  const [warriorsData, setWarriorsData] = React.useState<WarriorsData>([]);
+  const [dataExists, setDataExists] = React.useState<boolean>(false);
 
   React.useEffect(() => {
-    Api.getDb().then((db) => setWarriorsData(db));
+    Api.getDb().then((db) => { mkContextValue.setWarriorsData(db); setDataExists(true);});
   }, []);
 
-  if (warriorsData.length === 0)
+  if (!dataExists)
   {
     return <div className="loading">
       Loading
@@ -30,8 +32,6 @@ const App: React.FC = () => {
       </span>
     </div>;
   }
-
-  const group = warriorsData[0].groups[0];
 
   return (
 
@@ -117,15 +117,14 @@ const App: React.FC = () => {
         <br/>
         <br/>
         <h2>Group</h2>
-        {warriorsData.map((warrior) => (
-          <div>
-            <div>{warrior.name}</div>
-            {warrior.groups.map((group) => (
-              <Group title={group.title} headSequence = { group.sequence } movesList = { group.moves }></Group>
-            ))}
-          </div>
-        ))}
 
+
+        <br />
+        <h2>MoveSet</h2>
+
+        <br />
+        <h2>Warrior</h2>
+        <Warrior warriorId={2} />
 
       </playerContext.Provider>
 
