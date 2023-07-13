@@ -2,7 +2,7 @@ import React from 'react';
 import 'src/components/Group/style.css';
 import Sequence from 'src/components/Sequence';
 import Move from "src/components/Move";
-import {KeyVariant, MoveItem} from "src/types";
+import {KeyVariant, MoveItem, WarriorsData} from "src/types";
 
 type GroupProps = {
   title: string;
@@ -10,6 +10,10 @@ type GroupProps = {
   movesList: MoveItem[];
 }
 const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
+
+  /* state draft */
+  const groupExpanding = React.useState();
+
   return (
     <div className="group group--expanded">
       <div className="group__head">
@@ -18,7 +22,7 @@ const Group: React.FC<GroupProps> = ({title, headSequence, movesList}) => {
             {title}
           </button>
         </h3>
-        {headSequence !== undefined ? 
+        {headSequence !== undefined ?
           <div className="group__combination">
             <Sequence keyVariants = { headSequence } />
           </div>
