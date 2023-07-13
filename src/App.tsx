@@ -21,7 +21,14 @@ const App: React.FC = () => {
 
   if (warriorsData.length === 0)
   {
-    return <div>loading</div>;
+    return <div className="loading">
+      Loading
+      <span className="loading__hellip">
+        <span className="loading__dot">.</span>
+        <span className="loading__dot">.</span>
+        <span className="loading__dot">.</span>
+      </span>
+    </div>;
   }
 
   const group = warriorsData[0].groups[0];
@@ -118,7 +125,7 @@ const App: React.FC = () => {
             ))}
           </div>
         ))}
-        
+
 
       </playerContext.Provider>
 
