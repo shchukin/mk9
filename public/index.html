@@ -61,12 +61,16 @@
           color: #FFFFFF;
         }
           #root {
+            height: 100%;
+          }
+
+          .page {
             display: flex;
             align-items: flex-start;
             height: 100%;
           }
           @media (min-width: 1340px) {
-              #root {
+              .page {
                   padding-right: var(--sidebar-width);
               }
               .page--player-2-active {
