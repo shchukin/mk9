@@ -1,0 +1,22 @@
+.hide-player {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    width: 100%;
+    padding: 12px 0;
+    background-color: transparent;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+}
+
+.hide-player:hover {
+    background-color: rgba(255, 255, 255, 0.028);
+}
