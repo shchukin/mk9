@@ -1,0 +1,32 @@
+.show-player {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+    padding: 0;
+    border: none;
+    background-color: #1C1C1C;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: background-color var(--transition-hover);
+}
+
+.show-player:hover {
+    background-color: #1F1F1F;
+}
+
+
+@media (max-width: 1339px) {
+
+    .show-player {
+        display: none;
+    }
+}
