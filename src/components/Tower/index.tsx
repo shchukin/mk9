@@ -1,7 +1,7 @@
 import React from 'react';
-import 'src/components/Tower/style.css';
+import 'src/components/Logo/style.css';
 
-const Tower: React.FC = () => {
+const Logo: React.FC = () => {
   return (
     <div className="tower">
       <a className="tower__link" href="#">Scorpion</a>
@@ -40,4 +40,4 @@ const Tower: React.FC = () => {
   )
 }
 
-export default Tower;
+export default Logo;
