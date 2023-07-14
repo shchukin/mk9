@@ -1,0 +1,28 @@
+.sidebar {
+    padding-top: var(--vertical-spacing);
+    padding-bottom: var(--vertical-spacing);
+}
+
+    .sidebar__head {
+
+    }
+        .sidebar__actions {
+            height: 44px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar__platform {
+            margin-top: 24px;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+        }
+            .sidebar__platform .input__widget {
+                padding-left: calc(var(--container-padding) - 1px);
+            }
+
+    .sidebar__body {
+        margin-top: 11px;
+    }
