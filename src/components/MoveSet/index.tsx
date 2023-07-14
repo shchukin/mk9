@@ -1,14 +1,15 @@
 import React from 'react';
 import 'src/components/MoveSet/style.css';
-import { mkContext } from 'src/context'
 import Group from 'src/components/Group';
+
+import { useAppSelector, selectWarriorsData } from 'src/store';
 
 type MoveSetProps = {
   warriorId: number;
 }
 const MoveSet: React.FC<MoveSetProps> = ({ warriorId }) => {
-  const context = React.useContext(mkContext);
-  const warrior = context.warriorsData.find((warrior) => warrior.id === warriorId)!;
+  const warriorsData = useAppSelector(selectWarriorsData);
+  const warrior = warriorsData.find((warrior) => warrior.id === warriorId)!;
 
   const group01 = warrior.groups.find((group) => group.id === 1)!;
   const group02 = warrior.groups.find((group) => group.id === 2)!;

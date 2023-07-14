@@ -84,3 +84,5 @@ export type WarriorsData = {
     }[];
   }[];
 }[]
+
+export type PlayerIndex = 'one' | 'two';

@@ -1,14 +1,15 @@
 import React from 'react';
 import 'src/components/Warrior/style.css';
-import { mkContext } from 'src/context'
 import MoveSet from 'src/components/MoveSet';
+
+import { useAppSelector, selectWarriorsData } from 'src/store';
 
 type WarriorProps = {
   warriorId: number;
 }
 const Warrior: React.FC<WarriorProps> = ({ warriorId }) => {
-  const context = React.useContext(mkContext);
-  const warrior = context.warriorsData.find((warrior) => warrior.id === warriorId)!;
+  const warriorsData = useAppSelector(selectWarriorsData);
+  const warrior = warriorsData.find((warrior) => warrior.id === warriorId)!;
 
   return (
     <div className="warrior">

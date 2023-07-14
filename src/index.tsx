@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Application from './App';
+import { Provider as StoreProvider } from 'react-redux';
+import App from './App';
+import { store } from 'src/store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -8,6 +10,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Application />
+    <StoreProvider store = { store }>
+      <App />
+    </StoreProvider>
   </React.StrictMode>
 );

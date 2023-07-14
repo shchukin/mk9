@@ -1,8 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import { mkContext, PlayerContextClass, playerContext } from 'src/context';
+import { PlayerContextClass, playerContext } from 'src/context';
 import { KeyVariant } from 'src/types';
 import 'src/components/Key/style.css';
+
+import { useAppSelector, selectPlayerOneNotation, selectPlayerTwoNotation } from 'src/store';
 
 const contentMap: Record<KeyVariant, string> = {
   [KeyVariant.Backward]: '←',
@@ -26,11 +27,13 @@ type KeyProps = {
 }
 
 const Key: React.FC<KeyProps> = ({ variant }) => {
-  const context = React.useContext(mkContext);
   const contextP = React.useContext<PlayerContextClass>(playerContext);
   const content = contentMap[variant];
 
-  const notation = contextP.playerNumber === 1 ? context.playerOneNotation : context.playerTwoNotation;
+  const playerOneNotation = useAppSelector(selectPlayerOneNotation);
+  const playerTwoNotation = useAppSelector(selectPlayerTwoNotation);
+
+  const notation = contextP.playerNumber === 1 ? playerOneNotation : playerTwoNotation;
 
   return (
     <i className = {`key key--${notation} key--${variant}`}>{ content }</i>

@@ -1,14 +1,37 @@
 import React from 'react';
 import 'src/components/Player/style.css';
 
-const Player: React.FC = (/* data */) => {
+import Sidebar from 'src/components/Sidebar';
+import Warrior from 'src/components/Warrior';
+import ShowPlayer from 'src/components/ShowPlayer';
+import { PlayerIndex } from 'src/types';
+
+
+import { useAppSelector, selectShowSecondPlayer } from 'src/store';
+
+type PlayerProps = {
+  playerIndex: PlayerIndex;
+}
+const Player: React.FC<PlayerProps> = ({ playerIndex }) => {
+  const showSecondPlayer = useAppSelector(selectShowSecondPlayer);
+  const [selectedWarriorId, setSelectedWarriorId] = React.useState<number>(1);
+
+  const onSelectHandler = (id: number) => {
+    setSelectedWarriorId(id);
+  }
+
+  if (playerIndex === 'two' && !showSecondPlayer)
+  {
+    return <ShowPlayer />
+  }
+
   return (
-    <div className="player">здесь или player--one или player--two
+    <div className={`player player--${playerIndex}`}>
       <div className="player__sidebar">
-        Здесь будет больше компонентов из сайдбара
+        <Sidebar playerIndex={playerIndex} selectedWarriorId={selectedWarriorId} onSelectWarrior={onSelectHandler} />
       </div>
       <div className="player__list">
-        Здесь будет текущий Warrior
+        <Warrior warriorId={selectedWarriorId} />
       </div>
     </div>
   )

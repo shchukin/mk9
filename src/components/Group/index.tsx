@@ -1,11 +1,11 @@
-import React, { MouseEventHandler } from 'react';
+import React from 'react';
 import cc from 'classcat';
 
 
 import 'src/components/Group/style.css';
 import Sequence from 'src/components/Sequence';
 import Move from "src/components/Move";
-import {KeyVariant, MoveItem, WarriorsData} from "src/types";
+import {KeyVariant, MoveItem } from "src/types";
 
 type GroupProps = {
   title: string;
