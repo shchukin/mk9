@@ -1,5 +1,5 @@
 import React from 'react';
-import 'src/components/Logo/style.css';
+import 'src/components/Sidebar/style.css';
 
 const Sidebar: React.FC = () => {
   return (
