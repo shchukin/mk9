@@ -46,6 +46,18 @@
         --scrollbar-thumb: #3E3E3E;
       }
 
+      * {
+        box-sizing: border-box;
+      }
+
+      *::before {
+        box-sizing: border-box;
+      }
+
+      *::after {
+        box-sizing: border-box;
+      }
+
       html {
         height: 100%;
         scrollbar-width: thin;
@@ -69,6 +81,7 @@
             align-items: flex-start;
             height: 100%;
           }
+
           @media (min-width: 1340px) {
               .page {
                   padding-right: var(--sidebar-width);
