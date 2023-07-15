@@ -7,7 +7,7 @@ import { useAppSelector, selectWarriorsData } from 'src/store';
 type MoveSetProps = {
   warriorId: number;
 }
-const MoveSet: React.FC<MoveSetProps> = ({ warriorId }) => {
+const MoveSet = React.forwardRef<HTMLDivElement, MoveSetProps>(({ warriorId }, ref) => {
   const warriorsData = useAppSelector(selectWarriorsData);
   const warrior = warriorsData.find((warrior) => warrior.id === warriorId)!;
 
@@ -28,7 +28,7 @@ const MoveSet: React.FC<MoveSetProps> = ({ warriorId }) => {
 
   return (
     <div className="move-set">
-      <div className="move-set__column">
+      <div className="move-set__column" ref = { ref }>
         <Group title = { group01.title } headSequence = { group01.sequence } movesList = { group01.moves } />
         {group09 !== undefined && (
           <Group title = { group09.title } headSequence = { group09.sequence } movesList = { group09.moves } />
@@ -54,6 +54,6 @@ const MoveSet: React.FC<MoveSetProps> = ({ warriorId }) => {
       </div>
     </div>
   )
-}
+});
 
 export default MoveSet;
