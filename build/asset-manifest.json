@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf5ac7e7.css",
+    "main.js": "/static/js/main.b5a33f04.js",
+    "index.html": "/index.html",
+    "static/media/xbox-rb.svg": "/static/media/xbox-rb.e4b141684181ec7adb2b.svg",
+    "static/media/playstation-r2.svg": "/static/media/playstation-r2.573fe5230bf6e5d5d7f3.svg",
+    "static/media/xbox-lb.svg": "/static/media/xbox-lb.6b1ed6b61ba292f32d44.svg",
+    "static/media/playstation-l2.svg": "/static/media/playstation-l2.d069d6f3c883dfb0d70c.svg",
+    "static/media/xbox-a.svg": "/static/media/xbox-a.e206b199508e65461a6b.svg",
+    "static/media/xbox-x.svg": "/static/media/xbox-x.ca2565874917dac66221.svg",
+    "static/media/playstation-cross.svg": "/static/media/playstation-cross.87836d6fe5de985e81c8.svg",
+    "static/media/xbox-b.svg": "/static/media/xbox-b.d8238961837dab28f1e6.svg",
+    "static/media/playstation-r1.svg": "/static/media/playstation-r1.971d8149d83334c38cc0.svg",
+    "static/media/xbox-y.svg": "/static/media/xbox-y.7621fafd2e51168fa0a2.svg",
+    "static/media/xbox-rt.svg": "/static/media/xbox-rt.fb61aecdce92b01e63d0.svg",
+    "static/media/playstation-circle.svg": "/static/media/playstation-circle.fcd14782364640106e8f.svg",
+    "static/media/playstation-triangle.svg": "/static/media/playstation-triangle.1d236e255698912a7caa.svg",
+    "static/media/playstation-square.svg": "/static/media/playstation-square.01b07d6ff111626df0fe.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.8c2a30efcc679676368c.svg",
+    "static/media/arrow-forward.svg": "/static/media/arrow-forward.9f1c6f47e1917792181b.svg",
+    "static/media/arrow-up.svg": "/static/media/arrow-up.ff70b0e414535924053b.svg",
+    "static/media/miscellaneous-comma.svg": "/static/media/miscellaneous-comma.64d09e9597d06a6ddc16.svg",
+    "static/media/select.svg": "/static/media/select.b002c40de6d0950c9819.svg",
+    "static/media/arrow-backward.svg": "/static/media/arrow-backward.25783141d8acaacdc96c.svg",
+    "static/media/miscellaneous-plus.svg": "/static/media/miscellaneous-plus.2f85b9f77ee2ec5252de.svg",
+    "static/media/group-angle.svg": "/static/media/group-angle.356f5fdcd45aed03e31f.svg",
+    "static/media/playstation-l1.svg": "/static/media/playstation-l1.0ca7a22e09a44ac9658e.svg",
+    "static/media/xbox-lt.svg": "/static/media/xbox-lt.e0263bc82b967baf0635.svg",
+    "main.bf5ac7e7.css.map": "/static/css/main.bf5ac7e7.css.map",
+    "main.b5a33f04.js.map": "/static/js/main.b5a33f04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf5ac7e7.css",
+    "static/js/main.b5a33f04.js"
+  ]
+}
